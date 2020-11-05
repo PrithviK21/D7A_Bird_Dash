@@ -1,0 +1,783 @@
+,index,Scientific_Name,Common_Name,Locality,Latitude,Longitude,Date,mediaDownloadUrl
+0,1,Acridotheres tristis,Common Myna,Sanjay Gandhi NP--Tikujiniwadi,19.2377,72.9629,24/01/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+1,2,Acridotheres tristis,Common Myna,Malhargad,18.4113,74.0485,06/10/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+2,3,Acridotheres tristis,Common Myna,"Suryamal, Tansa WLS",19.7528,73.3514,11/03/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+3,4,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,03/12/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+4,5,Acridotheres tristis,Common Myna,"Royal palms, Aarey colony",19.1715,72.8725,05/06/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+5,6,Acridotheres tristis,Common Myna,"Saswad, Pune Dt",18.3711,74.0966,30/06/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+6,7,Acridotheres tristis,Common Myna,Central Mine Planning & Design Institute (CMPDI),21.1864,79.0852,24/03/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+7,8,Acridotheres tristis,Common Myna,"Seven Bunglow, 3",19.1284,72.8194,06/06/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+8,9,Acridotheres tristis,Common Myna,"Aga Khan Palace, Pune, India",18.5521,73.902,29/07/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+9,10,Acridotheres tristis,Common Myna,"Bena, Near Vasai Beach",19.3469,72.7909,01/04/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+10,11,Acridotheres tristis,Common Myna,"CBMP 8 Unnamed Road, Maharashtra, IN (21.054, 75.885)",21.0539,75.8848,17/09/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+11,12,Acridotheres tristis,Common Myna,"Royal palms, Aarey colony",19.1715,72.8725,05/06/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+12,13,Acridotheres tristis,Common Myna,"Royal palms, Aarey colony",19.1715,72.8725,05/06/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+13,14,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,16/05/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+14,15,Acridotheres tristis,Common Myna,"Riverside road, Anandnagar, Pune",18.4795,73.8149,19/01/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+15,16,Acridotheres tristis,Common Myna,"Akshi Beach, Alibaug, Raigad",18.6264,72.8854,21/10/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+16,17,Acridotheres tristis,Common Myna,"Akshi Beach, Alibaug, Raigad",18.6264,72.8854,21/10/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+17,18,Acridotheres tristis,Common Myna,"Akshi Beach, Alibaug, Raigad",18.6264,72.8854,21/10/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+18,19,Acridotheres tristis,Common Myna,"Mihan, Nagpur",21.0773,79.0461,08/09/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+19,20,Acridotheres tristis,Common Myna,Central Mine Planning & Design Institute (CMPDI),21.1864,79.0852,10/03/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+20,21,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,16/05/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+21,22,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,16/05/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+22,23,Acridotheres tristis,Common Myna,"Mahim Nature Park, Mumbai",19.0521,72.863,16/09/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+23,24,Acridotheres tristis,Common Myna,"Anand Vihar, Vishrantinagar",18.4848,73.8344,31/07/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+24,25,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,23/04/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+25,26,Acridotheres tristis,Common Myna,Thakur village,19.2121,72.8716,31/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+26,27,Acridotheres tristis,Common Myna,"TIFR Grounds, Colaba",18.9069,72.8038,11/01/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+27,28,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,23/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+28,29,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,09/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+29,30,Acridotheres tristis,Common Myna,Indian Institute of Technology (IIT) Bombay,19.1279,72.9136,21/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+30,31,Acridotheres tristis,Common Myna,Indian Institute of Technology (IIT) Bombay,19.1279,72.9136,07/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+31,32,Acridotheres tristis,Common Myna,Bibvewadi,18.4718,73.8671,06/08/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+32,33,Acridotheres tristis,Common Myna,"Powai Lake, Mumbai",19.1208,72.9024,07/05/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+33,34,Acridotheres tristis,Common Myna,"Powai Lake, Mumbai",19.1208,72.9024,07/05/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+34,35,Acridotheres tristis,Common Myna,Indian Institute of Technology (IIT) Bombay,19.1279,72.9136,13/04/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+35,36,Acridotheres tristis,Common Myna,"Ambazari Lake, Nagpur",21.1292,79.0329,17/02/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+36,37,Acridotheres tristis,Common Myna,Central Mine Planning & Design Institute (CMPDI),21.1864,79.0852,31/12/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+37,38,Acridotheres tristis,Common Myna,Kopar Swamp,19.2204,73.0731,04/12/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+38,39,Acridotheres tristis,Common Myna,"Toyo Engineering, India",19.1291,72.9265,16/12/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+39,40,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,03/12/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+40,41,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,19/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+41,42,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,21/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+42,43,Acridotheres tristis,Common Myna,"CBMP 8 Unnamed Road, Maharashtra, IN (21.054, 75.885)",21.0539,75.8848,17/09/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+43,44,Acridotheres tristis,Common Myna,"CBMP 8 Unnamed Road, Maharashtra, IN (21.054, 75.885)",21.0539,75.8848,17/09/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+44,45,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,16/05/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+45,46,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,16/05/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+46,47,Acridotheres tristis,Common Myna,Sanjay Gandhi (Borivali) NP,19.2134,72.9082,17/08/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+47,48,Acridotheres tristis,Common Myna,Indian Institute of Technology (IIT) Bombay,19.1279,72.9136,15/07/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+48,49,Acridotheres tristis,Common Myna,Indian Institute of Technology (IIT) Bombay,19.1279,72.9136,15/07/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+49,50,Acridotheres tristis,Common Myna,Indian Institute of Technology (IIT) Bombay,19.1279,72.9136,15/07/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+50,51,Acridotheres tristis,Common Myna,Mumbai -- Hanging Garden,18.9567,72.805,09/01/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+51,52,Acridotheres tristis,Common Myna,"TIFR Grounds, Colaba",18.9069,72.8038,17/01/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+52,53,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,21/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+53,54,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,21/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+54,55,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,21/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+55,56,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,21/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+56,57,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,21/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+57,58,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,20/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+58,59,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,20/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+59,60,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,17/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+60,61,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,17/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+61,62,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,26/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+62,63,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,25/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+63,64,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,25/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+64,65,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,18/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+65,66,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,18/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+66,67,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,18/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+67,68,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,18/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+68,69,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,18/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+69,70,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,31/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+70,71,Acridotheres tristis,Common Myna,NSG Royal One,18.5778,73.78399999999999,18/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+71,72,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,23/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+72,73,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,23/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+73,74,Acridotheres tristis,Common Myna,"Bena, Near Vasai Beach",19.3469,72.7909,01/04/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+74,75,Acridotheres tristis,Common Myna,"Bena, Near Vasai Beach",19.3469,72.7909,01/04/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+75,76,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,09/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+76,77,Acridotheres tristis,Common Myna,"Home, Ajanta",20.4949,75.7259,31/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+77,78,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,03/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+78,79,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,03/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+79,80,Acridotheres tristis,Common Myna,Bhuigaon Village-- Vasai,19.3851,72.7727,10/01/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+80,81,Acridotheres tristis,Common Myna,Bhuigaon Village-- Vasai,19.3851,72.7727,10/01/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+81,82,Acridotheres tristis,Common Myna,"Padlegaon, Navi Mumbai",19.1692,73.0548,14/07/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+82,83,Acridotheres tristis,Common Myna,Karvenagar Nala,18.4981,73.8293,02/06/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+83,84,Acridotheres tristis,Common Myna,NCCS Guest house,18.5472,73.8317,07/09/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+84,85,Acridotheres tristis,Common Myna,Mogara Nallah,19.149,72.8238,19/02/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+85,86,Acridotheres tristis,Common Myna,Kharghar Mangroves,19.0247,73.069,02/12/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+86,87,Acridotheres tristis,Common Myna,Tarzon Lake or Talzon Lake,19.2183,72.8148,13/01/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+87,88,Acridotheres tristis,Common Myna,Satpool Wetlands,19.2353,73.0761,04/11/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+88,89,Acridotheres tristis,Common Myna,KORADI,21.2604,79.0876,11/03/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+89,90,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,09/08/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+90,91,Acridotheres tristis,Common Myna,"Girna Pumping Station, Savkhede Bk., Jalgaon, Maharashtra",20.9892,75.5163,29/10/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+91,92,Acridotheres tristis,Common Myna,"Samajik vanikarn ,Shivaji Udyan,Meharun , Jalgaon",20.9867,75.5689,19/04/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+92,93,Acridotheres tristis,Common Myna,"CBMP 8 Unnamed Road, Maharashtra, IN (21.054, 75.885)",21.0539,75.8848,17/09/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+93,94,Acridotheres tristis,Common Myna,"Pench Tiger Reserve, Maharashtra",21.6439,79.2414,21/12/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+94,95,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,12/08/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+95,96,Acridotheres tristis,Common Myna,"Mehrun Lake, Tambapura, Jalgaon, Maharashtra",20.9804,75.5651,14/08/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+96,97,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,30/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+97,98,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,01/12/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+98,99,Acridotheres tristis,Common Myna,"110,Abhinav nagar,Mumbai, Maharashtra, IN (19.231, 72.871)",19.2313,72.8706,01/07/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+99,100,Acridotheres tristis,Common Myna,Indian Institute of Technology (IIT) Bombay,19.1279,72.9136,22/04/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+100,101,Acridotheres tristis,Common Myna,Bhuigaon Village-- Vasai,19.3851,72.7727,25/03/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+101,102,Acridotheres tristis,Common Myna,Central Mine Planning & Design Institute (CMPDI),21.1864,79.0852,25/03/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+102,103,Acridotheres tristis,Common Myna,"Yawal _Pal_River Suki _IN-Madhya Pradesh-Unnamed Road - 21.357x75.895 - Jun 13, 2017 1:44 PM",21.3568,75.8952,12/06/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+103,104,Acridotheres tristis,Common Myna,Central Mine Planning & Design Institute (CMPDI),21.1864,79.0852,20/02/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+104,105,Acridotheres tristis,Common Myna,Central Mine Planning & Design Institute (CMPDI),21.1864,79.0852,18/02/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+105,106,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,10/08/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+106,107,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,10/08/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+107,108,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,09/08/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+108,109,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,09/08/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+109,110,Acridotheres tristis,Common Myna,"IN-Maharashtra-Mumbai-Hanging Garden - 18.957x72.805 - Jan 26, 2017 9:31 PM",18.9567,72.805,02/01/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+110,111,Acridotheres tristis,Common Myna,Courtyard Pune Hinjewadi,18.5914,73.7469,29/07/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+111,112,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,04/07/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+112,113,Acridotheres tristis,Common Myna,"Nimkhedi Road,Jalgaon",20.9945,76.0622,02/06/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+113,114,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,30/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+114,115,Acridotheres tristis,Common Myna,"Nimkhedi Road,Jalgaon",20.9945,76.0622,22/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+115,116,Acridotheres tristis,Common Myna,"Mehrun Lake, Tambapura, Jalgaon, Maharashtra",20.9804,75.5651,11/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+116,117,Acridotheres tristis,Common Myna,"Manyrkhede,Jalgaon,Maharashtra",20.9912,75.8918,09/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+117,118,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,06/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+118,119,Acridotheres tristis,Common Myna,"TIFR Grounds, Colaba",18.9069,72.8038,18/01/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+119,120,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,27/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+120,121,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,27/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+121,122,Acridotheres tristis,Common Myna,"MIT Institute of Design, Loni Kalbhor",18.4924,74.0255,04/04/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+122,123,Acridotheres tristis,Common Myna,"MIT Institute of Design, Loni Kalbhor",18.4924,74.0255,04/04/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+123,124,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,21/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+124,125,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,21/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+125,126,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,21/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+126,127,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,20/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+127,128,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,17/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+128,129,Acridotheres tristis,Common Myna,"Backyard, Yeola, Maharashtra, IN (20.045, 74.487)",20.0446,74.4872,10/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+129,130,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,26/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+130,131,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,26/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+131,132,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,18/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+132,133,Acridotheres tristis,Common Myna,Home,19.1408,72.8633,05/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+133,134,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,17/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+134,135,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,17/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+135,136,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,10/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+136,137,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,26/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+137,138,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,26/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+138,139,Acridotheres tristis,Common Myna,"Window of House, Killa Road, Vasai-Virar, Maharashtra, IN (19.339, 72.807)",19.3388,72.8071,03/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+139,140,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,03/12/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+140,141,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,01/12/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+141,142,Acridotheres tristis,Common Myna,The Countryside Farm,18.7685,73.5363,25/10/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+142,143,Acridotheres tristis,Common Myna,"Padlegaon, Navi Mumbai",19.1692,73.0548,14/07/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+143,144,Acridotheres tristis,Common Myna,"RIVERWATER PUMP , CANAL,Gahukhede, Maharashtra, IN (21.057, 75.87)",21.0567,75.8702,17/09/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+144,145,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,19/06/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+145,146,Acridotheres tristis,Common Myna,Tadoba National Park,20.1941,79.3396,23/10/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+146,147,Acridotheres tristis,Common Myna,Umrer Karhandla WLS,20.8383,79.4479,23/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+147,148,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,24/05/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+148,149,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,16/05/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+149,150,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,18/04/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+150,151,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,18/04/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+151,152,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,18/04/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+152,153,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,18/04/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+153,154,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,18/04/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+154,155,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,18/04/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+155,156,Acridotheres tristis,Common Myna,"Girna Pumping Station, Savkhede Bk., Jalgaon, Maharashtra",20.9892,75.5163,12/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+156,157,Acridotheres tristis,Common Myna,"Bor Wild Life Sanctuary, Nagpur IN-MH 21.03655, 78.84449",21.0365,78.8445,17/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+157,158,Acridotheres tristis,Common Myna,"Dr. Babasaheb Ambedkar Marathwada University, Aurangabd",19.9027,75.3105,13/05/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+158,159,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,11/08/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+159,160,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,16/05/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+160,161,Acridotheres tristis,Common Myna,Central Mine Planning & Design Institute (CMPDI),21.1864,79.0852,17/02/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+161,162,Acridotheres tristis,Common Myna,"savedi,ahmednagar",19.1251,74.7364,22/11/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+162,163,Acridotheres tristis,Common Myna,"Shri Tarkeshwar Hanuman Mandir, Jalgaon, Maharashtra, IN (21.071, 75.783)",21.070999999999998,75.7827,18/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+163,164,Acridotheres tristis,Common Myna,"Link Street Road, Thane, Maharashtra, IN (19.254, 72.979)",19.2545,72.9792,14/03/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+164,165,Acridotheres tristis,Common Myna,Central Mine Planning & Design Institute (CMPDI),21.1864,79.0852,07/03/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+165,166,Acridotheres tristis,Common Myna,Central Mine Planning & Design Institute (CMPDI),21.1864,79.0852,16/02/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+166,167,Acridotheres tristis,Common Myna,Mumbai,18.9298,72.8379,23/12/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+167,168,Acridotheres tristis,Common Myna,Indian Institute of Technology (IIT) Bombay,19.1279,72.9136,30/10/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+168,169,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--500MW Premises,21.0483,75.8529,08/09/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+169,170,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,12/08/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+170,171,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,12/08/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+171,172,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,11/08/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+172,173,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,11/07/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+173,174,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,11/07/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+174,175,Acridotheres tristis,Common Myna,"Waghur Back Water,Jalgaon",20.9136,75.7185,25/12/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+175,176,Acridotheres tristis,Common Myna,"Pashan Lake, Pune",18.5318,73.7854,10/05/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+176,177,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,30/11/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+177,178,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,30/11/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+178,179,Acridotheres tristis,Common Myna,Tapti River Bridge_IN-Maharashtra-Vidgaon - 21.133x75.538 - 23-Nov-2016 11:18 am,21.1334,75.5381,23/11/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+179,180,Acridotheres tristis,Common Myna,"Girna Pumping Station, Savkhede Bk., Jalgaon, Maharashtra",20.9892,75.5163,29/10/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+180,181,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,25/10/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+181,182,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,27/10/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+182,183,Acridotheres tristis,Common Myna,"Girna Pumping Station, Savkhede Bk., Jalgaon, Maharashtra",20.9892,75.5163,17/06/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+183,184,Acridotheres tristis,Common Myna,"Hanuman Mandir Umavi Nagar,Paldhi Bk ,Jalgaon",21.0055,75.4816,30/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+184,185,Acridotheres tristis,Common Myna,"Nimkhedi Road,Jalgaon",20.9945,76.0622,22/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+185,186,Acridotheres tristis,Common Myna,"Nimkhedi Road,Jalgaon",20.9945,76.0622,22/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+186,187,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,10/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+187,188,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,10/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+188,189,Acridotheres tristis,Common Myna,"Girna Pumping Staion ,savkhede Bk",20.9878,75.5175,25/04/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+189,190,Acridotheres tristis,Common Myna,Titwala,19.3116,73.2121,17/04/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+190,191,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,23/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+191,192,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.025, 75.566)",21.0249,75.5665,07/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+192,193,Acridotheres tristis,Common Myna,Home,19.1408,72.8633,02/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+193,194,Acridotheres tristis,Common Myna,Home,19.1408,72.8633,02/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+194,195,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,01/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+195,196,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,01/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+196,197,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,01/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+197,198,Acridotheres tristis,Common Myna,"Elephanta Island, Mumbai",18.9633,72.9361,07/02/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+198,199,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,03/12/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+199,200,Acridotheres tristis,Common Myna,The Countryside Farm,18.7685,73.5363,25/10/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+200,201,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,24/05/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+201,202,Acridotheres tristis,Common Myna,Indian Institute of Technology (IIT) Bombay,19.1279,72.9136,28/04/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+202,203,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,18/04/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+203,204,Acridotheres tristis,Common Myna,Mogara Nallah,19.149,72.8238,19/02/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+204,205,Acridotheres tristis,Common Myna,"Thane creek Flamingo sanctuary, Airoli",19.15,72.9804,02/01/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+205,206,Acridotheres tristis,Common Myna,Sanjay Gandhi (Borivali) NP,19.2134,72.9082,27/09/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+206,207,Acridotheres tristis,Common Myna,Balewadi,18.58,73.7682,09/09/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+207,208,Acridotheres tristis,Common Myna,Central Mine Planning & Design Institute (CMPDI),21.1864,79.0852,22/03/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+208,209,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,25/01/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+209,210,Acridotheres tristis,Common Myna,"Girna Pumping Station, Savkhede Bk., Jalgaon, Maharashtra",20.9892,75.5163,12/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+210,211,Acridotheres tristis,Common Myna,Central Mine Planning & Design Institute (CMPDI),21.1864,79.0852,23/03/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+211,212,Acridotheres tristis,Common Myna,"Link Street Road, Thane, Maharashtra, IN (19.254, 72.979)",19.2545,72.9792,14/03/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+212,213,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,12/08/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+213,214,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,12/08/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+214,215,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,12/08/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+215,216,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,12/08/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+216,217,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,11/08/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+217,218,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,12/07/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+218,219,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,11/07/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+219,220,Acridotheres tristis,Common Myna,"BHUSAwAL RAILWAY STATION-IN-Maharashtra-Bhusawal - 21.047x75.788 - May 12, 2017 6:45 AM",21.0474,75.7877,12/05/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+220,221,Acridotheres tristis,Common Myna,"Virpur,Shahada,Maharashtra",21.5782,74.0322,25/03/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+221,222,Acridotheres tristis,Common Myna,Erandwane,18.5055,73.8304,30/01/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+222,223,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--500MW Premises,21.0483,75.8529,17/06/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+223,224,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--500MW Premises,21.0483,75.8529,17/06/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+224,225,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--500MW Premises,21.0483,75.8529,17/06/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+225,226,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--500MW Premises,21.0483,75.8529,01/06/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+226,227,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,30/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+227,228,Acridotheres tristis,Common Myna,Hanuman Khore,21.0008,75.4874,13/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+228,229,Acridotheres tristis,Common Myna,"Mamurabad Road ,Shivaji Nagar,Jalgaon",21.0256,75.5723,10/05/2016,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+229,230,Acridotheres tristis,Common Myna,Home,19.1408,72.8633,02/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+230,231,Acridotheres tristis,Common Myna,Haripur villeage,16.8469,74.5367,12/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+231,232,Acridotheres tristis,Common Myna,Haripur villeage,16.8469,74.5367,12/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+232,233,Acridotheres tristis,Common Myna,Nagartas,21.2043,76.8004,25/12/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+233,234,Acridotheres tristis,Common Myna,Popatkhed,21.2104,77.0786,22/11/2015,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+234,235,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--500MW Premises,21.0483,75.8529,20/09/2018,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+235,236,Acridotheres tristis,Common Myna,IISER,18.5459,73.8067,18/09/2017,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+236,237,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,21/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+237,238,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,25/01/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+238,239,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,25/01/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+239,240,Acridotheres tristis,Common Myna,"SM Joshi Bridge, Pune, Maharashtra, IN (18.51, 73.84)",18.5099,73.8402,01/02/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+240,241,Acridotheres tristis,Common Myna,"Shirsoli P.B., Maharashtra, IN (20.932, 75.548)",20.9324,75.5479,22/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+241,242,Acridotheres tristis,Common Myna,"Maharashtra State Highway 187, Tembhi Kh, Maharashtra, IN (21.126, 75.72)",21.1263,75.72,18/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+242,243,Acridotheres tristis,Common Myna,"Ankleshwar - Burhanpur Highway, Yawal, Maharashtra, IN (21.17, 75.695)",21.1699,75.6945,18/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+243,244,Acridotheres tristis,Common Myna,"Vaghoda Gaon,Ankleshwar - Burhanpur Highway, Maharashtra, IN (21.186, 75.61)",21.1857,75.6096,18/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+244,245,Acridotheres tristis,Common Myna,"Vaghoda Gaon,Ankleshwar - Burhanpur Highway, Maharashtra, IN (21.186, 75.61)",21.1857,75.6096,18/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+245,246,Acridotheres tristis,Common Myna,"Vaghoda Gaon,Ankleshwar - Burhanpur Highway, Maharashtra, IN (21.186, 75.61)",21.1857,75.6096,18/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+246,247,Acridotheres tristis,Common Myna,"Vaghoda Gaon,Ankleshwar - Burhanpur Highway, Maharashtra, IN (21.186, 75.61)",21.1857,75.6096,18/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+247,248,Acridotheres tristis,Common Myna,"Vaghoda Gaon,Ankleshwar - Burhanpur Highway, Maharashtra, IN (21.186, 75.61)",21.1857,75.6096,18/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+248,249,Acridotheres tristis,Common Myna,"Vaghoda Gaon,Ankleshwar - Burhanpur Highway, Maharashtra, IN (21.186, 75.61)",21.1857,75.6096,18/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+249,250,Acridotheres tristis,Common Myna,"Maharashtra State Highway 186, Dambhurni, Maharashtra, IN (21.183, 75.565)",21.1834,75.5655,18/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+250,251,Acridotheres tristis,Common Myna,"Ghansoli, Sector 1",19.112000000000002,73.0059,16/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+251,252,Acridotheres tristis,Common Myna,Indian Institute of Technology (IIT) Bombay,19.1279,72.9136,02/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+252,253,Acridotheres tristis,Common Myna,Indian Institute of Technology (IIT) Bombay,19.1279,72.9136,02/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+253,254,Acridotheres tristis,Common Myna,"Wagur Dam, Backwater, Hingane,Maharashtra, IN (20.886, 75.716)",20.8858,75.7157,10/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+254,255,Acridotheres tristis,Common Myna,"Wagur Dam, Backwater, Hingane,Maharashtra, IN (20.886, 75.716)",20.8858,75.7157,10/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+255,256,Acridotheres tristis,Common Myna,"Shahapur Lake, Shahapur,Maharashtra State Highway 188, Maharashtra, IN (20.722, 75.803)",20.7219,75.8031,10/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+256,257,Acridotheres tristis,Common Myna,"Shahapur Lake, Shahapur,Maharashtra State Highway 188, Maharashtra, IN (20.722, 75.803)",20.7219,75.8031,10/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+257,258,Acridotheres tristis,Common Myna,Indian Institute of Technology (IIT) Bombay,19.1279,72.9136,05/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+258,259,Acridotheres tristis,Common Myna,"Mamurabad Road Jalgaon, Maharashtra, IN (21.023, 75.572)",21.0234,75.5721,08/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+259,260,Acridotheres tristis,Common Myna,"Shivaji Nagar Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5661,08/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+260,261,Acridotheres tristis,Common Myna,"Shivaji Nagar Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5661,08/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+261,262,Acridotheres tristis,Common Myna,"Shivaji Nagar Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5661,08/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+262,263,Acridotheres tristis,Common Myna,"Unnamed Road, Maharashtra, IN (20.898, 75.51)",20.8975,75.5102,07/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+263,264,Acridotheres tristis,Common Myna,"Unnamed Road, Maharashtra, IN (20.898, 75.51)",20.8975,75.5102,07/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+264,265,Acridotheres tristis,Common Myna,"Unnamed Road, Maharashtra, IN (20.898, 75.51)",20.8975,75.5102,07/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+265,266,Acridotheres tristis,Common Myna,"Shivaji Nagar Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5661,05/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+266,267,Acridotheres tristis,Common Myna,"Meharun Lake, Jalgaon, Maharashtra, IN (20.984, 75.564)",20.9841,75.5641,06/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+267,268,Acridotheres tristis,Common Myna,"Meharun Lake, Jalgaon, Maharashtra, IN (20.984, 75.564)",20.9841,75.5641,06/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+268,269,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,04/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+269,270,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,04/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+270,271,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,04/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+271,272,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,02/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+272,273,Acridotheres tristis,Common Myna,"Bhandup Pumping Station, Mumbai",19.1411,72.961,02/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+273,274,Acridotheres tristis,Common Myna,"Bhandup Pumping Station, Mumbai",19.1411,72.961,02/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+274,275,Acridotheres tristis,Common Myna,"Meharun Lake  Jalgaon, Maharashtra, IN (20.98, 75.565)",20.9798,75.5647,01/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+275,276,Acridotheres tristis,Common Myna,"Meharun Lake  Jalgaon, Maharashtra, IN (20.98, 75.565)",20.9798,75.5647,01/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+276,277,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,01/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+277,278,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,01/10/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+278,279,Acridotheres tristis,Common Myna,"Shivaji Nagar Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5661,29/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+279,280,Acridotheres tristis,Common Myna,"Shivaji Nagar Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5661,29/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+280,281,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,26/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+281,282,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,26/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+282,283,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,26/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+283,284,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,26/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+284,285,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,24/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+285,286,Acridotheres tristis,Common Myna,"Shivaji  Nagar  Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0212,75.566,24/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+286,287,Acridotheres tristis,Common Myna,"Krushi Vidnyan Kendra,Mamurabad Road, Maharashtra, IN (21.041, 75.57)",21.041,75.5697,18/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+287,288,Acridotheres tristis,Common Myna,"Krushi Vidnyan Kendra,Mamurabad Road, Maharashtra, IN (21.041, 75.57)",21.041,75.5697,18/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+288,289,Acridotheres tristis,Common Myna,"Krushi Vidnyan Kendra,Mamurabad Road, Maharashtra, IN (21.041, 75.57)",21.041,75.5697,18/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+289,290,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,14/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+290,291,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,14/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+291,292,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,14/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+292,293,Acridotheres tristis,Common Myna,"Mamurabad Road, Maharashtra, IN (21.034, 75.571)",21.0337,75.5709,18/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+293,294,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,18/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+294,295,Acridotheres tristis,Common Myna,"Mehrun LakeJalgaon, Maharashtra, IN (20.983, 75.561)",20.9826,75.5615,19/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+295,296,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.02, 75.572)",21.0201,75.5723,19/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+296,297,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.02, 75.572)",21.0201,75.5723,19/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+297,298,Acridotheres tristis,Common Myna,"Mehrun LakeJalgaon, Maharashtra, IN (20.983, 75.561)",20.9826,75.5615,20/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+298,299,Acridotheres tristis,Common Myna,"Mehrun LakeJalgaon, Maharashtra, IN (20.983, 75.561)",20.9826,75.5615,20/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+299,300,Acridotheres tristis,Common Myna,"Shivaji Nagar Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5661,20/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+300,301,Acridotheres tristis,Common Myna,"Shivaji Nagar Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5661,20/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+301,302,Acridotheres tristis,Common Myna,"Shivaji  Nagar  Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0212,75.566,12/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+302,303,Acridotheres tristis,Common Myna,"Shivaji  Nagar  Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0212,75.566,10/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+303,304,Acridotheres tristis,Common Myna,"Shivaji  Nagar  Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0212,75.566,10/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+304,305,Acridotheres tristis,Common Myna,"Shivaji  Nagar  Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0212,75.566,10/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+305,306,Acridotheres tristis,Common Myna,"Shivaji  Nagar  Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0212,75.566,10/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+306,307,Acridotheres tristis,Common Myna,"Shivaji  Nagar  Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0212,75.566,10/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+307,308,Acridotheres tristis,Common Myna,"Shivaji  Nagar  Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0212,75.566,10/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+308,309,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.025, 75.566)",21.0249,75.5665,09/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+309,310,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,09/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+310,311,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,09/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+311,312,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,09/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+312,313,Acridotheres tristis,Common Myna,Tarabai park,16.718,74.23899999999999,22/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+313,314,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,05/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+314,315,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.03, 75.571)",21.0299,75.5713,04/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+315,316,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.03, 75.571)",21.0299,75.5713,04/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+316,317,Acridotheres tristis,Common Myna,"Nandan Van Colony Bhusawal, Maharashtra, IN (21.042, 75.776)",21.0418,75.7756,03/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+317,318,Acridotheres tristis,Common Myna,"Bahula Dam , Backwater,Pachora Road, Goradkhede Bk., Maharashtra, IN (20.676, 75.401)",20.6759,75.4014,02/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+318,319,Acridotheres tristis,Common Myna,"Kannad, Maharashtra, IN (20.257, 75.132)",20.2574,75.1322,31/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+319,320,Acridotheres tristis,Common Myna,"Kannad, Maharashtra, IN (20.257, 75.132)",20.2574,75.1322,31/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+320,321,Acridotheres tristis,Common Myna,"Ghat Road, Kodgaon, Maharashtra, IN (20.439, 75.028)",20.4387,75.0279,31/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+321,322,Acridotheres tristis,Common Myna,"Ghat Road, Kodgaon, Maharashtra, IN (20.439, 75.028)",20.4387,75.0279,31/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+322,323,Acridotheres tristis,Common Myna,"Ghat Road, Kodgaon, Maharashtra, IN (20.439, 75.028)",20.4387,75.0279,31/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+323,324,Acridotheres tristis,Common Myna,"Kandari, Bhusawal, Maharashtra, IN (21.063, 75.809)",21.0628,75.8091,04/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+324,325,Acridotheres tristis,Common Myna,"Kandari, Bhusawal, Maharashtra, IN (21.063, 75.809)",21.0628,75.8091,04/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+325,326,Acridotheres tristis,Common Myna,"Kandari, Bhusawal, Maharashtra, IN (21.063, 75.809)",21.0628,75.8091,04/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+326,327,Acridotheres tristis,Common Myna,"Kandari, Bhusawal, Maharashtra, IN (21.063, 75.809)",21.0628,75.8091,04/09/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+327,328,Acridotheres tristis,Common Myna,"Nandan Van Colony Bhusawal, Maharashtra, IN (21.042, 75.776)",21.0418,75.7756,26/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+328,329,Acridotheres tristis,Common Myna,"Nandan Van Colony Bhusawal, Maharashtra, IN (21.042, 75.776)",21.0418,75.7756,25/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+329,330,Acridotheres tristis,Common Myna,"Nandan Van Colony Bhusawal, Maharashtra, IN (21.042, 75.776)",21.0418,75.7756,25/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+330,331,Acridotheres tristis,Common Myna,"Nandan Van Colony Bhusawal, Maharashtra, IN (21.042, 75.776)",21.0418,75.7756,25/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+331,332,Acridotheres tristis,Common Myna,"Nandan Van Colony Bhusawal, Maharashtra, IN (21.042, 75.776)",21.0418,75.7756,25/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+332,333,Acridotheres tristis,Common Myna,"Pashan Lake, Pune",18.5318,73.7854,06/12/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+333,334,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharji Uddan  Jalgaon, Maharashtra, IN (21.017, 75.567)",21.0173,75.5668,19/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+334,335,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharji Uddan  Jalgaon, Maharashtra, IN (21.017, 75.567)",21.0173,75.5668,19/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+335,336,Acridotheres tristis,Common Myna,"Shivaji  Nagar  Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0212,75.566,19/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+336,337,Acridotheres tristis,Common Myna,"Shivaji  Nagar  Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0212,75.566,18/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+337,338,Acridotheres tristis,Common Myna,Kapol Garden,19.21,72.8427,17/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+338,339,Acridotheres tristis,Common Myna,"Sahakar Nagar, Nagpur",21.1443,79.0587,07/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+339,340,Acridotheres tristis,Common Myna,"Krushi Vidnyan Kendra,Mamurabad Road, Maharashtra, IN (21.041, 75.57)",21.041,75.5697,12/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+340,341,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.026, 75.572)",21.0255,75.5722,12/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+341,342,Acridotheres tristis,Common Myna,"Shivaji  Nagar  Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0212,75.566,11/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+342,343,Acridotheres tristis,Common Myna,"Shivaji  Nagar  Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0212,75.566,11/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+343,344,Acridotheres tristis,Common Myna,"Shivaji  Nagar  Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0212,75.566,11/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+344,345,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,10/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+345,346,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,10/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+346,347,Acridotheres tristis,Common Myna,"Krushi Vidnyan Kendra,Mamurabad Road, Maharashtra, IN (21.041, 75.57)",21.041,75.5697,08/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+347,348,Acridotheres tristis,Common Myna,"Krushi Vidnyan Kendra,Mamurabad Road, Maharashtra, IN (21.041, 75.57)",21.041,75.5697,08/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+348,349,Acridotheres tristis,Common Myna,"Kachara Depto Jalgaon, Maharashtra, IN (21.032, 75.564)",21.0318,75.5639,07/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+349,350,Acridotheres tristis,Common Myna,"Kachara Depto Jalgaon, Maharashtra, IN (21.032, 75.564)",21.0318,75.5639,07/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+350,351,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,06/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+351,352,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,06/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+352,353,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,06/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+353,354,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,04/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+354,355,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,04/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+355,356,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,04/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+356,357,Acridotheres tristis,Common Myna,"Kanalada Road, Jalgaon, Maharashtra, IN (21.021, 75.564)",21.0207,75.5636,05/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+357,358,Acridotheres tristis,Common Myna,"Kanalada Road, Jalgaon, Maharashtra, IN (21.021, 75.564)",21.0207,75.5636,05/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+358,359,Acridotheres tristis,Common Myna,"Krushi Vidnyan Kendra,Mamurabad Road, Maharashtra, IN (21.041, 75.57)",21.041,75.5697,04/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+359,360,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.022, 75.572)",21.0217,75.5723,04/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+360,361,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,03/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+361,362,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,03/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+362,363,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,03/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+363,364,Acridotheres tristis,Common Myna,"Krushi Vidnyan Kendra,Mamurabad Road, Maharashtra, IN (21.041, 75.57)",21.041,75.5697,01/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+364,365,Acridotheres tristis,Common Myna,"Krushi Vidnyan Kendra,Mamurabad Road, Maharashtra, IN (21.041, 75.57)",21.041,75.5697,01/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+365,366,Acridotheres tristis,Common Myna,Home,19.1408,72.8633,02/08/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+366,367,Acridotheres tristis,Common Myna,"Mamurabad Road Jalgaon, Maharashtra, IN (21.023, 75.568)",21.023000000000003,75.5681,31/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+367,368,Acridotheres tristis,Common Myna,"Mamurabad Road Jalgaon, Maharashtra, IN (21.023, 75.568)",21.023000000000003,75.5681,31/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+368,369,Acridotheres tristis,Common Myna,"Mamurabad Road Jalgaon, Maharashtra, IN (21.023, 75.568)",21.023000000000003,75.5681,31/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+369,370,Acridotheres tristis,Common Myna,"Mamurabad Road Jalgaon, Maharashtra, IN (21.023, 75.568)",21.023000000000003,75.5681,31/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+370,371,Acridotheres tristis,Common Myna,"Mamurabad Road Jalgaon, Maharashtra, IN (21.023, 75.568)",21.023000000000003,75.5681,31/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+371,372,Acridotheres tristis,Common Myna,"Mamurabad Road Jalgaon, Maharashtra, IN (21.023, 75.568)",21.023000000000003,75.5681,31/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+372,373,Acridotheres tristis,Common Myna,"Mamurabad Road Jalgaon, Maharashtra, IN (21.023, 75.568)",21.023000000000003,75.5681,31/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+373,374,Acridotheres tristis,Common Myna,"Mamurabad Road Jalgaon, Maharashtra, IN (21.023, 75.568)",21.023000000000003,75.5681,29/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+374,375,Acridotheres tristis,Common Myna,"Mamurabad Road Jalgaon, Maharashtra, IN (21.023, 75.568)",21.023000000000003,75.5681,29/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+375,376,Acridotheres tristis,Common Myna,"Mamurabad Road Jalgaon, Maharashtra, IN (21.023, 75.568)",21.023000000000003,75.5681,29/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+376,377,Acridotheres tristis,Common Myna,"Mamurabad Road Jalgaon, Maharashtra, IN (21.023, 75.568)",21.023000000000003,75.5681,29/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+377,378,Acridotheres tristis,Common Myna,"Mamurabad Road Jalgaon, Maharashtra, IN (21.023, 75.568)",21.023000000000003,75.5681,29/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+378,379,Acridotheres tristis,Common Myna,"Mamurabad Road, Maharashtra, IN (21.034, 75.571)",21.0337,75.5708,28/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+379,380,Acridotheres tristis,Common Myna,"Mamurabad Road, Maharashtra, IN (21.034, 75.571)",21.0337,75.5708,28/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+380,381,Acridotheres tristis,Common Myna,"Mamurabad Road Jalgaon, Maharashtra, IN (21.023, 75.568)",21.023000000000003,75.5681,28/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+381,382,Acridotheres tristis,Common Myna,"Mamurabad Road Jalgaon, Maharashtra, IN (21.023, 75.568)",21.023000000000003,75.5681,28/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+382,383,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,27/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+383,384,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,27/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+384,385,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,27/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+385,386,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,25/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+386,387,Acridotheres tristis,Common Myna,"Old Mamurabad Road, Jalgaon, Maharashtra, IN (21.017, 75.573)",21.0168,75.5725,24/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+387,388,Acridotheres tristis,Common Myna,"Old Mamurabad Road, Jalgaon, Maharashtra, IN (21.017, 75.573)",21.0168,75.5725,24/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+388,389,Acridotheres tristis,Common Myna,"Old Mamurabad Road, Jalgaon, Maharashtra, IN (21.017, 75.573)",21.0168,75.5725,24/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+389,390,Acridotheres tristis,Common Myna,"Old Mamurabad Road, Jalgaon, Maharashtra, IN (21.017, 75.573)",21.0168,75.5725,23/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+390,391,Acridotheres tristis,Common Myna,"Shivaji Nagar Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5661,22/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+391,392,Acridotheres tristis,Common Myna,"Mehrun Lake Jalgaon, Maharashtra, IN (20.978, 75.562)",20.9775,75.5623,21/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+392,393,Acridotheres tristis,Common Myna,"Shirsoli P.B., Maharashtra, IN (20.932, 75.541)",20.9324,75.5414,21/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+393,394,Acridotheres tristis,Common Myna,"Shirsoli P.B., Maharashtra, IN (20.932, 75.541)",20.9324,75.5414,21/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+394,395,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.02, 75.572)",21.0201,75.5723,21/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+395,396,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.02, 75.572)",21.0201,75.5723,21/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+396,397,Acridotheres tristis,Common Myna,"Mamurabad Road, Maharashtra, IN (21.034, 75.571)",21.0337,75.5708,18/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+397,398,Acridotheres tristis,Common Myna,"Mamurabad Road, Maharashtra, IN (21.034, 75.571)",21.0337,75.5708,18/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+398,399,Acridotheres tristis,Common Myna,"Mamurabad Road, Maharashtra, IN (21.034, 75.571)",21.0337,75.5708,18/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+399,400,Acridotheres tristis,Common Myna,Indian Institute of Technology (IIT) Bombay,19.1279,72.9136,18/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+400,401,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.023, 75.572)",21.0225,75.5723,17/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+401,402,Acridotheres tristis,Common Myna,"Kashibai Ukhaji School,Jalgaon, Maharashtra, IN (21.009, 75.579)",21.0092,75.5786,17/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+402,403,Acridotheres tristis,Common Myna,"Kashibai Ukhaji School,Jalgaon, Maharashtra, IN (21.009, 75.579)",21.0092,75.5786,17/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+403,404,Acridotheres tristis,Common Myna,"Kashibai Ukhaji School,Jalgaon, Maharashtra, IN (21.009, 75.579)",21.0092,75.5786,17/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+404,405,Acridotheres tristis,Common Myna,"Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5658,17/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+405,406,Acridotheres tristis,Common Myna,"Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5658,17/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+406,407,Acridotheres tristis,Common Myna,"Mamurabad Road, Maharashtra, IN (21.034, 75.571)",21.0337,75.5708,14/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+407,408,Acridotheres tristis,Common Myna,"Mamurabad Road, Maharashtra, IN (21.034, 75.571)",21.0337,75.5708,14/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+408,409,Acridotheres tristis,Common Myna,"Mamurabad Road, Maharashtra, IN (21.034, 75.571)",21.0337,75.5708,14/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+409,410,Acridotheres tristis,Common Myna,Kapol Garden,19.21,72.8427,22/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+410,411,Acridotheres tristis,Common Myna,"Shivaji Nagar Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5661,12/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+411,412,Acridotheres tristis,Common Myna,"Shivaji Nagar Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5661,12/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+412,413,Acridotheres tristis,Common Myna,Thakur village,19.2121,72.8716,11/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+413,414,Acridotheres tristis,Common Myna,"Kalpana Padma Tower, 5th Road, Chembur, Mumbai, India",19.0544,72.9015,07/11/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+414,415,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,08/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+415,416,Acridotheres tristis,Common Myna,"Old Mamurabad Road, Jalgaon, Maharashtra, IN (21.017, 75.573)",21.0168,75.5725,06/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+416,417,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,06/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+417,418,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,06/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+418,419,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,06/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+419,420,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,03/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+420,421,Acridotheres tristis,Common Myna,"Paradise Society, Raheja Vihar, Mumbai IN-Maharashtra 19.11841, 72.89590",19.1184,72.8959,05/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+421,422,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,02/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+422,423,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,02/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+423,424,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,02/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+424,425,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,01/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+425,426,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,01/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+426,427,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,01/07/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+427,428,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,29/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+428,429,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,29/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+429,430,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharji Uddan  Jalgaon, Maharashtra, IN (21.017, 75.567)",21.0173,75.5668,27/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+430,431,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharji Uddan  Jalgaon, Maharashtra, IN (21.017, 75.567)",21.0173,75.5668,27/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+431,432,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharji Uddan  Jalgaon, Maharashtra, IN (21.017, 75.567)",21.0173,75.5668,27/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+432,433,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.026, 75.572)",21.0255,75.5723,26/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+433,434,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.026, 75.572)",21.0255,75.5723,26/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+434,435,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,23/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+435,436,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,23/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+436,437,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,23/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+437,438,Acridotheres tristis,Common Myna,"Bahula Dam,Back WaterPachora Road, Goradkhede Bk., Maharashtra, IN (20.681, 75.407)",20.6806,75.4069,22/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+438,439,Acridotheres tristis,Common Myna,"Bahula Dam,Back WaterPachora Road, Goradkhede Bk., Maharashtra, IN (20.681, 75.407)",20.6806,75.4069,22/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+439,440,Acridotheres tristis,Common Myna,"Bahula Dam,Back WaterPachora Road, Goradkhede Bk., Maharashtra, IN (20.681, 75.407)",20.6806,75.4069,22/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+440,441,Acridotheres tristis,Common Myna,"Bahula Dam,Back WaterPachora Road, Goradkhede Bk., Maharashtra, IN (20.681, 75.407)",20.6806,75.4069,22/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+441,442,Acridotheres tristis,Common Myna,"Bahula Dam,Back WaterPachora Road, Goradkhede Bk., Maharashtra, IN (20.681, 75.407)",20.6806,75.4069,22/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+442,443,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharji Uddan  Jalgaon, Maharashtra, IN (21.017, 75.567)",21.0173,75.5668,21/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+443,444,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharji Uddan  Jalgaon, Maharashtra, IN (21.017, 75.567)",21.0173,75.5668,21/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+444,445,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,20/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+445,446,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,20/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+446,447,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,20/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+447,448,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,20/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+448,449,Acridotheres tristis,Common Myna,"Mamurabad Road, Maharashtra, IN (21.034, 75.571)",21.0337,75.5709,19/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+449,450,Acridotheres tristis,Common Myna,"Mamurabad Road, Maharashtra, IN (21.034, 75.571)",21.0337,75.5709,19/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+450,451,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,19/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+451,452,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,19/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+452,453,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,19/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+453,454,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,19/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+454,455,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,19/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+455,456,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,19/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+456,457,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,19/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+457,458,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,19/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+458,459,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,19/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+459,460,Acridotheres tristis,Common Myna,"Krushi Vidnyan Kendra,Mamurabad Road, Maharashtra, IN (21.041, 75.57)",21.041,75.5697,18/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+460,461,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.02, 75.572)",21.0201,75.5723,18/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+461,462,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,18/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+462,463,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,18/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+463,464,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,17/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+464,465,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,17/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+465,466,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,17/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+466,467,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,16/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+467,468,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,16/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+468,469,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,16/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+469,470,Acridotheres tristis,Common Myna,"Mamurabad Road, Maharashtra, IN (21.034, 75.571)",21.0337,75.5708,16/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+470,471,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharji Uddan  Jalgaon, Maharashtra, IN (21.017, 75.567)",21.0173,75.5668,15/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+471,472,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharji Uddan  Jalgaon, Maharashtra, IN (21.017, 75.567)",21.0173,75.5668,15/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+472,473,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharji Uddan  Jalgaon, Maharashtra, IN (21.017, 75.567)",21.0173,75.5668,15/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+473,474,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,13/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+474,475,Acridotheres tristis,Common Myna,"Bhandup Pumping Station, Mumbai",19.1411,72.961,14/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+475,476,Acridotheres tristis,Common Myna,"Pune, Maharashtra, IN (18.553, 73.768)",18.5527,73.7681,05/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+476,477,Acridotheres tristis,Common Myna,"Pune, Maharashtra, IN (18.553, 73.768)",18.5527,73.7681,05/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+477,478,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,12/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+478,479,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,12/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+479,480,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,10/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+480,481,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,10/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+481,482,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,10/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+482,483,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,10/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+483,484,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharji Uddan  Jalgaon, Maharashtra, IN (21.017, 75.567)",21.0173,75.5668,05/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+484,485,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharji Uddan  Jalgaon, Maharashtra, IN (21.017, 75.567)",21.0173,75.5668,05/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+485,486,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharji Uddan  Jalgaon, Maharashtra, IN (21.017, 75.567)",21.0173,75.5668,05/06/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+486,487,Acridotheres tristis,Common Myna,Home,19.1408,72.8633,31/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+487,488,Acridotheres tristis,Common Myna,"Krushi Vidnyan Kendra,Mamurabad Road, Maharashtra, IN (21.041, 75.57)",21.041,75.5697,30/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+488,489,Acridotheres tristis,Common Myna,"Jalgaon, Maharashtra, IN (21.022, 75.572)",21.0224,75.5724,30/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+489,490,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,28/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+490,491,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--500MW Premises,21.0483,75.8529,27/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+491,492,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,26/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+492,493,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,26/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+493,494,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,25/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+494,495,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,25/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+495,496,Acridotheres tristis,Common Myna,"Mahatma Society, Kothrud",18.5001,73.7979,24/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+496,497,Acridotheres tristis,Common Myna,"Shivaji Nagar Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5661,22/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+497,498,Acridotheres tristis,Common Myna,"Shivaji Nagar Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5661,22/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+498,499,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,19/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+499,500,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,19/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+500,501,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,19/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+501,502,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,19/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+502,503,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,19/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+503,504,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,19/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+504,505,Acridotheres tristis,Common Myna,"Mamurabad Road, Maharashtra, IN (21.034, 75.571)",21.0337,75.5708,20/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+505,506,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.026, 75.572)",21.0255,75.5724,20/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+506,507,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,20/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+507,508,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,20/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+508,509,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.025, 75.566)",21.0249,75.5665,18/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+509,510,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.025, 75.566)",21.0249,75.5665,18/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+510,511,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,18/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+511,512,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,18/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+512,513,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,18/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+513,514,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.025, 75.566)",21.0249,75.5665,17/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+514,515,Acridotheres tristis,Common Myna,"Shivaji Nagar Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5661,17/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+515,516,Acridotheres tristis,Common Myna,"Shivaji Nagar Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5661,17/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+516,517,Acridotheres tristis,Common Myna,"Shivaji Nagar Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5661,17/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+517,518,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.025, 75.566)",21.0249,75.5665,14/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+518,519,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.025, 75.566)",21.0249,75.5665,14/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+519,520,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.025, 75.566)",21.0249,75.5665,14/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+520,521,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.025, 75.566)",21.0249,75.5665,14/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+521,522,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,16/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+522,523,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,16/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+523,524,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,12/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+524,525,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,15/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+525,526,Acridotheres tristis,Common Myna,"Bena, Near Vasai Beach",19.3469,72.7909,29/10/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+526,527,Acridotheres tristis,Common Myna,"Kanalada Road, Jalgaon, Maharashtra, IN (21.025, 75.557)",21.0247,75.557,09/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+527,528,Acridotheres tristis,Common Myna,BNHS Conservation Education Centre,19.1627,72.892,13/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+528,529,Acridotheres tristis,Common Myna,BNHS Conservation Education Centre,19.1627,72.892,13/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+529,530,Acridotheres tristis,Common Myna,"58/59 Mayur Colony, Kothrud",18.5048,73.8176,09/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+530,531,Acridotheres tristis,Common Myna,"58/59 Mayur Colony, Kothrud",18.5048,73.8176,09/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+531,532,Acridotheres tristis,Common Myna,"58/59 Mayur Colony, Kothrud",18.5048,73.8176,03/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+532,533,Acridotheres tristis,Common Myna,"Shivaji  Nagar  Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0212,75.566,06/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+533,534,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.03, 75.572)",21.0298,75.5716,05/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+534,535,Acridotheres tristis,Common Myna,"Krushi Vidnyan Kendra,Mamurabad Road, Maharashtra, IN (21.041, 75.57)",21.041,75.5697,05/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+535,536,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.025, 75.566)",21.0249,75.5665,03/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+536,537,Acridotheres tristis,Common Myna,"Goregaon (East), Mumbai, Maharashtra, IN",19.1765,72.8763,02/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+537,538,Acridotheres tristis,Common Myna,"Goregaon (East), Mumbai, Maharashtra, IN",19.1765,72.8763,02/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+538,539,Acridotheres tristis,Common Myna,"Goregaon (East), Mumbai, Maharashtra, IN",19.1765,72.8763,02/05/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+539,540,Acridotheres tristis,Common Myna,"Goregaon (East), Mumbai, Maharashtra, IN",19.1765,72.8763,21/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+540,541,Acridotheres tristis,Common Myna,"Goregaon (East), Mumbai, Maharashtra, IN",19.1765,72.8763,21/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+541,542,Acridotheres tristis,Common Myna,"Goregaon (East), Mumbai, Maharashtra, IN",19.1765,72.8763,21/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+542,543,Acridotheres tristis,Common Myna,"Goregaon (East), Mumbai, Maharashtra, IN",19.1765,72.8763,21/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+543,544,Acridotheres tristis,Common Myna,"United-21 Tiger Camp Resort, Bhamdeli, Moharli",20.201,79.3249,30/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+544,545,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,30/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+545,546,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,30/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+546,547,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,29/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+547,548,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,29/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+548,549,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.025, 75.566)",21.0249,75.5665,28/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+549,550,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.025, 75.566)",21.0249,75.5665,27/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+550,551,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.025, 75.566)",21.0249,75.5665,27/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+551,552,Acridotheres tristis,Common Myna,"Krushi Vidnyan Kendra,Mamurabad Road, Maharashtra, IN (21.041, 75.57)",21.041,75.5697,25/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+552,553,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.03, 75.572)",21.0298,75.5716,25/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+553,554,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,24/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+554,555,Acridotheres tristis,Common Myna,"RBI Quarters Gokuldham, Mumbai",19.1719,72.8714,25/08/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+555,556,Acridotheres tristis,Common Myna,"RBI Quarters Gokuldham, Mumbai",19.1719,72.8714,25/08/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+556,557,Acridotheres tristis,Common Myna,"RBI Quarters Gokuldham, Mumbai",19.1719,72.8714,25/08/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+557,558,Acridotheres tristis,Common Myna,Sanjay Gandhi NP--Safari Trail,19.2322,72.8771,07/01/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+558,559,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,23/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+559,560,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,23/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+560,561,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,23/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+561,562,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,23/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+562,563,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,20/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+563,564,Acridotheres tristis,Common Myna,"Krushi Vidnyan Kendra,Mamurabad Road, Maharashtra, IN (21.041, 75.57)",21.041,75.5697,19/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+564,565,Acridotheres tristis,Common Myna,"Mamurabad Road, Maharashtra, IN (21.034, 75.571)",21.0337,75.5708,19/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+565,566,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.025, 75.566)",21.0249,75.5665,17/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+566,567,Acridotheres tristis,Common Myna,"Shivaji Nagar Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0213,75.5661,16/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+567,568,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,16/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+568,569,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,16/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+569,570,Acridotheres tristis,Common Myna,"Mamurabad Road, Maharashtra, IN (21.034, 75.571)",21.0337,75.5708,14/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+570,571,Acridotheres tristis,Common Myna,"Shivaji  Nagar  Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0212,75.566,12/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+571,572,Acridotheres tristis,Common Myna,"A Wing Shankar Rao Naram Path, Mumbai, Maharashtra, IN (19, 72.827)",18.9995,72.8268,12/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+572,573,Acridotheres tristis,Common Myna,"A Wing Shankar Rao Naram Path, Mumbai, Maharashtra, IN (19, 72.827)",18.9995,72.8268,12/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+573,574,Acridotheres tristis,Common Myna,"A Wing Shankar Rao Naram Path, Mumbai, Maharashtra, IN (19, 72.827)",18.9995,72.8268,12/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+574,575,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,10/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+575,576,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,10/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+576,577,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,09/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+577,578,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,07/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+578,579,Acridotheres tristis,Common Myna,"Goregaon (East), Mumbai, Maharashtra, IN",19.1765,72.8763,05/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+579,580,Acridotheres tristis,Common Myna,"Goregaon (East), Mumbai, Maharashtra, IN",19.1765,72.8763,06/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+580,581,Acridotheres tristis,Common Myna,"Goregaon (East), Mumbai, Maharashtra, IN",19.1765,72.8763,06/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+581,582,Acridotheres tristis,Common Myna,"Goregaon (East), Mumbai, Maharashtra, IN",19.1765,72.8763,06/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+582,583,Acridotheres tristis,Common Myna,"Goregaon (East), Mumbai, Maharashtra, IN",19.1765,72.8763,02/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+583,584,Acridotheres tristis,Common Myna,"Goregaon (East), Mumbai, Maharashtra, IN",19.1765,72.8763,02/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+584,585,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,05/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+585,586,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,05/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+586,587,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,05/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+587,588,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,05/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+588,589,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,05/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+589,590,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,05/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+590,591,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,05/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+591,592,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,05/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+592,593,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,05/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+593,594,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,05/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+594,595,Acridotheres tristis,Common Myna,"Moharli, Maharashtra, IN (20.19, 79.33)",20.19,79.3299,04/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+595,596,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,02/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+596,597,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,02/04/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+597,598,Acridotheres tristis,Common Myna,Deolali Cantonment,19.9033,73.8182,01/12/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+598,599,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,31/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+599,600,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,30/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+600,601,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,30/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+601,602,Acridotheres tristis,Common Myna,Bhusawal Thermal Power Station (BTPS)--Ganesh Mandir & EM Building Area,21.0436,75.8483,30/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+602,603,Acridotheres tristis,Common Myna,"Terrace Of Jeevan Sarita, Tejpal Scheme",19.1068,72.8491,30/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+603,604,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,28/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+604,605,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,28/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+605,606,Acridotheres tristis,Common Myna,"row house 1, harmony back yards",19.4072,72.8349,27/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+606,607,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,26/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+607,608,Acridotheres tristis,Common Myna,"Bhusawal Thermal Power Station (BTPS), Deepnagar",21.0431,75.848,26/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+608,609,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.026, 75.573)",21.0255,75.5727,24/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+609,610,Acridotheres tristis,Common Myna,"Krushi Vidnyan Kendra,Mamurabad Road, Maharashtra, IN (21.041, 75.57)",21.041,75.5697,24/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+610,611,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,25/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+611,612,Acridotheres tristis,Common Myna,"Shyama Prasaad Mukharrji Udyan Old Mamurabad Road to MG Road, Jalgaon, Maharashtra, IN (21.017, 75.566)",21.0169,75.5662,25/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+612,613,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.022, 75.572)",21.022,75.5722,16/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+613,614,Acridotheres tristis,Common Myna,"Nandan Van Colony Bhusawal, Maharashtra, IN (21.042, 75.776)",21.0418,75.7756,17/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+614,615,Acridotheres tristis,Common Myna,"Shri Tarkeshwar Hanuman Mandir, Jalgaon, Maharashtra, IN (21.071, 75.783)",21.070999999999998,75.7827,18/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+615,616,Acridotheres tristis,Common Myna,KJ Somaiya campus,19.0482,72.8745,18/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+616,617,Acridotheres tristis,Common Myna,KJ Somaiya campus,19.0482,72.8745,18/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+617,618,Acridotheres tristis,Common Myna,KJ Somaiya campus,19.0482,72.8745,18/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+618,619,Acridotheres tristis,Common Myna,"Mamurabad Road, Jalgaon, Maharashtra, IN (21.022, 75.572)",21.022,75.5722,14/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+619,620,Acridotheres tristis,Common Myna,"Nandan Van Colony Bhusawal, Maharashtra, IN (21.042, 75.776)",21.0418,75.7756,13/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+620,621,Acridotheres tristis,Common Myna,"Shivaji Nagar,Jalgaon, Maharashtra, IN (21.021, 75.566)",21.0214,75.5661,11/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+621,622,Acridotheres tristis,Common Myna,"Kanalada Road, Jalgaon, Maharashtra, IN (21.022, 75.561)",21.0219,75.5609,09/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+622,623,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,02/03/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+623,624,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,27/02/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+624,625,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,27/02/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+625,626,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,27/02/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+626,627,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,27/02/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+627,628,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,27/02/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+628,629,Acridotheres tristis,Common Myna,"Pimpri-Chinchwad, Maharashtra, IN (18.627, 73.812)",18.6267,73.8118,19/02/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+629,630,Acridotheres tristis,Common Myna,Bhuigaon Village-- Vasai,19.3851,72.7727,10/01/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+630,631,Acridotheres tristis,Common Myna,Bhuigaon Village-- Vasai,19.3851,72.7727,10/01/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+631,632,Acridotheres tristis,Common Myna,Bhuigaon Village-- Vasai,19.3851,72.7727,10/01/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+632,633,Acridotheres tristis,Common Myna,"Pundalik Mandir, Vitthalwadi",18.4833,73.8257,26/01/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+633,634,Acridotheres tristis,Common Myna,Tapti River--behind BTPS,21.0602,75.8353,24/01/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+634,635,Acridotheres tristis,Common Myna,"Pimpri-Chinchwad, Maharashtra, IN (18.627, 73.812)",18.6267,73.8118,24/01/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+635,636,Acridotheres tristis,Common Myna,"Juhu, Mumbai",19.1019,72.828,01/01/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+636,637,Acridotheres tristis,Common Myna,"Shirsoli P.B., Maharashtra, IN (20.933, 75.541)",20.9325,75.5414,13/01/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+637,638,Acridotheres tristis,Common Myna,"Kachara Depo Road,Shivaji nagar, Jalgaon, Maharashtra, IN (21.023, 75.567)",21.023000000000003,75.5668,06/01/2020,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+638,639,Acridotheres tristis,Common Myna,"Shahapur Lake, Shahapur,Maharashtra State Highway 188, Maharashtra, IN (20.722, 75.803)",20.7219,75.8031,15/12/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+639,640,Acridotheres tristis,Common Myna,"Falke Smarak,Pandav Lene Road, Nashik, Maharashtra, IN (19.945, 73.748)",19.9449,73.7479,20/12/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+640,641,Acridotheres tristis,Common Myna,"Kopar, Dombivli West, Dombivli, Maharashtra, India",19.2148,73.0771,03/12/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+641,642,Acridotheres tristis,Common Myna,"Chinchwad station,  CHINCHWAD,",18.6391,73.7929,03/12/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+642,643,Acridotheres tristis,Common Myna,"Chinchwad station,  CHINCHWAD,",18.6391,73.7929,03/12/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+643,644,Acridotheres tristis,Common Myna,"Chinchwad station,  CHINCHWAD,",18.6391,73.7929,03/12/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+644,645,Acridotheres tristis,Common Myna,"Chinchwad station,  CHINCHWAD,",18.6391,73.7929,03/12/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+645,646,Acridotheres tristis,Common Myna,"Chinchwad station,  CHINCHWAD,",18.6391,73.7929,03/12/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+646,647,Acridotheres tristis,Common Myna,"Chinchwad station,  CHINCHWAD,",18.6391,73.7929,02/12/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+647,648,Acridotheres tristis,Common Myna,"110,Abhinav nagar,Mumbai, Maharashtra, IN (19.231, 72.871)",19.2313,72.8706,23/11/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+648,649,Acridotheres tristis,Common Myna,Trimbakeshar,19.9376,73.5367,12/11/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+649,650,Acridotheres tristis,Common Myna,"Powai Lake, Mumbai",19.1208,72.9024,17/11/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+650,651,Acridotheres tristis,Common Myna,"Shreejay nagar,Indiranagar",19.9686,73.7821,26/10/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+651,652,Acridotheres tristis,Common Myna,"Shreejay nagar,Indiranagar",19.9686,73.7821,26/10/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+652,653,Acridotheres tristis,Common Myna,"Shreejay nagar,Indiranagar",19.9686,73.7821,26/10/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+653,654,Acridotheres tristis,Common Myna,"Shreejay nagar,Indiranagar",19.9686,73.7821,26/10/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+654,655,Acridotheres tristis,Common Myna,"Shreejay nagar,Indiranagar",19.9686,73.7821,26/10/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+655,656,Acridotheres tristis,Common Myna,"Shreejay nagar,Indiranagar",19.9686,73.7821,26/10/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+656,657,Acridotheres tristis,Common Myna,"Shreejay nagar,Indiranagar",19.9686,73.7821,26/10/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+657,658,Acridotheres tristis,Common Myna,"Dombivli, Maharashtra, IN (19.219, 73.069)",19.2193,73.0692,02/11/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+658,659,Acridotheres tristis,Common Myna,"Kalyan stn to Kolsewadi Kalyn East , Maharashtra, IN (19.236, 73.131)",19.2359,73.1311,23/09/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+659,660,Acridotheres tristis,Common Myna,"Kalyan stn to Kolsewadi Kalyn East , Maharashtra, IN (19.236, 73.131)",19.2359,73.1311,23/09/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+660,661,Acridotheres tristis,Common Myna,"RIVERWATER PUMP , CANAL,Gahukhede, Maharashtra, IN (21.057, 75.87)",21.0567,75.8702,17/09/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+661,662,Acridotheres tristis,Common Myna,"Chandresh Galaxy, Kalyan west",19.2606,73.1321,14/08/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+662,663,Acridotheres tristis,Common Myna,Dhanwantari cooperative housing society,19.0559,72.9236,20/04/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+663,664,Acridotheres tristis,Common Myna,"Bhandup Pumping Station, Mumbai",19.1411,72.961,14/03/2019,https://cdn.download.ams.birds.cornell.edu/api/v1/asset/
+664,665,Acridotheres tristis,Common Myna,Mumbai,19.076,72.8777,03/05/2020,https://pbs.twimg.com/media/EdIyRmfXgAEqPXm?format=jpg&name=900x900
+665,666,Acridotheres tristis,Common Myna,Solapur,17.6599,75.9064,05/02/2019,https://pbs.twimg.com/media/Dw7Ds1wWkAAecNM?format=jpg&name=900x900
+666,667,Acridotheres tristis,Common Myna,Khopoli,18.7939,73.3346,06/03/2019,https://pbs.twimg.com/media/ECqByDIUIAEo1_s?format=jpg&name=900x900
+667,668,Acridotheres tristis,Common Myna,Lonavala,18.7557,73.4091,07/03/2019,https://pbs.twimg.com/media/D_k7k58UIAA7BJT?format=jpg&name=900x900
+668,669,Acridotheres tristis,Common Myna,Mumbai,19.076,72.8777,06/08/2019,https://pbs.twimg.com/media/EcA5wMvXsAEHhyp?format=jpg&name=900x900
+669,670,Acridotheres tristis,Common Myna,Solapur,17.6599,75.9064,07/02/2019,https://pbs.twimg.com/media/EYWSOKiWoAACx1t?format=jpg&name=900x900
+670,671,Acridotheres tristis,Common Myna,Solapur,17.6599,75.9064,07/02/2019,https://pbs.twimg.com/media/EYMDp-8WAAcuoXO?format=jpg&name=900x900
+671,672,Acridotheres tristis,Common Myna,"Mumbai Suburban, IN-MH, IN",19.07283,72.88261,16/03/2015,https://static.inaturalist.org/photos/1852069/medium.jpg?1431774684
+672,673,Acridotheres tristis,Common Myna,"Pune, India",18.520429999999998,73.85674399999999,21/02/2016,https://static.inaturalist.org/photos/3044457/medium.JPG?1456075643
+673,675,Acridotheres tristis,Common Myna,"Vadgaon Budruk, Pune, Maharashtra, India",18.48119418,73.83211613,24/07/2016,https://static.inaturalist.org/photos/4341324/medium.jpeg?1469340854
+674,676,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.47813536,73.72772299,08/12/2016,https://static.inaturalist.org/photos/4532424/medium.jpeg?1471003655
+675,677,Acridotheres tristis,Common Myna,pune maharashtra india,18.467642,73.819541,20/08/2016,https://static.inaturalist.org/photos/4616259/medium.jpg?1471692161
+676,678,Acridotheres tristis,Common Myna,"Verul, Maharashtra, India",20.02265833,75.17881667,27/02/2017,https://static.inaturalist.org/photos/6405697/medium.jpg?1488214588
+677,679,Acridotheres tristis,Common Myna,"Walwan, Maharashtra 415308, India",17.36215,74.72545600000001,13/04/2017,https://static.inaturalist.org/photos/7024069/medium.jpg?1492066467
+678,680,Acridotheres tristis,Common Myna,"Fort, Mumbai, Maharashtra, India",18.92628954,72.83190161,14/12/2017,https://static.inaturalist.org/photos/12369479/medium.jpeg?1513209987
+679,693,Acridotheres tristis,Common Myna,"PN-110, Abhinav Nagar, Borivali East, Mumbai, Maharashtra 400066, India",19.23120061,72.87063237,29/04/2018,https://static.inaturalist.org/photos/16779624/medium.jpeg?1525005152
+680,697,Acridotheres tristis,Common Myna,"Pune, Maharashtra, India",18.52078247,73.84648132,06/01/2018,https://static.inaturalist.org/photos/18941189/medium.jpeg?1527881808
+681,699,Acridotheres tristis,Common Myna,"NH 48, Mumbai, Maharashtra, IN",19.153816600000003,72.95620523,22/10/2018,https://static.inaturalist.org/photos/27050250/medium.jpg?1540191142
+682,708,Acridotheres tristis,Common Myna,saswad,18.346313000000002,74.030183,19/01/2019,https://static.inaturalist.org/photos/30398732/medium.jpg?1547909487
+683,709,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.50209263,73.86625767,25/01/2019,https://static.inaturalist.org/photos/30625890/medium.jpeg?1548432094
+684,710,Acridotheres tristis,Common Myna,"Kothrud, Pune, Maharashtra, India",18.49086834,73.80370046,02/07/2019,https://static.inaturalist.org/photos/31151579/medium.jpeg?1549558386
+685,711,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.5018085,73.79654359999999,17/02/2019,https://static.inaturalist.org/photos/31515819/medium.jpeg?1550381002
+686,712,Acridotheres tristis,Common Myna,"Gultekdi, Pune, Maharashtra 411037, India",18.4813411,73.86341944,19/02/2019,https://static.inaturalist.org/photos/31605841/medium.jpeg?1550548346
+687,713,Acridotheres tristis,Common Myna,"Gultekdi, Pune, Maharashtra 411037, India",18.4813411,73.86341944,19/02/2019,https://static.inaturalist.org/photos/31605869/medium.jpeg?1550548378
+688,714,Acridotheres tristis,Common Myna,"52, Datar Colony, Kanjurmarg East, Mumbai, Maharashtra 400078, India",19.13673592,72.93471527,03/04/2019,https://static.inaturalist.org/photos/32313918/medium.jpeg?1551671388
+689,715,Acridotheres tristis,Common Myna,"Shop No 1, 2 & 3 Shurud Cooperative Housing Society, Veer Savarkar Road, Datar Colony, Bhandup East, Opposite to Punjab National bank, Mumbai, Maharashtra 400042, India",19.13669586,72.93471527,03/04/2019,https://static.inaturalist.org/photos/32313946/medium.jpeg?1551671425
+690,716,Acridotheres tristis,Common Myna,"Shop No 1, 2 & 3 Shurud Cooperative Housing Society, Veer Savarkar Road, Datar Colony, Bhandup East, Opposite to Punjab National bank, Mumbai, Maharashtra 400042, India",19.136680600000002,72.93471527,03/04/2019,https://static.inaturalist.org/photos/32313960/medium.jpeg?1551671442
+691,717,Acridotheres tristis,Common Myna,"Off Ghodbunder Rd, Behind Hiranandani Meadows, HyderPark Society, Manpada, Thane West, Thane, Maharashtra 400610, India",19.2271783,72.9752266,17/03/2019,https://static.inaturalist.org/photos/32959927/medium.jpg?1552812281
+692,718,Acridotheres tristis,Common Myna,"Kothrud, Pune, Maharashtra, India",18.49502037,73.79827128,23/03/2019,https://static.inaturalist.org/photos/33279797/medium.jpeg?1553315686
+693,719,Acridotheres tristis,Common Myna,"Kothrud, Pune, Maharashtra, India",18.49502037,73.79827128,23/03/2019,https://static.inaturalist.org/photos/33279800/medium.jpeg?1553315692
+694,720,Acridotheres tristis,Common Myna,"Kothrud, Pune, Maharashtra, India",18.49502037,73.79827128,23/03/2019,https://static.inaturalist.org/photos/33279806/medium.jpeg?1553315701
+695,721,Acridotheres tristis,Common Myna,"Kothrud, Pune, Maharashtra, India",18.49502037,73.79827128,23/03/2019,https://static.inaturalist.org/photos/33279813/medium.jpeg?1553315710
+696,722,Acridotheres tristis,Common Myna,"Behind Water Tank, Mahatma Nagar, Parijat Nagar, Nashik, Maharashtra, India",20.000449800000002,73.75329439,25/03/2019,https://static.inaturalist.org/photos/33457108/medium.jpeg?1553554775
+697,723,Acridotheres tristis,Common Myna,"Behind Water Tank, Mahatma Nagar, Parijat Nagar, Nashik, Maharashtra, India",20.000449800000002,73.75329439,25/03/2019,https://static.inaturalist.org/photos/33457177/medium.jpeg?1553554841
+698,724,Acridotheres tristis,Common Myna,"Behind Water Tank, Mahatma Nagar, Parijat Nagar, Nashik, Maharashtra, India",20.00044709,73.7533037,25/03/2019,https://static.inaturalist.org/photos/33457962/medium.jpeg?1553555688
+699,725,Acridotheres tristis,Common Myna,"Behind Water Tank, Mahatma Nagar, Parijat Nagar, Nashik, Maharashtra, India",20.00044709,73.7533037,25/03/2019,https://static.inaturalist.org/photos/33457972/medium.jpeg?1553555697
+700,726,Acridotheres tristis,Common Myna,"Gokulpeth, Nagpur, Maharashtra 440010, India",21.1445295,79.05796966,26/03/2019,https://static.inaturalist.org/photos/33508942/medium.jpeg?1553636679
+701,727,Acridotheres tristis,Common Myna,"Hanging Garden, Simla Nagar, Malabar Hill, Mumbai, Maharashtra 400006, India",18.9570918,72.80449229999999,24/04/2019,https://static.inaturalist.org/photos/35676178/medium.jpeg?1556135962
+702,728,Acridotheres tristis,Common Myna,"Mahadji Sinde Path, Pune, Maharashtra, IN",18.49142446,73.90210788,25/04/2019,https://static.inaturalist.org/photos/35701652/medium.jpg?1556156652
+703,729,Acridotheres tristis,Common Myna,"Jogeshwari Vikhroli Link Road, Mumbai, Maharashtra, IN",19.12378245,72.9125248,21/06/2019,https://static.inaturalist.org/photos/42589099/medium.jpg?1561124498
+704,730,Acridotheres tristis,Common Myna,"Girgaon, Mumbai, Maharashtra, India",18.95507126,72.80809516,07/08/2019,https://static.inaturalist.org/photos/44328168/medium.jpg?1562598137
+705,731,Acridotheres tristis,Common Myna,"1, Paud Road, Pune, Maharashtra, IN",18.51136138,73.81801451,23/07/2019,https://static.inaturalist.org/photos/45839240/medium.jpg?1563881599
+706,732,Acridotheres tristis,Common Myna,"Sangli, Maharashtra, India",17.07295806,74.00862139,08/02/2019,https://static.inaturalist.org/photos/46897418/medium.jpeg?1564738107
+707,733,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.47986412,73.838288,08/03/2019,https://static.inaturalist.org/photos/46979066/medium.jpeg?1564803622
+708,734,Acridotheres tristis,Common Myna,"08/11/395, Sant Tukaram Nagar, Pimpri Colony, Pimpri-Chinchwad, Maharashtra 411018, India",18.61982024,73.82187746,08/03/2019,https://static.inaturalist.org/photos/46979491/medium.jpeg?1564804009
+709,735,Acridotheres tristis,Common Myna,"Hardi, Maharashtra 416702, India",16.66585306,73.494185,15/08/2019,https://static.inaturalist.org/photos/48239501/medium.jpeg?1565852637
+710,736,Acridotheres tristis,Common Myna,"Mohammed Wadi, Pune, Maharashtra, India",18.4751643,73.91631459999999,09/02/2019,https://static.inaturalist.org/photos/50093209/medium.jpeg?1567403546
+711,738,Acridotheres tristis,Common Myna,"Pune, Maharashtra, India",18.5204303,73.85674370000001,19/12/2019,https://static.inaturalist.org/photos/56570719/medium.jpg?1574140332
+712,739,Acridotheres tristis,Common Myna,"NCL Colony, Pashan, Pune, Maharashtra 411008, India",18.54472032,73.80660228,13/12/2019,https://static.inaturalist.org/photos/57893210/medium.jpeg?1576219686
+713,740,Acridotheres tristis,Common Myna,"Dr. Chintamani Deshmukh Garden Mahatma Phule Rd Hanuman Chowk, Mulund East Mumbai, Maharashtra 400081 India (Google, OSM)",19.1727004,72.95996170000001,29/12/2019,https://static.inaturalist.org/photos/58714778/medium.jpg?1577651768
+714,741,Acridotheres tristis,Common Myna,"Nirmal Niketan, lane 2B, near BNCA, Sahu Colony, Karve Nagar, Pune, Maharashtra 411052, India",18.48366908,73.81788734,31/12/2019,https://static.inaturalist.org/photos/58790213/medium.jpeg?1577759268
+715,742,Acridotheres tristis,Common Myna,"4/277, I.B Patel Road, Pahadi Rd, Behind H.P Petrol Pump, Village, Jay Prakash Nagar, Goregaon, Mumbai, Maharashtra 400063, ÐÐ½Ð´Ð¸Ñ",19.1622354,72.8571117,03/11/2019,https://static.inaturalist.org/photos/63245314/medium.jpeg?1583936312
+716,743,Acridotheres tristis,Common Myna,"ÐÐ¾ÑÐ¸Ð²Ð°Ð»Ð¸ ÐÐ¾ÑÑÐ¾Ðº, ÐÑÐ¼Ð±Ð°Ð¸, ÐÐ°ÑÐ°ÑÐ°ÑÑÑÐ°, ÐÐ½Ð´Ð¸Ñ",19.22892855,72.87033495,03/11/2020,https://static.inaturalist.org/photos/63246154/medium.jpeg?1583937190
+717,744,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.49262065,73.79756337,18/03/2020,https://static.inaturalist.org/photos/63816979/medium.jpeg?1584534593
+718,745,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.57819108,73.65577545,19/03/2020,https://static.inaturalist.org/photos/63901184/medium.jpeg?1584609977
+719,746,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.59124916,73.7240525,19/03/2020,https://static.inaturalist.org/photos/63901191/medium.jpeg?1584609986
+720,747,Acridotheres tristis,Common Myna,"Pimple Nilakh, Pimpri-Chinchwad, Maharashtra 411027, India",18.579023199999998,73.7859912,20/03/2020,https://static.inaturalist.org/photos/63993925/medium.jpeg?1584696337
+721,748,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.47632219,73.64295282,26/03/2020,https://static.inaturalist.org/photos/64589292/medium.jpeg?1585213977
+722,749,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.47687552,73.79717868,04/04/2020,https://static.inaturalist.org/photos/65618013/medium.jpeg?1586013593
+723,750,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.48035109,73.63592896,04/04/2020,https://static.inaturalist.org/photos/65618236/medium.jpeg?1586013710
+724,751,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.56282376,73.686677,04/04/2020,https://static.inaturalist.org/photos/65618561/medium.jpeg?1586013894
+725,752,Acridotheres tristis,Common Myna,"Ovalekar Wadi,Owala Village,Takkarda Road,Ghodbunder Road, Thane, India, Gowniwada, Owale, Thane West, Thane, Maharashtra 400607, India",19.2700734,72.9553997,04/06/2020,https://static.inaturalist.org/photos/65870551/medium.jpg?1586161683
+726,753,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.56891724,73.696136,04/08/2020,https://static.inaturalist.org/photos/66121610/medium.jpeg?1586347636
+727,755,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.40328423,73.78766628,14/04/2020,https://static.inaturalist.org/photos/66939577/medium.jpeg?1586880343
+728,756,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.4061222,73.73569352,14/04/2020,https://static.inaturalist.org/photos/66939719/medium.jpeg?1586880400
+729,757,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.45771898,73.6874595,14/04/2020,https://static.inaturalist.org/photos/66940036/medium.jpeg?1586880557
+730,760,Acridotheres tristis,Common Myna,"Bhuigaon, Nalasopara West, Nala Sopara, Maharashtra 401201, India",19.3824677,72.7717775,19/04/2020,https://static.inaturalist.org/photos/67619669/medium.jpg?1587315677
+731,761,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.4073727,73.75895905,20/04/2020,https://static.inaturalist.org/photos/67763327/medium.jpeg?1587395088
+732,762,Acridotheres tristis,Common Myna,Mumbai,19.17850511,72.85753678,25/04/2020,https://static.inaturalist.org/photos/68792053/medium.jpeg?1587829274
+733,764,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.49022355,73.63052997,05/02/2020,https://static.inaturalist.org/photos/70684532/medium.jpeg?1588426709
+734,765,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.46485571,73.75696124,05/02/2020,https://static.inaturalist.org/photos/70684558/medium.jpeg?1588426720
+735,766,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.40306282,73.78440629,05/02/2020,https://static.inaturalist.org/photos/70687096/medium.jpeg?1588427719
+736,767,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.53166531,73.68681661,05/02/2020,https://static.inaturalist.org/photos/70687617/medium.jpeg?1588427899
+737,768,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.51658201,73.75958955,20/05/2020,https://static.inaturalist.org/photos/70688069/medium.jpeg?1588428075
+738,769,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.40043739,73.61889668,20/05/2020,https://static.inaturalist.org/photos/70688341/medium.jpeg?1588428183
+739,770,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.45831988,73.77144003,05/02/2020,https://static.inaturalist.org/photos/70689433/medium.jpeg?1588428578
+740,771,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.42590784,73.75005776,20/05/2020,https://static.inaturalist.org/photos/70690677/medium.jpeg?1588429014
+741,772,Acridotheres tristis,Common Myna,"Kasarvadavali, Thane West, Thane, Maharashtra 400615, India",19.2679379,72.9711542,05/04/2020,https://static.inaturalist.org/photos/71144784/medium.jpg?1588603697
+742,773,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.45265198,73.73309414,05/06/2020,https://static.inaturalist.org/photos/71443954/medium.jpeg?1588766459
+743,774,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.42390526,73.77409332,05/07/2020,https://static.inaturalist.org/photos/71617997/medium.jpeg?1588864873
+744,775,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.40222072,73.79454427,05/07/2020,https://static.inaturalist.org/photos/71627937/medium.jpeg?1588869113
+745,776,Acridotheres tristis,Common Myna,"Nagpur, Maharashtra 440007, India",21.16144969,79.03656185,23/05/2020,https://static.inaturalist.org/photos/74530275/medium.jpeg?1590256085
+746,777,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.49397612,73.7211995,28/05/2020,https://static.inaturalist.org/photos/75523411/medium.jpeg?1590669566
+747,778,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.57505915,73.68816728,06/01/2020,https://static.inaturalist.org/photos/76328275/medium.jpeg?1591017429
+748,779,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.52967759,73.61621634,06/11/2020,https://static.inaturalist.org/photos/78136329/medium.jpeg?1591883885
+749,780,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.45476628,73.77416822,28/06/2020,https://static.inaturalist.org/photos/81314436/medium.jpeg?1593317630
+750,781,Acridotheres tristis,Common Myna,"Pune, IN-MH, IN",18.46589271,73.65826321,28/06/2020,https://static.inaturalist.org/photos/81314548/medium.jpeg?1593317683
+751,782,Acridotheres tristis,Common Myna,"Balpudi, Maharashtra 413132, India",18.177654999999998,74.94794639,07/12/2020,https://static.inaturalist.org/photos/83920859/medium.jpeg?1594545836
+752,783,Acridotheres tristis,Common Myna,"Thane, Maharashtra, India",19.2183307,72.9780897,13/07/2020,https://static.inaturalist.org/photos/84145481/medium.jpg?1594631284
+753,785,Acridotheres tristis,Common Myna,"Akshi, Maharashtra 402204, India",18.62420472,72.88797139,16/07/2020,https://static.inaturalist.org/photos/84672422/medium.jpeg?1594895566
+754,788,Acridotheres tristis,Common Myna,"Kandivali, Veena Sitar, Dahanukar Wadi, Kandivali West, Mumbai, Maharashtra 400067, India",19.20861111,72.83694444,08/01/2020,https://static.inaturalist.org/photos/87567048/medium.jpeg?1596265744
+755,789,Acridotheres tristis,Common Myna,"Hingne Khurd, Pune, Maharashtra, India",18.48370139,73.82570639,08/03/2020,https://static.inaturalist.org/photos/87949431/medium.jpeg?1596425420
+756,790,Acridotheres tristis,Common Myna,"Veer Savarkar Marg, Panch Pakhdi, Thane West, Thane, Maharashtra 400602, India",19.1942624,72.9716543,08/06/2020,https://static.inaturalist.org/photos/88530965/medium.jpeg?1596718450
+757,791,Acridotheres tristis,Common Myna,"Chandrapur, Maharashtra 442401, India",20.2483827,79.36068900000001,08/09/2020,https://static.inaturalist.org/photos/89037422/medium.jpeg?1596971246
+758,792,Acridotheres tristis,Common Myna,"Yeoor Hills, Thane West, Thane, Maharashtra, India",19.233765,72.9445802,14/08/2020,https://static.inaturalist.org/photos/89879876/medium.jpg?1597400225
+759,793,Acridotheres tristis,Common Myna,"BPS, Mulund East, Mumbai, Maharashtra, India",19.14192483,72.96462536,14/08/2020,https://static.inaturalist.org/photos/89885211/medium.jpg?1597404154
+760,796,Acridotheres tristis,Common Myna,"Maharashtra, IN",18.86727601,73.10334787,27/08/2020,https://static.inaturalist.org/photos/92058935/medium.jpg?1598493625
+761,797,Acridotheres tristis,Common Myna,"Khed Shivapur, Maharashtra 412205, India",18.339046300000003,73.83970090000001,09/02/2020,https://static.inaturalist.org/photos/93106805/medium.jpg?1599049214
+762,798,Acridotheres tristis,Common Myna,"Kathore Pr. Savada, Maharashtra, India",21.06460833,75.78783667,09/04/2020,https://static.inaturalist.org/photos/93449256/medium.jpeg?1599244009
+763,799,Acridotheres tristis,Common Myna,"Malad, Malad East, Mumbai, Maharashtra, India",19.1853779,72.8584758,09/05/2020,https://static.inaturalist.org/photos/93615912/medium.jpeg?1599330602
+764,800,Acridotheres tristis,Common Myna,"Ambegaon BK, Pune, Maharashtra, India",18.44674339,73.84856738,09/08/2020,https://static.inaturalist.org/photos/94111611/medium.jpeg?1599542546
+765,801,Acridotheres tristis,Common Myna,"Antarli, Maharashtra 421204, India",19.16069781,73.11292446,09/10/2020,https://static.inaturalist.org/photos/94437374/medium.jpeg?1599736455
+766,802,Acridotheres tristis,Common Myna,"Pashan, Pune, Maharashtra, India",18.54455944,73.7860125,09/12/2020,https://static.inaturalist.org/photos/94727814/medium.jpg?1599887222
+767,803,Acridotheres tristis,Common Myna,"K-Building, Ruby Park, Park Street S.No-210/2, Park Street, Wakad, Pimpri-Chinchwad, Maharashtra 411057, India",18.594096,73.778918,15/09/2020,https://static.inaturalist.org/photos/95353561/medium.jpeg?1600168015
+768,804,Acridotheres tristis,Common Myna,Baramati,18.17917912,74.60779723,16/09/2020,https://static.inaturalist.org/photos/95519905/medium.jpeg?1600257232
+769,805,Acridotheres tristis,Common Myna,"Ratnappa Kumbhar Nagar, Kolhapur, Maharashtra 416013, India",16.66139894,74.24086429,17/09/2020,https://static.inaturalist.org/photos/95674257/medium.jpeg?1600328422
+770,806,Acridotheres tristis,Common Myna,"Lane 2, Pune, MH, IN",18.55699356,73.80782161,17/09/2020,https://static.inaturalist.org/photos/95691713/medium.jpg?1600346406
+771,807,Acridotheres tristis,Common Myna,"Pimprisekam, Maharashtra 425307, India",21.05739061,75.86911775,17/09/2020,https://static.inaturalist.org/photos/95699247/medium.jpeg?1600350971
+772,808,Acridotheres tristis,Common Myna,"L Building, Park Street, Wakad, Pimpri-Chinchwad, Maharashtra 411057, India",18.593723,73.77874399999999,18/09/2020,https://static.inaturalist.org/photos/95829230/medium.jpeg?1600416737
+773,809,Acridotheres tristis,Common Myna,"66, Park Street, Wakad, Pimpri-Chinchwad, Maharashtra 411057, India",18.594034,73.779066,26/09/2020,https://static.inaturalist.org/photos/97255322/medium.jpeg?1601117382
+774,810,Acridotheres tristis,Common Myna,"Pashan, Pune, Maharashtra, India",18.54436213,73.78607065,27/09/2020,https://static.inaturalist.org/photos/97559182/medium.jpg?1601230368
+775,811,Acridotheres tristis,Common Myna,"Yashwant Colony, Ulhasnagar, Maharashtra, India",19.22021949,73.16183142,29/09/2020,https://static.inaturalist.org/photos/97978538/medium.jpeg?1601411025
+776,812,Acridotheres tristis,Common Myna,"Ratnappa Kumbhar Nagar, Kolhapur, Maharashtra 416013, India",16.65671848,74.24389299,10/03/2020,https://static.inaturalist.org/photos/98516869/medium.jpeg?1601727831
+777,813,Acridotheres tristis,Common Myna,"Kirti Nagar, Akola, Maharashtra 444001, India",20.69258067,77.01766479999999,10/05/2020,https://static.inaturalist.org/photos/98852272/medium.jpeg?1601870226
+778,814,Acridotheres tristis,Common Myna,"Shelgaon, Maharashtra 413405, India",18.35334461,75.97091697,23/10/2020,https://static.inaturalist.org/photos/101576425/medium.jpeg?1603446661
+779,815,Acridotheres tristis,Common Myna,"Shelgaon, Maharashtra 413405, India",18.35001853,75.97314119,23/10/2020,https://static.inaturalist.org/photos/101581013/medium.jpeg?1603451736
+780,817,Acridotheres tristis,Common Myna,"Mulund - Airoli Bridge Road, Mulund East, Mumbai, Maharashtra 400081, India",19.154546,72.958065,25/10/2020,https://static.inaturalist.org/photos/101853922/medium.jpeg?1603613472
+781,818,Acridotheres tristis,Common Myna,"Kolhe Hills, Wagh Nagar, Jalgaon",20.98462292,75.53618085,25/10/2020,https://static.inaturalist.org/photos/101867191/medium.jpeg?1603625322
