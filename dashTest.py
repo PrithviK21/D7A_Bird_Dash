@@ -32,7 +32,7 @@ app.layout = html.Div([
             dcc.Dropdown(
                 id='product-dropdown',
                 options=dict_names,
-                value=['Common Myna']
+                value='Common Myna'
             ),
             dcc.Dropdown(
                 id='graph-type',
