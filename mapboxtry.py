@@ -10,15 +10,13 @@ px.set_mapbox_access_token(token)
 global df
 df = pd.read_csv("finalMergedBirds/final_birds_fixed_dates.csv")
 # df = df.loc[df['Common_Name'] == 'Greater Flamingo']
-df['Date'] = df['Date'].apply(lambda x: (int)(x.split('/')[2]))
+df['Date'] = df['Date'].apply(lambda x: int(x.split('/')[2]))
 df = df.sort_values('Date', ascending=True)
 fig = px.scatter_mapbox(
     df,
     lat=df['Latitude'],
     lon=df['Longitude'],
     color='Common_Name',
-    animation_frame="Date",
-    animation_group='Common_Name',
     width=800,
     height=600,
 )
@@ -27,17 +25,26 @@ fig.update_layout(margin=dict(t=0, b=0, l=0, r=0))
 app = dash.Dash(__name__)
 server = app.server
 
-app.layout = html.Div([
-    html.Div([dcc.Graph(id='mapboi', figure=fig)],
-             style={'top': '5%', 'left': '22%', 'margin': 'auto', 'position': 'absolute',
-                    'box-shadow': '5px 5px #363636'}),
-    html.Footer(
-        ['Copyright my foot'],
-        style={'text-align': 'center', 'position': 'absolute', 'bottom': '0',
-               'width': '100%', 'height': '2.5rem',
-               'background-color': 'DarkSalmon', 'color': 'white'}
-    )
-], style={'background-color': '#385d5f', 'position': 'relative','min-height': '100vh'})
+app.layout = html.Div(
+    [
+        html.Header([
+            html.Div([
+                html.Nav([
+                    html.A('Map', href='#'),
+                    html.A('Graphs', href='#'),
+                    html.A('About', href='#'),
+                ])
+            ], className='wrapper')
+        ]),
+        html.Div(className='graph', children=[dcc.Graph(id='mapboi', figure=fig)], ),
+
+        html.Footer(
+            ['Copyright my foot'],
+            className='footer',
+        )
+
+    ], style={'background-color': '#385d5f', 'position': 'relative', 'min-height': '100vh'}
+)
 
 if __name__ == '__main__':
     app.run_server(debug=True)
