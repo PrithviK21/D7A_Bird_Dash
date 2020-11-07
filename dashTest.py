@@ -12,7 +12,14 @@ global dict_names
 df = pd.read_csv("finalMergedBirds/final_birds_fixed_dates.csv")
 app = dash.Dash(__name__)
 server = app.server
-
+stuff = dict()
+for name in df['Common_Name']:
+    stuff[name] = df['Common_Name'].value_counts()[name]
+sdf = pd.DataFrame({
+    'Common_Name': stuff.keys(),
+    'Count': stuff.values()}
+)
+        
 def create_dict_list_of_product():
     dictlist = []
     unique_list = df.Common_Name.unique()
@@ -78,13 +85,6 @@ def generate_pi(dropdown_value, graph_type):
     if graph_type == 'BAR':
         fig = px.bar(xdf, x=xdf.Date, y=xdf.index, title='bar graph')
     elif graph_type == 'PIE':
-        stuff = dict()
-        for name in df['Common_Name']:
-            stuff[name] = df['Common_Name'].value_counts()[name]
-        sdf = pd.DataFrame({
-            'Common_Name': stuff.keys(),
-            'Count': stuff.values()}
-        )
         fig = px.pie(sdf, values = 'Count', names = 'Common_Name')
     elif graph_type == 'LINE':
         fig = px.line(xdf, y=xdf.Date, x=xdf.index, title='line graph')
