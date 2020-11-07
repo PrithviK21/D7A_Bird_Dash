@@ -77,7 +77,15 @@ def generate_pi(dropdown_value, graph_type):
     xdf = df.loc[df['Common_Name'] == dropdown_value]
     if graph_type == 'BAR':
         fig = px.bar(xdf, x=xdf.Date, y=xdf.index, title='bar graph')
-    #elif graph_type == 'PIE':
+    elif graph_type == 'PIE':
+        stuff = dict()
+        for name in df['Common_Name']:
+            stuff[name] = df['Common_Name'].value_counts()[name]
+        sdf = pd.DataFrame({
+            'Common_Name': stuff.keys(),
+            'Count': stuff.values()}
+        )
+        fig = px.pie(sdf, values = 'Count', names = 'Common_Name')
     elif graph_type == 'LINE':
         fig = px.line(xdf, y=xdf.Date, x=xdf.index, title='line graph')
     return fig
