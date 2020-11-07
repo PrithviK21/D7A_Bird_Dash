@@ -23,6 +23,15 @@ def create_dict_list_of_product():
 
 dict_names = create_dict_list_of_product()
 
+stuff = dict()
+for name in df['Common_Name']:
+    stuff[name] = df['Common_Name'].value_counts()[name]
+sdf = pd.DataFrame({
+    'Common_Name': stuff.keys(),
+    'Count': stuff.values()}
+)
+piec = px.pie(sdf, values = 'Count', names = 'Common_Name')
+
 app.layout = html.Div([
         dcc.Tabs([
         dcc.Tab(label="Tab One", children=[
@@ -37,11 +46,17 @@ app.layout = html.Div([
             dcc.Dropdown(
                 id='graph-type',
                 options=[{'value': 'BAR', 'label': 'Bar'},
-                         {'value': 'LINE', 'label': 'Line'},
-                         {'value': 'PIE', 'label': 'Pie(defunct)'}],
+                         {'value': 'LINE', 'label': 'Line'}],
                 value='BAR'),
-            dcc.Graph(id='pieboi')
-        ], style={'width': '40%', 'display': 'block'})]),
+            dcc.Graph(id = 'graphs')
+        ], style={'width': '40%', 'display': 'inline-block'}),
+        html.Div([
+            html.H1("Pie Chart"),
+            dcc.Graph(
+                id='pie',
+                figure=piec
+            )
+        ], style={'width': '40%', 'display': 'inline-block'})]),
         dcc.Tab(label="Tab Two", children=[
         html.Div([
             html.H2("OG DATASET"),
@@ -72,24 +87,14 @@ def generate_table(selected_dropdown_value=None, max_rows=20):
     data = df.to_dict('records')
     return data
 
-@app.callback(Output('pieboi', 'figure'), [Input('product-dropdown', 'value'), Input('graph-type', 'value')])
-def generate_pi(dropdown_value, graph_type):
+@app.callback(Output('graphs', 'figure'), [Input('product-dropdown', 'value'), Input('graph-type', 'value')])
+def generate_graph(dropdown_value, graph_type):
     xdf = df.loc[df['Common_Name'] == dropdown_value]
     if graph_type == 'BAR':
         fig = px.bar(xdf, x=xdf.Date, y=xdf.index, title='bar graph')
-    elif graph_type == 'PIE':
-        stuff = dict()
-        for name in df['Common_Name']:
-            stuff[name] = df['Common_Name'].value_counts()[name]
-        sdf = pd.DataFrame({
-            'Common_Name': stuff.keys(),
-            'Count': stuff.values()}
-        )
-        fig = px.pie(sdf, values = 'Count', names = 'Common_Name')
     elif graph_type == 'LINE':
         fig = px.line(xdf, y=xdf.Date, x=xdf.index, title='line graph')
     return fig
-
 
 if __name__ == '__main__':
     app.run_server(debug=True)
