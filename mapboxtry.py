@@ -1,5 +1,6 @@
 import pandas as pd
 import dash
+from dash.dependencies import Input, Output
 import dash_core_components as dcc
 import dash_html_components as html
 import plotly.express as px
@@ -8,13 +9,16 @@ token = 'pk.eyJ1IjoicHJpdGh2aWsyMSIsImEiOiJja2g0eHBpamkwYXB5MnNrMDNjaXFvNnRhIn0.
 px.set_mapbox_access_token(token)
 global df
 df = pd.read_csv("finalMergedBirds/final_birds_fixed_dates.csv")
-df['Date'] = df['Date'].apply(lambda x: int(x.split('/')[2]))
-df = df.sort_values('Date', ascending=True)
+picdf = df[['Common_Name', 'mediaDownloadUrl']].copy()
+picdf = picdf[picdf['mediaDownloadUrl'] != 'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/']
+#df = df[df['mediaDownloadUrl'] != 'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/']
 fig = px.scatter_mapbox(
     df,
     lat=df['Latitude'],
     lon=df['Longitude'],
     color='Common_Name',
+    hover_name='Common_Name',
+    hover_data={'Common_Name': False, 'Date': True, 'mediaDownloadUrl': ':[0:0]'},
     width=800,
     height=600,
 )
@@ -35,14 +39,25 @@ app.layout = html.Div(
                 ])
             ], className='wrapper')
         ]),
-        html.Div(className='graph', children=[dcc.Graph(id='mapboi', figure=fig)], ),
-
+        html.Div(className='graphwindow', children=[dcc.Graph(id='mapboi', figure=fig)]),
+        html.Div([html.Img(src='/assets/flam2.jpg',className='birdimg', id='birdimg')], className='frame'),
         html.Footer(
             ['Copyright my foot'],
             className='footer',
         )
     ], style={'background-color': '#449bb3', 'height': '100vh'}
 )
+
+
+@app.callback(Output('birdimg', 'src'),[Input('mapboi', 'hoverData')])
+def return_birdimg(hover_data):
+    m = hover_data['points'][0]['customdata'][2]
+    name = hover_data['points'][0]['customdata'][0]
+    bruh = picdf[picdf['Common_Name'] == name].sample().iloc[0]['mediaDownloadUrl']
+    if m == 'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/':
+        return bruh
+    return m
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)
