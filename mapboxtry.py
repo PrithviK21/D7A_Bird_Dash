@@ -21,6 +21,7 @@ fig = px.scatter_mapbox(
     hover_data={'Common_Name': False, 'Date': True, 'mediaDownloadUrl': ':[0:0]'},
     width=800,
     height=600,
+    opacity=0.7,
 )
 fig.update_layout(mapbox_style='dark',paper_bgcolor='#96dcd4')
 fig.update_layout(margin=dict(t=0, b=0, l=0, r=0))
