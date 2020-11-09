@@ -79,7 +79,7 @@ nav a{
     position: relative;
     top: 450px;
     background: #ddd;
-    height: 1500px;
+    height: 500px;
 }
 
 .content h2{
@@ -93,7 +93,7 @@ nav a{
 
 .content p{
     padding: 2% 0;
-    font-family: alef;
+    font-family: arial;
     line-height: 30px;
 }
 

@@ -3,7 +3,11 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import plotly.express as px
-li = 'Welcome to our app!. We have built an app that shows you the population distribution and records of 7 bird species that we hold close to our heart. We have compiled our data from various sources around the internet including twitter. We have spared no effort in building this app. Our goal with this app is to help researchers and bird enthusiasts to easily access records and maps based on bird sighting data in the great state of Maharashtra.We have tried to build this app with a friendly user interface..'
+li = 'Welcome to our app!. We have built an app that shows you the population distribution and records of 7 bird species' \
+     ' that we hold close to our heart. We have compiled our data from various sources around the internet including twitter.' \
+     ' We have spared no effort in building this app. Our goal with this app is to help researchers and bird enthusiasts' \
+     ' to easily access records and maps based on bird sighting data in the great state of Maharashtra.We have tried to build' \
+     ' this app with a user-friendly interface..'
 app = dash.Dash(__name__)
 server = app.server
 
@@ -31,7 +35,7 @@ app.layout = html.Div(
             ['Copyright my foot'],
             className='footer',
         )
-    ], style={'background-color': '#F5360B', 'height': '2000px'}
+    ], style={'background-color': '#449bb3', 'height': '1000px'}
 )
 
 if __name__ == '__main__':
