@@ -15,6 +15,7 @@ app.layout = html.Div(
                 html.Nav([
                     html.A('Map', href='#'),
                     html.A('Graphs', href='#'),
+                    html.A('Dataset', href='#'),
                     html.A('About', href='#'),
                 ])
             ], className='wrapper')

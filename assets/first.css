@@ -45,6 +45,7 @@ nav{
 nav a{
     text-decoration: none;
     font-family: code;
+	font-weight: bold;
     letter-spacing: 4px;
     font-size: 20px;
     margin: 0 10px;
@@ -99,12 +100,11 @@ nav a{
 .graphwindow
 {
     display: inline-block;
-    top: 15%;
+    top: 28%;
     left: 3%;
     margin: auto;
-    width: 45%;
+    width: 50%;
     position: absolute;
-    box-shadow: 5px 5px #363636;
 }
 
 .frame
@@ -112,19 +112,58 @@ nav a{
     height: 380px;
     position: absolute;
     width: 42%;
-    top: 113px;
+    top: 220px;
     right: 0;
     padding: 5px;
+	overflow: auto;
 }
+
+.frame h2
+{
+	font-family: code;
+	font-weight: bold;
+	font-size: 30px;
+	color: #d4fffa;
+	-webkit-text-stroke: 0.5px black;
+}
+	
 
 .birdimg
 {
-    width: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    height: auto;
     position: relative;
     display: inline-block;
     vertical-align: middle;
 }
+.DateInput
+{
+    width: 170px;
+	border: 3px solid black;
+}
 
+.DateInput_input
+{
+	background-color: #b5fff6;
+	font-family: code;
+	font-weight: bold;
+}
+.DateRangePickerInput {
+    background-color: #000;
+    display: inline-block;
+	border: 1px solid black;
+	box-shadow: 3px 3px #363636;
+}
+
+.DateRangePickerInput_arrow 
+{
+    color: #fff;
+}
+.DateRangePickerInput_arrow_svg 
+{
+    fill: #fff;
+ }
 .footer
 {
     position: fixed;
