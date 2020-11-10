@@ -50,22 +50,25 @@ app.layout = html.Div([
         dcc.Dropdown(
             id='product-dropdown',
             options=dict_names,
-            placeholder='Select Bird(s)'
+            multi=True,
+            placeholder='Select Birds'
         ),
         dcc.Dropdown(
             id='graph-type',
             options=[{'value': 'BAR', 'label': 'Bar'},
                      {'value': 'LINE', 'label': 'Line'}],
-            value='BAR'),
+            value='BAR')
+    ], className='dropdownFrame', style={'top': '17%','width': '25%', 'left': '5%', 'position': 'absolute', 'display': 'block'}),
+    html.Div([
         dcc.Graph(id = 'graphs')
-    ], style={'width': '40%', 'display': 'inline-block'}),
+    ], style={'top': '30%', 'width': '40%', 'position': 'absolute','display': 'block'}),
     html.Div([
         html.H1("Pie Chart"),
         dcc.Graph(
             id='pie',
             figure=piec
         )
-    ], style={'width': '40%', 'display': 'inline-block'}),
+    ], style={'top': '30%', 'left': '50%', 'width': '40%', 'position': 'absolute', 'display': 'block'}),
     html.Div(className='CalendarFrame', children=[
             dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
                                 max_date_allowed=date(2020, 10, 25),
@@ -74,16 +77,31 @@ app.layout = html.Div([
                                 end_date=date(2020, 10, 25),
                                 display_format='Do/MMM/YYYY',
                                 id="Date_Range")
-    ], style={'top': '17%', 'right': '5%', 'position': 'absolute', 'display': 'inline-block'})
+    ], style={'top': '17%', 'right': '5%', 'position': 'absolute', 'display': 'block'})
 ])
 
-@app.callback(Output('graphs', 'figure'), [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date'), Input('product-dropdown', 'value'), Input('graph-type', 'value')])
-def generate_graph(dropdown_value, graph_type):
-    xdf = df.loc[df['Common_Name'] == dropdown_value]
+@app.callback(Output('graphs', 'figure'), [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date'),Input('graph-type', 'value'), Input('product-dropdown', 'value')])
+def generate_graph(start_date, end_date, graph_type, selected_dropdown_value = None):
+    if (selected_dropdown_value is None) or (len(selected_dropdown_value) == 0):
+        datedf = df[(df['Date'] < end_date) & (df['Date'] > start_date)]
+        cdf = sdf
+    else:
+        if type(selected_dropdown_value) is str:
+            xdf = df[df['Common_Name'] == selected_dropdown_value]
+        else:
+            xdf = df[(df['Common_Name'].isin(selected_dropdown_value))]
+        datedf = xdf[(xdf['Date'] < end_date) & (xdf['Date'] > start_date)]
+        count_dict = dict()
+        for name in selected_dropdown_value:
+            count_dict[name] = datedf['Common_Name'].value_counts()[name]
+        cdf = pd.DataFrame({
+            'Common_Name': count_dict.keys(),
+            'Count': count_dict.values()}
+        )
     if graph_type == 'BAR':
-        fig = px.bar(xdf, x=xdf.Date, y=xdf.index, title='bar graph')
+        fig = px.bar(cdf, x='Common_Name', y='Count', title='bar graph')
     elif graph_type == 'LINE':
-        fig = px.line(xdf, y=xdf.Date, x=xdf.index, title='line graph')
+        fig = px.line(cdf, x='Common_Name', y='Count', title='bar graph')
     return fig
 
 if __name__ == '__main__':
