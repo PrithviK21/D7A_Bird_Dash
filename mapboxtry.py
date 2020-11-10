@@ -56,7 +56,7 @@ app.layout = html.Div(
                                 end_date=date(2020, 10, 25),
                                 display_format='Do/MMM/YYYY',
                                 id="Date_Range")
-        ], style={'top': '160px', 'left': '3%', 'position': 'absolute'}),
+        ], style={'top': '18%', 'left': '3%', 'position': 'absolute'}),
         html.Div([html.H2(id='birdtitle'),html.Img(src='/assets/flam2.jpg', className='birdimg', id='birdimg')], className='frame'),
         html.Footer(
             ['Copyright my foot'],
