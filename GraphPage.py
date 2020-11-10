@@ -33,57 +33,38 @@ sdf = pd.DataFrame({
 piec = px.pie(sdf, values = 'Count', names = 'Common_Name')
 
 app.layout = html.Div([
+    html.Header([
         html.Div([
-            html.H1('Birds be wildin'),
-            html.H2('Choose a Bird'),
-            dcc.Dropdown(
-                id='product-dropdown',
-                options=dict_names,
-                value='Common Myna'
-            ),
-            dcc.Dropdown(
-                id='graph-type',
-                options=[{'value': 'BAR', 'label': 'Bar'},
-                         {'value': 'LINE', 'label': 'Line'}],
-                value='BAR'),
-            dcc.Graph(id = 'graphs')
-        ], style={'width': '40%', 'display': 'inline-block'}),
-
-        html.Div([
-            html.H1("Pie Chart"),
-            dcc.Graph(
-                id='pie',
-                figure=piec
-            )
-        ], style={'width': '40%', 'display': 'inline-block'}),
-        # html.Div([
-        #     html.H2("OG DATASET"),
-        #     dash_table.DataTable(
-        #         id='my-table',
-        #         columns=[{"name": i, "id": i} for i in df.columns],
-        #         style_cell={
-        #             'textAlign': 'left',
-        #             'overflow': 'hidden',
-        #             'textOverflow': 'ellipsis',
-        #             'maxWidth': 0,
-        #         },
-        #         tooltip_data=[
-        #             {
-        #                 column: {'value': str(value), 'type': 'markdown'}
-        #                 for column, value in row.items()
-        #             } for row in df.to_dict('rows')
-        #         ],
-        #         tooltip_duration=None
-        #         )
-        # ])
+            html.Div([html.A('Bird Name', href='#')], className='logo'),
+            html.Nav([
+                html.A('Map', href='#'),
+                html.A('Graphs', href='#'),
+                html.A('Dataset', href='#'),
+                html.A('About', href='#'),
+            ])
+        ], className='wrapper')
+    ]),
+    html.Div([
+        dcc.Dropdown(
+            id='product-dropdown',
+            options=dict_names,
+            placeholder='Select Bird(s)'
+        ),
+        dcc.Dropdown(
+            id='graph-type',
+            options=[{'value': 'BAR', 'label': 'Bar'},
+                     {'value': 'LINE', 'label': 'Line'}],
+            value='BAR'),
+        dcc.Graph(id = 'graphs')
+    ], style={'width': '40%', 'display': 'inline-block'}),
+    html.Div([
+        html.H1("Pie Chart"),
+        dcc.Graph(
+            id='pie',
+            figure=piec
+        )
+    ], style={'width': '40%', 'display': 'inline-block'}),
 ])
-
-
-# @app.callback(Output('my-table', 'data'), [Input('product-dropdown', 'value')])
-# def generate_table(selected_dropdown_value=None, max_rows=20):
-#     filt_df = df.loc[df['Common_Name'] == selected_dropdown_value]
-#     data = df.to_dict('records')
-#     return data
 
 @app.callback(Output('graphs', 'figure'), [Input('product-dropdown', 'value'), Input('graph-type', 'value')])
 def generate_graph(dropdown_value, graph_type):
