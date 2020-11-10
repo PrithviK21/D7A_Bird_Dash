@@ -33,7 +33,6 @@ sdf = pd.DataFrame({
 piec = px.pie(sdf, values = 'Count', names = 'Common_Name')
 
 app.layout = html.Div([
-
         html.Div([
             html.H1('Birds be wildin'),
             html.H2('Choose a Bird'),
