@@ -35,7 +35,7 @@ app.layout = html.Div(
             ['Copyright my foot'],
             className='footer',
         )
-    ], style={'background-color': '#449bb3', 'height': '1000px'}
+    ], style={'background-color': '#449bb3', 'height': '1300px'}
 )
 
 if __name__ == '__main__':
