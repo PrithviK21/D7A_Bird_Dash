@@ -27,36 +27,27 @@ def create_dict_list_of_product():
 dict_names = create_dict_list_of_product()
 
 app.layout = html.Div([
-    # html.Header([
-    #     html.Div([
-    #         html.Div([html.A('Bird Name', href='#')], className='logo'),
-    #         html.Nav([
-    #             html.A('Map', href='#'),
-    #             html.A('Graphs', href='#'),
-    #             html.A('Dataset', href='#'),
-    #             html.A('About', href='#'),
-    #         ])
-    #     ], className='wrapper')
-    # ]),
+    html.Header([
+        html.Div([
+            html.Div([html.A('Bird Name', href='#')], className='logo'),
+            html.Nav([
+                html.A('Map', href='#'),
+                html.A('Graphs', href='#'),
+                html.A('Dataset', href='#'),
+                html.A('About', href='#'),
+            ])
+        ], className='wrapper')
+    ]),
     html.Div([
         html.Div([
-            html.H1('Birds be wildin'),
+            #html.H1('Birds be wildin'),
             html.H2('Choose a Bird'),
             dcc.Dropdown(
                 id='product-dropdown',
                 options=dict_names,
                 value='Common Myna'
             ),
-        ], style={'width': '40%', 'display': 'block'}),
-        html.Div(className='CalendarFrame', children=[
-            dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
-                                max_date_allowed=date(2020, 10, 25),
-                                initial_visible_month=date(2020, 10, 25),
-                                start_date=date(2015, 1, 1),
-                                end_date=date(2020, 10, 25),
-                                display_format='Do/MMM/YYYY',
-                                id="Date_Range")
-        ], style={'top': '3%', 'right': '3%', 'position': 'absolute', 'display': 'inline-block'}),
+        ], className='dropdownFrame',style={'width': '40%', 'display': 'block'}),
         html.Div([
             html.H2("OG DATASET"),
             dash_table.DataTable(
@@ -76,9 +67,18 @@ app.layout = html.Div([
                 ],
                 tooltip_duration=None
             )
-        ], style={'width': '100%', 'display': 'block'})
-    ])
-])
+        ],className='datasetFrame', style={'width': '100%', 'display': 'block'})
+    ], style={'top': '110px', 'position': 'relative'}),
+    html.Div(className='CalendarFrame', children=[
+            dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
+                                max_date_allowed=date(2020, 10, 25),
+                                initial_visible_month=date(2020, 10, 25),
+                                start_date=date(2015, 1, 1),
+                                end_date=date(2020, 10, 25),
+                                display_format='Do/MMM/YYYY',
+                                id="Date_Range")
+        ], style={'top': '110px', 'right': '3%', 'position': 'absolute', 'display': 'inline-block'}),
+], style={'background-color': '#449bb3', 'min-height': '1000px', 'height': 'auto'})
 
 @app.callback(Output('my-table', 'data'), [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date'), Input('product-dropdown', 'value')])
 def generate_table(start_date, end_date, selected_dropdown_value = None, max_rows=20):

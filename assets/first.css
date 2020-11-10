@@ -7,6 +7,32 @@ body{
     text-align: center;
 }
 
+@font-face {
+    font-family: 'code';
+    src: url('/assets/fonts/code_bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/code_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#newfont{
+    font-family:'code';
+}
+
+@font-face
+{
+    font-family: 'liberator';
+    src: url('/assets/fonts/liberator-medium-webfont.woff2') format('woff2'),
+         url('/assets/fonts/liberator-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#newfont
+{
+    font-family:'liberator';
+}
+
 .wrapper{
     max-width: 1170px;
     width: auto;
@@ -79,7 +105,7 @@ nav a{
     position: relative;
     top: 450px;
     background: #ddd;
-    height: 500px;
+    height: 600px;
 }
 
 .content h2{
