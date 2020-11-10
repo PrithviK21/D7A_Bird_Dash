@@ -47,12 +47,14 @@ app.layout = html.Div([
                 options=dict_names,
                 multi=True
             ),
-        ], className='dropdownFrame',style={'width': '25%','left':'5%','position':'relative', 'display': 'block'}),
+        ], className='dropdownFrame', style={'width': '25%', 'left': '5%', 'position': 'relative', 'display': 'block'}),
         html.Div([
             dash_table.DataTable(
                 id='my-table',
                 columns=[{"name": i, "id": i} for i in df.columns],
                 sort_action='native',
+                page_size=30,
+                style_table={'height': '490px', 'overflowY': 'auto'},
                 style_cell={
                     'textAlign': 'left',
                     'overflow': 'hidden',
@@ -76,24 +78,28 @@ app.layout = html.Div([
                     'fontWeight': 'bold',
                     'border': '2px solid black'
                 },
-                tooltip_duration=None
             )
         ], className='DatasetFrame')
-    ],className='containerdiv', style={'top': '110px', 'position': 'relative'}),
+    ], className='containerdiv', style={'top': '110px', 'position': 'relative'}),
     html.Div([
-            dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
-                                max_date_allowed=date(2020, 10, 25),
-                                initial_visible_month=date(2020, 10, 25),
-                                start_date=date(2015, 1, 1),
-                                end_date=date(2020, 10, 25),
-                                display_format='Do/MMM/YYYY',
-                                id="Date_Range")
-        ], style={'top': '17%', 'right': '5%', 'position': 'absolute', 'display': 'inline-block'}),
-], style={'background-color': '#449bb3', 'min-height': '1500px', 'height': 'auto'})
+        dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
+                            max_date_allowed=date(2020, 10, 25),
+                            initial_visible_month=date(2020, 10, 25),
+                            start_date=date(2015, 1, 1),
+                            end_date=date(2020, 10, 25),
+                            display_format='Do/MMM/YYYY',
+                            id="Date_Range")
+    ], style={'top': '17%', 'right': '5%', 'position': 'absolute', 'display': 'inline-block'}),
+    html.Footer(
+            ['Copyright my foot'],
+            className='footer',
+        )
+], style={'background-color': '#449bb3', 'min-height': '790px'})
 
 
-@app.callback(Output('my-table', 'data'), [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date'), Input('product-dropdown', 'value')])
-def generate_table(start_date, end_date, selected_dropdown_value = None, max_rows=20):
+@app.callback(Output('my-table', 'data'),
+              [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date'), Input('product-dropdown', 'value')])
+def generate_table(start_date, end_date, selected_dropdown_value=None, max_rows=20):
     if (selected_dropdown_value is None) or (len(selected_dropdown_value) == 0):
         datedf = df[(df['Date'] < end_date) & (df['Date'] > start_date)]
     else:
