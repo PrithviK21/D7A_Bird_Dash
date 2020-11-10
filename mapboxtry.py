@@ -48,7 +48,7 @@ app.layout = html.Div(
             ], className='wrapper')
         ]),
         html.Div(className='graphwindow', children=[dcc.Graph(id='mapboi', figure=fig, responsive=True)]),
-        html.Div(className='CalendarFrame', children=[
+        html.Div([
             dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
                                 max_date_allowed=date(2020, 10, 25),
                                 initial_visible_month=date(2020, 10, 25),
@@ -76,7 +76,7 @@ def return_birdimg(hover_data):
             return [bruh, name]
         return [m, name]
     else:
-        return 'assets/flam2.jpg'
+        return ['assets/flam2.jpg', 'Common Name']
 
 
 @app.callback(Output('mapboi', 'figure'), [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date')])

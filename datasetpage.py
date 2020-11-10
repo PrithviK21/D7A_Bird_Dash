@@ -16,6 +16,7 @@ df['Date'] = pd.to_datetime(df['Date'])
 app = dash.Dash(__name__)
 server = app.server
 
+
 def create_dict_list_of_product():
     dictlist = []
     unique_list = df.Common_Name.unique()
@@ -39,37 +40,47 @@ app.layout = html.Div([
         ], className='wrapper')
     ]),
     html.Div([
+        html.H1("Dataset"),
         html.Div([
-            html.H2('Choose a Bird'),
             dcc.Dropdown(
                 id='product-dropdown',
                 options=dict_names,
-                value='Common Myna',
                 multi=True
             ),
-        ], className='dropdownFrame',style={'width': '40%', 'display': 'block'}),
+        ], className='dropdownFrame',style={'width': '25%','left':'5%','position':'relative', 'display': 'block'}),
         html.Div([
-            html.H2("OG DATASET"),
             dash_table.DataTable(
                 id='my-table',
                 columns=[{"name": i, "id": i} for i in df.columns],
+                sort_action='native',
                 style_cell={
                     'textAlign': 'left',
                     'overflow': 'hidden',
                     'textOverflow': 'ellipsis',
                     'maxWidth': 0,
                 },
-                tooltip_data=[
+                style_cell_conditional=[
                     {
-                        column: {'value': str(value), 'type': 'markdown'}
-                        for column, value in row.items()
-                    } for row in df.to_dict('rows')
+                        'if': {'column_id': c},
+                        'textAlign': 'left'
+                    } for c in ['Date', 'Region']
                 ],
+                style_data_conditional=[
+                    {
+                        'if': {'row_index': 'odd'},
+                        'backgroundColor': 'rgb(248, 248, 248)'
+                    }
+                ],
+                style_header={
+                    'backgroundColor': 'rgb(230, 230, 230)',
+                    'fontWeight': 'bold',
+                    'border': '2px solid black'
+                },
                 tooltip_duration=None
             )
-        ],className='datasetFrame', style={'width': '100%', 'display': 'block'})
-    ], style={'top': '110px', 'position': 'relative'}),
-    html.Div(className='CalendarFrame', children=[
+        ], className='DatasetFrame')
+    ],className='containerdiv', style={'top': '110px', 'position': 'relative'}),
+    html.Div([
             dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
                                 max_date_allowed=date(2020, 10, 25),
                                 initial_visible_month=date(2020, 10, 25),
@@ -77,12 +88,13 @@ app.layout = html.Div([
                                 end_date=date(2020, 10, 25),
                                 display_format='Do/MMM/YYYY',
                                 id="Date_Range")
-        ], style={'top': '110px', 'right': '3%', 'position': 'absolute', 'display': 'inline-block'}),
-], style={'background-color': '#449bb3', 'min-height': '1000px', 'height': 'auto'})
+        ], style={'top': '17%', 'right': '5%', 'position': 'absolute', 'display': 'inline-block'}),
+], style={'background-color': '#449bb3', 'min-height': '1500px', 'height': 'auto'})
+
 
 @app.callback(Output('my-table', 'data'), [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date'), Input('product-dropdown', 'value')])
 def generate_table(start_date, end_date, selected_dropdown_value = None, max_rows=20):
-    if len(selected_dropdown_value) == 0:
+    if (selected_dropdown_value is None) or (len(selected_dropdown_value) == 0):
         datedf = df[(df['Date'] < end_date) & (df['Date'] > start_date)]
     else:
         if type(selected_dropdown_value) is str:
@@ -92,6 +104,7 @@ def generate_table(start_date, end_date, selected_dropdown_value = None, max_row
         datedf = filt_df[(filt_df['Date'] < end_date) & (filt_df['Date'] > start_date)]
     data = datedf.to_dict('records')
     return data
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)
