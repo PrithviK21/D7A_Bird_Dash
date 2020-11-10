@@ -40,12 +40,12 @@ app.layout = html.Div([
     ]),
     html.Div([
         html.Div([
-            #html.H1('Birds be wildin'),
             html.H2('Choose a Bird'),
             dcc.Dropdown(
                 id='product-dropdown',
                 options=dict_names,
-                value='Common Myna'
+                value='Common Myna',
+                multi=True
             ),
         ], className='dropdownFrame',style={'width': '40%', 'display': 'block'}),
         html.Div([
@@ -82,8 +82,15 @@ app.layout = html.Div([
 
 @app.callback(Output('my-table', 'data'), [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date'), Input('product-dropdown', 'value')])
 def generate_table(start_date, end_date, selected_dropdown_value = None, max_rows=20):
-    filt_df = df.loc[df['Common_Name'] == selected_dropdown_value]
-    datedf = filt_df[(filt_df['Date'] < end_date) & (filt_df['Date'] > start_date)]
+    if len(selected_dropdown_value) == 0:
+        datedf = df[(df['Date'] < end_date) & (df['Date'] > start_date)]
+    else:
+        if type(selected_dropdown_value) is str:
+            filt_df = df[df['Common_Name'] == selected_dropdown_value]
+        else:
+            filt_df = df[(df['Common_Name'].isin(selected_dropdown_value))]
+        datedf = filt_df[(filt_df['Date'] < end_date) & (filt_df['Date'] > start_date)]
+    print(selected_dropdown_value)
     data = datedf.to_dict('records')
     return data
 
