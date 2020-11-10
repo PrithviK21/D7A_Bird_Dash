@@ -5,11 +5,13 @@ import dash_core_components as dcc
 import dash_html_components as html
 import plotly.express as px
 import dash_table
+from datetime import date
 
 global df
 global dict_names
 
 df = pd.read_csv("finalMergedBirds/final_birds_fixed_dates.csv")
+df['Date'] = pd.to_datetime(df['Date'])
 app = dash.Dash(__name__)
 server = app.server
 
@@ -64,9 +66,18 @@ app.layout = html.Div([
             figure=piec
         )
     ], style={'width': '40%', 'display': 'inline-block'}),
+    html.Div(className='CalendarFrame', children=[
+            dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
+                                max_date_allowed=date(2020, 10, 25),
+                                initial_visible_month=date(2020, 10, 25),
+                                start_date=date(2015, 1, 1),
+                                end_date=date(2020, 10, 25),
+                                display_format='Do/MMM/YYYY',
+                                id="Date_Range")
+    ], style={'top': '17%', 'right': '5%', 'position': 'absolute', 'display': 'inline-block'})
 ])
 
-@app.callback(Output('graphs', 'figure'), [Input('product-dropdown', 'value'), Input('graph-type', 'value')])
+@app.callback(Output('graphs', 'figure'), [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date'), Input('product-dropdown', 'value'), Input('graph-type', 'value')])
 def generate_graph(dropdown_value, graph_type):
     xdf = df.loc[df['Common_Name'] == dropdown_value]
     if graph_type == 'BAR':
