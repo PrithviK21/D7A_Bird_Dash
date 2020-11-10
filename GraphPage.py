@@ -48,16 +48,16 @@ app.layout = html.Div([
     ]),
     html.Div([
         dcc.Dropdown(
+            id='graph-type',
+            options=[{'value': 'BAR', 'label': 'Bar'},
+                     {'value': 'LINE', 'label': 'Line'}],
+            value='BAR'),
+        dcc.Dropdown(
             id='product-dropdown',
             options=dict_names,
             multi=True,
             placeholder='Select Birds'
-        ),
-        dcc.Dropdown(
-            id='graph-type',
-            options=[{'value': 'BAR', 'label': 'Bar'},
-                     {'value': 'LINE', 'label': 'Line'}],
-            value='BAR')
+        )
     ], className='dropdownFrame', style={'top': '17%','width': '25%', 'left': '5%', 'position': 'absolute', 'display': 'block'}),
     html.Div([
         dcc.Graph(id = 'graphs')
@@ -82,6 +82,7 @@ app.layout = html.Div([
 
 @app.callback(Output('graphs', 'figure'), [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date'),Input('graph-type', 'value'), Input('product-dropdown', 'value')])
 def generate_graph(start_date, end_date, graph_type, selected_dropdown_value = None):
+    #print(start_date, end_date)
     if (selected_dropdown_value is None) or (len(selected_dropdown_value) == 0):
         datedf = df[(df['Date'] < end_date) & (df['Date'] > start_date)]
         cdf = sdf
@@ -99,9 +100,11 @@ def generate_graph(start_date, end_date, graph_type, selected_dropdown_value = N
             'Count': count_dict.values()}
         )
     if graph_type == 'BAR':
-        fig = px.bar(cdf, x='Common_Name', y='Count', title='bar graph')
+        fig = px.bar(cdf, x='Common_Name', y='Count', title='Bar Graph')
     elif graph_type == 'LINE':
-        fig = px.line(cdf, x='Common_Name', y='Count', title='bar graph')
+        cdf = datedf.count()
+        print(cdf)
+        fig = px.line(cdf, x='Date', y='Count', color='Common_Name', title='Line Graph')
     return fig
 
 if __name__ == '__main__':
