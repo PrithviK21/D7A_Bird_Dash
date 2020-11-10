@@ -90,7 +90,6 @@ def generate_table(start_date, end_date, selected_dropdown_value = None, max_row
         else:
             filt_df = df[(df['Common_Name'].isin(selected_dropdown_value))]
         datedf = filt_df[(filt_df['Date'] < end_date) & (filt_df['Date'] > start_date)]
-    print(selected_dropdown_value)
     data = datedf.to_dict('records')
     return data
 
