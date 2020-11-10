@@ -9,8 +9,8 @@ body{
 
 @font-face {
     font-family: 'code';
-    src: url('/assets/fonts/code_bold-webfont.woff2') format('woff2'),
-         url('/assets/fonts/code_bold-webfont.woff') format('woff');
+    src: url('/assets/fonts/code_bold-webfont.woff2') format(woff2),
+         url('/assets/fonts/code_bold-webfont.woff') format(woff);
     font-weight: bold;
     font-style: normal;
 }
@@ -22,8 +22,8 @@ body{
 @font-face
 {
     font-family: 'liberator';
-    src: url('/assets/fonts/liberator-medium-webfont.woff2') format('woff2'),
-         url('/assets/fonts/liberator-medium-webfont.woff') format('woff');
+    src: url('/assets/fonts/liberator-medium-webfont.woff2') format(woff2),
+         url('/assets/fonts/liberator-medium-webfont.woff') format(woff);
     font-weight: normal;
     font-style: normal;
 }
@@ -163,6 +163,26 @@ nav a{
     display: inline-block;
     vertical-align: middle;
 }
+
+.DatasetFrame{
+	
+	width: 90%;
+	left:5%;
+	bottom: 5%;
+	display: block;
+	position: relative;
+	box-shadow: 3px 3px #363636;
+}
+.containerdiv h1
+{
+	font-family: liberator;
+	font-size: 40px;
+	color: #fff;
+	-webkit-text-stroke: 0.5px black;
+	letter-spacing: 3px;
+	text-decoration: underline;
+}
+
 .DateInput
 {
     width: 170px;
