@@ -123,6 +123,29 @@ nav a{
     line-height: 30px;
 }
 
+.content2{
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background: #ddd;
+    height: 700px;
+}
+
+.content2 h2{
+    font-family: code;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.content2 p{
+    padding: 2% 0;
+    font-family: arial;
+    line-height: 30px;
+}
+
 .graphwindow
 {
     display: inline-block;
