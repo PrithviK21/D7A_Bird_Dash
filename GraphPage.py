@@ -82,7 +82,6 @@ app.layout = html.Div([
 
 @app.callback(Output('graphs', 'figure'), [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date'),Input('graph-type', 'value'), Input('product-dropdown', 'value')])
 def generate_graph(start_date, end_date, graph_type, selected_dropdown_value = None):
-    #print(start_date, end_date)
     if (selected_dropdown_value is None) or (len(selected_dropdown_value) == 0):
         datedf = df[(df['Date'] < end_date) & (df['Date'] > start_date)]
         cdf = sdf
@@ -102,7 +101,12 @@ def generate_graph(start_date, end_date, graph_type, selected_dropdown_value = N
     if graph_type == 'BAR':
         fig = px.bar(cdf, x='Common_Name', y='Count', title='Bar Graph')
     elif graph_type == 'LINE':
-        fig = px.line(cdf, x='Date', y='Count', color='Common_Name', title='Line Graph')
+        datedf['Month_Year'] = pd.to_datetime(datedf['Date']).dt.to_period('M')
+        tbl = datedf.groupby(['Common_Name', 'Month_Year']).agg({'Month_Year':'count'})
+        tbl.index = tbl.index.set_names(['Common_Name', 'Month'])
+        tbl.reset_index(inplace=True)
+        tbl = tbl.rename(columns = {'Month_Year':'Count'})
+        fig = px.line(tbl, x='Month', y='Count', color='Common_Name', title='Line Graph')
     return fig
 
 if __name__ == '__main__':
