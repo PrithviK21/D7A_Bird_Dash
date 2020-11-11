@@ -26,7 +26,7 @@ app.layout = html.Div(
                 html.H2("What is this app?"),
                 html.P("App big good read map see bird"),
                 html.H2("Who are we?"),
-                html.P("Big stressy bois kaam bohot diya humko")], className="content"),
+                html.P("Big stressy bois kaam bohot diya humko.D7A SEM3")], className="content"),
             ], className='wrapper'),
 
         html.Footer(
