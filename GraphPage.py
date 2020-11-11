@@ -102,8 +102,6 @@ def generate_graph(start_date, end_date, graph_type, selected_dropdown_value = N
     if graph_type == 'BAR':
         fig = px.bar(cdf, x='Common_Name', y='Count', title='Bar Graph')
     elif graph_type == 'LINE':
-        cdf = datedf.count()
-        print(cdf)
         fig = px.line(cdf, x='Date', y='Count', color='Common_Name', title='Line Graph')
     return fig
 
