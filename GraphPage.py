@@ -83,14 +83,14 @@ app.layout = html.Div([
 @app.callback(Output('graphs', 'figure'), [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date'),Input('graph-type', 'value'), Input('product-dropdown', 'value')])
 def generate_graph(start_date, end_date, graph_type, selected_dropdown_value = None):
     if (selected_dropdown_value is None) or (len(selected_dropdown_value) == 0):
-        datedf = df[(df['Date'] < end_date) & (df['Date'] > start_date)]
+        datedf = df[(df['Date'] < end_date) & (df['Date'] > start_date)].copy()
         cdf = sdf
     else:
         if type(selected_dropdown_value) is str:
             xdf = df[df['Common_Name'] == selected_dropdown_value]
         else:
             xdf = df[(df['Common_Name'].isin(selected_dropdown_value))]
-        datedf = xdf[(xdf['Date'] < end_date) & (xdf['Date'] > start_date)]
+        datedf = xdf[(xdf['Date'] < end_date) & (xdf['Date'] > start_date)].copy()
         count_dict = dict()
         for name in selected_dropdown_value:
             count_dict[name] = datedf['Common_Name'].value_counts()[name]
@@ -101,13 +101,16 @@ def generate_graph(start_date, end_date, graph_type, selected_dropdown_value = N
     if graph_type == 'BAR':
         fig = px.bar(cdf, x='Common_Name', y='Count', title='Bar Graph')
     elif graph_type == 'LINE':
-        datedf['Month_Year'] = pd.to_datetime(datedf['Date']).dt.to_period('M')
+        pd.set_option("display.max_rows", None, "display.max_columns", None)
+        datedf['Month_Year'] = datedf['Date'].dt.to_period('M')
         tbl = datedf.groupby(['Common_Name', 'Month_Year']).agg({'Month_Year':'count'})
         tbl.index = tbl.index.set_names(['Common_Name', 'Month'])
         tbl.reset_index(inplace=True)
-        tbl = tbl.rename(columns = {'Month_Year':'Count'})
+        tbl = tbl.rename(columns={'Month_Year': 'Count'})
+        tbl.Month = tbl.Month.dt.to_timestamp()
         fig = px.line(tbl, x='Month', y='Count', color='Common_Name', title='Line Graph')
     return fig
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)
