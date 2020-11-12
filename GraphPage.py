@@ -4,7 +4,6 @@ from dash.dependencies import Input, Output
 import dash_core_components as dcc
 import dash_html_components as html
 import plotly.express as px
-import dash_table
 from datetime import date
 import plotly.io as plt_io
 
@@ -24,9 +23,11 @@ def create_dict_list_of_product():
     return dictlist
 dict_names = create_dict_list_of_product()
 
-# plt_io.templates['custom'] = plt_io.templates['ggplot2']
-# plt_io.templates['custom']['layout']['paper_bgcolor'] = '#449bb3'
-# plt_io.templates['custom']['layout']['plot_bgcolor'] = '#449bb3'
+plt_io.templates['custom'] = plt_io.templates['plotly_dark']
+plt_io.templates['custom']['layout']['paper_bgcolor'] = '#96dcd4'
+plt_io.templates['custom']['layout']['plot_bgcolor'] = '#96dcd4'
+plt_io.templates['custom']['layout']['font']['color'] = '#000000'
+plt_io.templates['custom']['layout']['font']['color'] = '#000000'
 
 stuff = dict()
 for name in df['Common_Name']:
@@ -35,7 +36,9 @@ sdf = pd.DataFrame({
     'Common_Name': stuff.keys(),
     'Count': stuff.values()}
 )
-piec = px.pie(sdf, values = 'Count', names = 'Common_Name', template = 'plotly_dark')
+piec = px.pie(sdf, values = 'Count', names = 'Common_Name', title='Pie Chart', template = 'custom')
+piec.update_traces(marker=dict(line=dict(color='#000000', width=0.5)))
+piec.update_layout(title={'y':0.9, 'x':0.5, 'xanchor': 'center'})
 
 app.layout = html.Div([
     html.Header([
@@ -64,14 +67,14 @@ app.layout = html.Div([
     ], className='dropdownFrame', style={'top': '30%','width': '25%', 'left': '5%', 'position': 'absolute', 'display': 'block'}),
     html.Div([
         dcc.Graph(id = 'graphs')
-    ], style={'top': '42.5%', 'left': '2.5%','width': '45%', 'position': 'absolute','display': 'block'}),
+    ], style={'box-shadow': '2px 2px 2px black', 'top': '42.5%', 'left': '2.5%','width': '45%', 'position': 'absolute','display': 'block'}),
+    html.Div([html.H1("Pie Chart")], style={'top': '25%', 'left': '70%', 'position': 'absolute'}),
     html.Div([
-        html.H1("Pie Chart"),
         dcc.Graph(
             id='pie',
             figure=piec
         )
-    ], style={'top': '17%', 'left': '52.5%', 'width': '45%', 'position': 'absolute', 'display': 'block'}),
+    ], style={'box-shadow': '2px 2px 2px black', 'top': '42.5%', 'left': '52.5%', 'width': '45%', 'position': 'absolute', 'display': 'block'}),
     html.Div(className='CalendarFrame', children=[
             dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
                                 max_date_allowed=date(2020, 10, 25),
@@ -103,14 +106,15 @@ def generate_graph(start_date, end_date, graph_type, selected_dropdown_value = N
             'Count': count_dict.values()}
         )
     if graph_type == 'BAR':
-        fig = px.bar(cdf, x='Bird', y='Count', title='Bar Graph', color='Bird', template='plotly_dark')
+        fig = px.bar(cdf, x='Bird', y='Count', title='Bar Graph', color='Bird', template='custom')
     elif graph_type == 'LINE':
         pd.set_option("display.max_rows", None, "display.max_columns", None)
         tbl = datedf.groupby(['Common_Name', 'Date']).agg({'Common_Name':'count'})
         tbl.index = tbl.index.set_names(['Bird', 'Date'])
         tbl.reset_index(inplace=True)
         tbl = tbl.rename(columns={'Common_Name': 'Count'})
-        fig = px.line(tbl, x='Date', y='Count', color='Bird', title='Line Graph', template='plotly_dark')
+        fig = px.line(tbl, x='Date', y='Count', color='Bird', title='Line Graph', template='custom')
+    fig.update_layout(title={'y':0.9, 'x':0.45, 'xanchor': 'center'})
     return fig
 
 
