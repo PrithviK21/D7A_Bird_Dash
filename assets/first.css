@@ -118,7 +118,7 @@ nav a{
 }
 
 .content p{
-    padding: 2% 0;
+    padding: 2% 5px;
     font-family: arial;
     line-height: 30px;
 }
@@ -128,7 +128,7 @@ nav a{
     position: relative;
     top: 450px;
     background: #ddd;
-    height: 700px;
+    height: 800px;
 }
 
 .content2 h2{
@@ -141,7 +141,7 @@ nav a{
 }
 
 .content2 p{
-    padding: 2% 0;
+    padding: 2% 5px;
     font-family: arial;
     line-height: 30px;
 }
