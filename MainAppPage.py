@@ -78,6 +78,8 @@ def display_page(pathname):
         return urlgraph.layout
     elif pathname == '/About':
         return urlabout.layout
+    else:
+        return html.Div([html.H1("ERROR 404: Page not found")])
 
 
 if __name__ == '__main__':
