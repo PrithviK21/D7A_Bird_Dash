@@ -55,7 +55,7 @@ app.layout = html.Div(
         ], className='wrapper'),
 
         html.Footer(
-            ['Copyright my foot'],
+            ['© CMPN SE Group 6 2020'],
             className='footer',
         )
     ], style={'background-color': '#449bb3', 'height': '1300px'}

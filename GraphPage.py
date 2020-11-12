@@ -68,7 +68,7 @@ app.layout = html.Div([
     html.Div([
         dcc.Graph(id = 'graphs')
     ], style={'box-shadow': '2px 2px 2px black', 'top': '42.5%', 'left': '2.5%','width': '45%', 'position': 'absolute','display': 'block'}),
-    html.Div([html.H1("Pie Chart")], style={'top': '25%', 'left': '70%', 'position': 'absolute'}),
+    #html.Div([html.H1("Pie Chart")], style={'top': '25%', 'left': '70%', 'position': 'absolute'}),
     html.Div([
         dcc.Graph(
             id='pie',
@@ -83,7 +83,11 @@ app.layout = html.Div([
                                 end_date=date(2020, 10, 25),
                                 display_format='Do/MMM/YYYY',
                                 id="Date_Range")
-    ], style={'top': '17%', 'left': '5%', 'position': 'absolute', 'display': 'block'})
+    ], style={'top': '17%', 'left': '5%', 'position': 'absolute', 'display': 'block'}),
+    html.Footer(
+            ['© CMPN SE Group 6 2020'],
+            className='footer',
+        )
 ], style={'background-color': '#449bb3', 'min-height': '1000px'})
 
 @app.callback(Output('graphs', 'figure'), [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date'),Input('graph-type', 'value'), Input('product-dropdown', 'value')])
@@ -119,4 +123,4 @@ def generate_graph(start_date, end_date, graph_type, selected_dropdown_value = N
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()

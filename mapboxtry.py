@@ -59,7 +59,7 @@ app.layout = html.Div(
         ], style={'top': '18%', 'left': '3%', 'position': 'absolute'}),
         html.Div([html.H2(id='birdtitle'),html.Img(src='/assets/flam2.jpg', className='birdimg', id='birdimg')], className='frame'),
         html.Footer(
-            ['Copyright my foot'],
+            ['© CMPN SE Group 6 2020'],
             className='footer',
         )
     ], style={'background-color': '#449bb3', 'height': '100vh'}
