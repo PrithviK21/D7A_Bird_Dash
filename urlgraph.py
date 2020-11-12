@@ -58,18 +58,20 @@ layout = html.Div([
             id='graph-type',
             options=[{'value': 'BAR', 'label': 'Bar'},
                      {'value': 'LINE', 'label': 'Line'}],
-            value='BAR'),
+            value='BAR',
+            )
+    ], className='dropdownFrame', style={'width': '10%', 'top': '27%', 'left': '2.5%', 'position': 'absolute', 'display': 'block'}),
+    html.Div([
         dcc.Dropdown(
             id='product-dropdown',
             options=dict_names,
             multi=True,
-            placeholder='Select Birds'
+            placeholder='Select Birds',
         )
-    ], className='dropdownFrame',
-        style={'top': '30%', 'width': '25%', 'left': '5%', 'position': 'absolute', 'display': 'block'}),
+    ], className='dropdownFrame', style={'width': '35%', 'top': '27%', 'left': '12.5%', 'position': 'absolute', 'display': 'block'}),
     html.Div([
         dcc.Graph(id='graphs')
-    ], style={'box-shadow': '2px 2px 2px black', 'top': '42.5%', 'left': '2.5%', 'width': '45%', 'position': 'absolute',
+    ], style={'box-shadow': '2px 2px 2px black', 'top': '44%', 'left': '2.5%', 'width': '45%', 'position': 'absolute',
               'display': 'block'}),
     # html.Div([html.H1("Pie Chart")], style={'top': '25%', 'left': '70%', 'position': 'absolute'}),
     html.Div([
@@ -77,7 +79,7 @@ layout = html.Div([
             id='pie',
             figure=piec
         )
-    ], style={'box-shadow': '2px 2px 2px black', 'top': '42.5%', 'left': '52.5%', 'width': '45%',
+    ], style={'box-shadow': '2px 2px 2px black', 'top': '44%', 'left': '52.5%', 'width': '45%',
               'position': 'absolute', 'display': 'block'}),
     html.Div(className='CalendarFrame', children=[
         dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
@@ -87,7 +89,7 @@ layout = html.Div([
                             end_date=date(2020, 10, 25),
                             display_format='Do/MMM/YYYY',
                             id="Date_Range")
-    ], style={'top': '17%', 'left': '5%', 'position': 'absolute', 'display': 'block'}),
+    ], style={'top': '17%', 'left': '2.5%', 'position': 'absolute', 'display': 'block'}),
     html.Footer(
         ['© CMPN SE Group 6 2020'],
         className='footer',
