@@ -5,3 +5,4 @@ operations.py
 /.idea
 /assets/fonts/bruh
 urltest.py
+/__pycache__
