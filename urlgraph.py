@@ -103,8 +103,13 @@ layout = html.Div([
 def generate_graph(start_date, end_date, graph_type, selected_dropdown_value=None):
     if (selected_dropdown_value is None) or (len(selected_dropdown_value) == 0):
         datedf = df[(df['Date'] < end_date) & (df['Date'] > start_date)].copy()
-        cdf = sdf
-        cdf = cdf.rename(columns={'Common_Name': 'Bird'})
+        count_dict = dict()
+        for name in datedf['Common_Name']:
+            count_dict[name] = datedf['Common_Name'].value_counts()[name]
+        cdf = pd.DataFrame({
+            'Bird': count_dict.keys(),
+            'Count': count_dict.values()}
+        )
     else:
         if type(selected_dropdown_value) is str:
             xdf = df[df['Common_Name'] == selected_dropdown_value]
