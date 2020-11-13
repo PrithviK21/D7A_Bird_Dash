@@ -31,7 +31,7 @@ fig = px.scatter_mapbox(
     zoom=4.5
 )
 fig.update_layout(mapbox_style='dark', paper_bgcolor='#96dcd4', title='bruh')
-fig.update_layout(margin=dict(t=0, b=0, l=0, r=0), legend_title_text='Birds')
+fig.update_layout(margin=dict(t=0, b=0, l=0, r=0))
 
 layout = html.Div(
     [
@@ -56,8 +56,7 @@ layout = html.Div(
                                 display_format='Do/MMM/YYYY',
                                 id="Date_Range")
         ], style={'top': '18%', 'left': '3%', 'position': 'absolute'}),
-        html.Div([html.H2(id='birdtitle')], style={'top':'30%', 'left': '55%', 'position': 'absolute'}),
-        html.Div([html.Img(src='/assets/flam2.jpg', className='birdimg', id='birdimg')], className='frame', style={'right': '2.5%'}),
+        html.Div([html.H2(id='birdtitle'),html.Img(src='/assets/flam2.jpg', className='birdimg', id='birdimg')], className='frame'),
         html.Footer(
             ['© CMPN SE Group 6 2020'],
             className='footer',
@@ -94,7 +93,7 @@ def update_graph_date(start_date, end_date):
         opacity=0.7,
     )
     fig.update_layout(mapbox_style='dark', paper_bgcolor='#96dcd4')
-    fig.update_layout(margin=dict(t=0, b=0, l=0, r=0), legend_title_text='Birds')
+    fig.update_layout(margin=dict(t=0, b=0, l=0, r=0))
     return fig
 
 
