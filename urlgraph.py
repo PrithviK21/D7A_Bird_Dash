@@ -44,7 +44,7 @@ piec.update_layout(title={'y': 0.9, 'x': 0.5, 'xanchor': 'center'})
 layout = html.Div([
     html.Header([
         html.Div([
-            html.Div([html.A('Bird Name', href='/Welcome')], className='logo'),
+            html.Div([html.A('Pakshirashtra', href='/Welcome')], className='logo'),
             html.Nav([
                 html.A('Map', href='/Map'),
                 html.A('Graphs', href='/Graph'),
