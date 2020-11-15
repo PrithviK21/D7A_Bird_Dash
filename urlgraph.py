@@ -12,7 +12,7 @@ global dict_names
 
 df = pd.read_csv("finalMergedBirds/final_birds_fixed_dates.csv")
 df['Date'] = pd.to_datetime(df['Date'])
-
+#basebardf = df['Common_Name'].value_counts()
 
 def create_dict_list_of_product():
     dictlist = []
@@ -103,25 +103,27 @@ layout = html.Div([
 def generate_graph(start_date, end_date, graph_type, selected_dropdown_value=None):
     if (selected_dropdown_value is None) or (len(selected_dropdown_value) == 0):
         datedf = df[(df['Date'] < end_date) & (df['Date'] > start_date)].copy()
-        count_dict = dict()
-        for name in datedf['Common_Name']:
-            count_dict[name] = datedf['Common_Name'].value_counts()[name]
+        bruh = datedf['Common_Name'].value_counts()
+        cdf = dict()
+        for name, value in bruh.items():
+            cdf[name] = value
         cdf = pd.DataFrame({
-            'Bird': count_dict.keys(),
-            'Count': count_dict.values()}
-        )
+            'Bird': cdf.keys(),
+            'Count': cdf.values()
+        })
     else:
         if type(selected_dropdown_value) is str:
             xdf = df[df['Common_Name'] == selected_dropdown_value]
         else:
             xdf = df[(df['Common_Name'].isin(selected_dropdown_value))]
         datedf = xdf[(xdf['Date'] < end_date) & (xdf['Date'] > start_date)].copy()
-        count_dict = dict()
-        for name in selected_dropdown_value:
-            count_dict[name] = datedf['Common_Name'].value_counts()[name]
+        bruh = datedf['Common_Name'].value_counts()
+        cdf = dict()
+        for name, value in bruh.items():
+            cdf[name] = value
         cdf = pd.DataFrame({
-            'Bird': count_dict.keys(),
-            'Count': count_dict.values()}
+            'Bird': cdf.keys(),
+            'Count': cdf.values()}
         )
     if graph_type == 'BAR':
         fig = px.bar(cdf, x='Bird', y='Count', title='Bar Graph', color='Bird', template='custom')
