@@ -11,11 +11,11 @@ from app import app
 token = 'pk.eyJ1IjoicHJpdGh2aWsyMSIsImEiOiJja2g0eHBpamkwYXB5MnNrMDNjaXFvNnRhIn0.6eeLvU-4xuLb8q43RAQGBA'
 px.set_mapbox_access_token(token)
 global df
-df = pd.read_csv("finalMergedBirds/final_birds_fixed_dates.csv")
+df = pd.read_csv("finalMergedBirds/birdsNewLinks.csv")
 df['Date'] = pd.to_datetime(df['Date'])
 
-picdf = df[['Common_Name', 'mediaDownloadUrl']].copy()
-picdf = picdf[picdf['mediaDownloadUrl'] != 'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/']
+#picdf = df[['Common_Name', 'mediaDownloadUrl']].copy()
+#picdf = picdf[picdf['mediaDownloadUrl'] != 'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/']
 # df = df[df['mediaDownloadUrl'] != 'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/']
 
 fig = px.scatter_mapbox(
@@ -71,9 +71,9 @@ def return_birdimg(hover_data):
     if hover_data is not None:
         m = hover_data['points'][0]['customdata'][2]
         name = hover_data['points'][0]['customdata'][0]
-        bruh = picdf[picdf['Common_Name'] == name].sample().iloc[0]['mediaDownloadUrl']
-        if m == 'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/':
-            return [bruh, name]
+        #bruh = picdf[picdf['Common_Name'] == name].sample().iloc[0]['mediaDownloadUrl']
+        # if m == 'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/':
+        #     return [bruh, name]
         return [m, name]
     else:
         return ['assets/flam2.jpg', 'Common Name']

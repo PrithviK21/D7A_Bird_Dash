@@ -9,7 +9,7 @@ from app import app
 global df
 global dict_names
 
-df = pd.read_csv("finalMergedBirds/final_birds_fixed_dates.csv")
+df = pd.read_csv("finalMergedBirds/finalbirdsSEM4.csv")
 df = df.drop(columns='mediaDownloadUrl')
 df['Date'] = pd.to_datetime(df['Date'])
 
