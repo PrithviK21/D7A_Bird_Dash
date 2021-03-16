@@ -54,42 +54,91 @@ layout = html.Div([
         ], className='wrapper')
     ]),
     html.Div([
-        dcc.Dropdown(
-            id='graph-type',
-            options=[{'value': 'BAR', 'label': 'Bar'},
-                     {'value': 'LINE', 'label': 'Line'}],
-            value='BAR',
-            )
-    ], className='dropdownFrame', style={'width': '10%', 'top': '27%', 'left': '2.5%', 'position': 'absolute', 'display': 'block'}),
-    html.Div([
-        dcc.Dropdown(
-            id='product-dropdown',
-            options=dict_names,
-            multi=True,
-            placeholder='Select Birds',
-        )
-    ], className='dropdownFrame', style={'width': '35%', 'top': '27%', 'left': '12.5%', 'position': 'absolute', 'display': 'block'}),
-    html.Div([
-        dcc.Graph(id='graphs')
-    ], style={'box-shadow': '2px 2px 2px black', 'top': '44%', 'left': '2.5%', 'width': '45%', 'position': 'absolute',
-              'display': 'block'}),
+        dcc.Tabs([
+            dcc.Tab(label='Tab1',children=[
+                html.Div([
+                html.Div([
+                    dcc.Dropdown(
+                        id='graph-type',
+                        options=[{'value': 'BAR', 'label': 'Bar'},
+                                {'value': 'LINE', 'label': 'Line'}],
+                        value='BAR',
+                    )
+                    ], className='dropdownFrame', style={'width': '10%','top': '140px','left': '2.5%', 'position': 'absolute', 'display': 'block'}),
+                    html.Div([
+                        dcc.Dropdown(
+                            id='product-dropdown',
+                            options=dict_names,
+                            multi=True,
+                            placeholder='Select Birds',
+                        )
+                    ], className='dropdownFrame', style={'width': '35%','top':'140px','left': '12.5%', 'position': 'absolute', 'display': 'block'}),
+                    html.Div([
+                        dcc.Graph(id='graphs')
+                    ], style={'box-shadow': '2px 2px 2px black','top':'280px','left': '2.5%', 'width': '45%', 
+                            'position': 'absolute', 'display': 'block'}),
     # html.Div([html.H1("Pie Chart")], style={'top': '25%', 'left': '70%', 'position': 'absolute'}),
-    html.Div([
-        dcc.Graph(
-            id='pie',
-            figure=piec
-        )
-    ], style={'box-shadow': '2px 2px 2px black', 'top': '44%', 'left': '52.5%', 'width': '45%',
-              'position': 'absolute', 'display': 'block'}),
-    html.Div(className='CalendarFrame', children=[
-        dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
-                            max_date_allowed=date(2020, 10, 25),
-                            initial_visible_month=date(2020, 10, 25),
-                            start_date=date(2015, 1, 1),
-                            end_date=date(2020, 10, 25),
-                            display_format='Do/MMM/YYYY',
-                            id="Date_Range")
-    ], style={'top': '17%', 'left': '2.5%', 'position': 'absolute', 'display': 'block'}),
+                    html.Div([
+                        dcc.Graph(
+                            id='pie',
+                            figure=piec
+                        )
+                    ], style={'box-shadow': '2px 2px 2px black', 'top':'280px','left': '52.5%', 'width': '45%',
+                            'position': 'absolute', 'display': 'block'}),
+                    html.Div(className='CalendarFrame', children=[
+                        dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
+                                            max_date_allowed=date(2020, 10, 25),
+                                            initial_visible_month=date(2020, 10, 25),
+                                            start_date=date(2015, 1, 1),
+                                            end_date=date(2020, 10, 25),
+                                            display_format='Do/MMM/YYYY',
+                                            id="Date_Range")
+                    ], style={'left': '2.5%', 'top':'70px','position': 'absolute', 'display': 'block'})
+                ])
+            ]),
+            dcc.Tab(label='Tab2',children=[
+                html.Div([
+                html.Div([
+                    dcc.Dropdown(
+                        id='graph-type',
+                        options=[{'value': 'BAR', 'label': 'Bar'},
+                                {'value': 'LINE', 'label': 'Line'}],
+                        value='BAR',
+                    )
+                    ], className='dropdownFrame', style={'width': '10%','top': '140px','left': '2.5%', 'position': 'absolute', 'display': 'block'}),
+                    html.Div([
+                        dcc.Dropdown(
+                            id='product-dropdown',
+                            options=dict_names,
+                            multi=True,
+                            placeholder='Select Birds',
+                        )
+                    ], className='dropdownFrame', style={'width': '35%','top':'140px','left': '12.5%', 'position': 'absolute', 'display': 'block'}),
+                    html.Div([
+                        dcc.Graph(id='graphs')
+                    ], style={'box-shadow': '2px 2px 2px black','top':'280px','left': '2.5%', 'width': '45%', 
+                            'position': 'absolute', 'display': 'block'}),
+    # html.Div([html.H1("Pie Chart")], style={'top': '25%', 'left': '70%', 'position': 'absolute'}),
+                    html.Div([
+                        dcc.Graph(
+                            id='pie',
+                            figure=piec
+                        )
+                    ], style={'box-shadow': '2px 2px 2px black', 'top':'280px','left': '52.5%', 'width': '45%',
+                            'position': 'absolute', 'display': 'block'}),
+                    html.Div(className='CalendarFrame', children=[
+                        dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
+                                            max_date_allowed=date(2020, 10, 25),
+                                            initial_visible_month=date(2020, 10, 25),
+                                            start_date=date(2015, 1, 1),
+                                            end_date=date(2020, 10, 25),
+                                            display_format='Do/MMM/YYYY',
+                                            id="Date_Range")
+                    ], style={'left': '2.5%', 'top':'70px','position': 'absolute', 'display': 'block'})
+                ])
+            ])
+        ])
+    ],style={'top':'17%','left':'2.5%','width':'95%','display':'block','position':'absolute'}),
     html.Footer(
         ['© CMPN SE Group 6 2020'],
         className='footer',
