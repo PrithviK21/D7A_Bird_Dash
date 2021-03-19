@@ -161,7 +161,7 @@ nav a{
     height: 380px;
     position: absolute;
     width: 42%;
-    top: 220px;
+    top: 150px;
     right: 0;
     padding: 5px;
 	overflow: auto;
@@ -175,7 +175,7 @@ nav a{
 	color: #d4fffa;
 	-webkit-text-stroke: 0.5px black;
 }
-	
+
 
 .birdimg
 {
@@ -187,8 +187,18 @@ nav a{
     vertical-align: middle;
 }
 
+.clusterbirdimg
+{
+  max-width: 600px;
+  max-height: 600px;
+  height: auto;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .DatasetFrame{
-	
+
 	width: 90%;
 	left:5%;
 	bottom: 5%;
@@ -224,11 +234,11 @@ nav a{
 	box-shadow: 3px 3px #363636;
 }
 
-.DateRangePickerInput_arrow 
+.DateRangePickerInput_arrow
 {
     color: #fff;
 }
-.DateRangePickerInput_arrow_svg 
+.DateRangePickerInput_arrow_svg
 {
     fill: #fff;
  }
