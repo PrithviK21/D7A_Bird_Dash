@@ -61,7 +61,7 @@ nsdf = pd.DataFrame({
     'Cluster': new_stuff.keys(),
     'Count': new_stuff.values()}
 )
-new_piec = px.pie(nsdf, values='Count', names='Cluster', title='Pie Chart', template='custom')
+new_piec = px.pie(nsdf, values='Count', names='Cluster', title='Pie Chart', template='custom',)
 new_piec.update_traces(marker=dict(line=dict(color='#000000', width=0.5)))
 new_piec.update_layout(title={'y': 0.9, 'x': 0.5, 'xanchor': 'center'})
 
@@ -88,7 +88,7 @@ layout = html.Div([
                                 {'value': 'LINE', 'label': 'Line'}],
                         value='BAR',
                     )
-                    ], className='dropdownFrame', style={'width': '10%','top': '140px','left': '2.5%', 'position': 'absolute', 'display': 'block'}),
+                    ], className='dropdownFrame', style={'width': '11%','top': '140px','left': '1%', 'position': 'absolute', 'display': 'block'}),
                     html.Div([
                         dcc.Dropdown(
                             id='product-dropdown',
@@ -96,10 +96,10 @@ layout = html.Div([
                             multi=True,
                             placeholder='Select Birds',
                         )
-                    ], className='dropdownFrame', style={'width': '35%','top':'140px','left': '12.5%', 'position': 'absolute', 'display': 'block'}),
+                    ], className='dropdownFrame', style={'width': '37%','top':'140px','left': '12%', 'position': 'absolute', 'display': 'block'}),
                     html.Div([
                         dcc.Graph(id='graphs')
-                    ], style={'box-shadow': '2px 2px 2px black','top':'280px','left': '2.5%', 'width': '45%', 
+                    ], style={'box-shadow': '2px 2px 2px black','top':'280px','left': '1%', 'width': '48%', 
                             'position': 'absolute', 'display': 'block'}),
     # html.Div([html.H1("Pie Chart")], style={'top': '25%', 'left': '70%', 'position': 'absolute'}),
                     html.Div([
@@ -107,7 +107,7 @@ layout = html.Div([
                             id='pie',
                             figure=piec
                         )
-                    ], style={'box-shadow': '2px 2px 2px black', 'top':'280px','left': '52.5%', 'width': '45%',
+                    ], style={'box-shadow': '2px 2px 2px black', 'top':'280px','left': '51%', 'width': '48%',
                             'position': 'absolute', 'display': 'block'}),
                     html.Div(className='CalendarFrame', children=[
                         dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
@@ -117,7 +117,7 @@ layout = html.Div([
                                             end_date=date(2020, 10, 25),
                                             display_format='Do/MMM/YYYY',
                                             id="Date_Range")
-                    ], style={'left': '2.5%', 'top':'70px','position': 'absolute', 'display': 'block'})
+                    ], style={'left': '1%', 'top':'70px','position': 'absolute', 'display': 'block'})
                 ])
             ]),
             #end of Tab 1
@@ -130,7 +130,7 @@ layout = html.Div([
                                 {'value': 'LINE', 'label': 'Line'}],
                         value='BAR',
                     )
-                    ], className='dropdownFrame', style={'width': '10%','top': '140px','left': '2.5%', 'position': 'absolute', 'display': 'block'}),
+                    ], className='dropdownFrame', style={'width': '11%','top': '140px','left': '1%', 'position': 'absolute', 'display': 'block'}),
                     html.Div([
                         dcc.Dropdown(
                             id='new_product-dropdown',
@@ -138,10 +138,10 @@ layout = html.Div([
                             multi=True,
                             placeholder='Select Cluster',
                         )
-                    ], className='dropdownFrame', style={'width': '35%','top':'140px','left': '12.5%', 'position': 'absolute', 'display': 'block'}),
+                    ], className='dropdownFrame', style={'width': '37%','top':'140px','left': '12%', 'position': 'absolute', 'display': 'block'}),
                     html.Div([
                         dcc.Graph(id='new_graph')
-                    ], style={'box-shadow': '2px 2px 2px black','top':'280px','left': '2.5%', 'width': '45%', 
+                    ], style={'box-shadow': '2px 2px 2px black','top':'280px','left': '1%', 'width': '48%', 
                             'position': 'absolute', 'display': 'block'}),
     # html.Div([html.H1("Pie Chart")], style={'top': '25%', 'left': '70%', 'position': 'absolute'}),
                     html.Div([
@@ -149,7 +149,7 @@ layout = html.Div([
                             id='pie',
                             figure=new_piec
                         )
-                    ], style={'box-shadow': '2px 2px 2px black', 'top':'280px','left': '52.5%', 'width': '45%',
+                    ], style={'box-shadow': '2px 2px 2px black', 'top':'280px','left': '51%', 'width': '48%',
                             'position': 'absolute', 'display': 'block'}),
                     html.Div(className='CalendarFrame', children=[
                         dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
@@ -159,7 +159,7 @@ layout = html.Div([
                                             end_date=date(2020, 10, 25),
                                             display_format='Do/MMM/YYYY',
                                             id="new_Date_Range")
-                    ], style={'left': '2.5%', 'top':'70px','position': 'absolute', 'display': 'block'})
+                    ], style={'left': '1%', 'top':'70px','position': 'absolute', 'display': 'block'})
                 ])
             ])
         ])
