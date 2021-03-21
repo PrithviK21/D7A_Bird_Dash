@@ -88,7 +88,7 @@ layout = html.Div([
                             id="Date_Range")
     ], style={'top': '17%', 'right': '5%', 'position': 'absolute', 'display': 'inline-block'}),
     html.Footer(
-            ['© CMPN SE Group 6 2020'],
+            ['© CMPN SE Group 6 2020-2021'],
             className='footer',
         )
 ], style={'background-color': '#449bb3', 'min-height': '790px'})

@@ -30,27 +30,29 @@ layout = html.Div(
                     "provides "
                     " pure Python abstraction around HTML, CSS, and JavaScript. We had to learn HTML and CSS in order "
                     "to use Dash. Additional resources include "
-                    "the use of Pycharm. To acquire datasets, we have used primarily three sites:", html.Br(), "ebird"
+                    "the use of Pycharm. To acquire datasets, we have used these sites:", html.Br(), "ebird"
                     ".org "
-                    , html.Br(), "inaturalist.org ", html.Br(), "twitter.com"]),
+                    , html.Br(), "inaturalist.org ", html.Br(), "twitter.com", html.Br(), "facebook.com", html.Br(), "instagram.com"]),
                 html.Hr(),
                 html.H2("Who are we?"),
                 html.P(["We are second year students of Vivekananda Institute of Technology studying Computer Science."
                         "This build is part of our mini-project assigned to us in our year and mentored by Mrs. "
                         "Sharmila Sengupta. We are:",
                         html.Br(),
-                        "J N Guru Akaash D7A 26 ",
+                        "J N Guru Akaash D7A 28 ",
                         html.Br(),
-                        "Prithvi Kumar D7A 38 ",
+                        "Prithvi Kumar D7A 40 ",
                         html.Br(),
-                        "Ashwin Kurup D7A 39 ",
+                        "Ashwin Kurup D7A 41 ",
                         html.Br(),
-                        "Anurag Saraswat D7A 58 "]),
+                        "Anurag Saraswat D7A 63 ",
+                        html.Br(),
+                        "Suresh Aydi D7A 05 "]),
             ], className="content2"),
         ], className='wrapper'),
 
         html.Footer(
-            ['© CMPN SE Group 6 2020'],
+            ['© CMPN SE Group 6 2020-2021'],
             className='footer',
         )
     ], style={'background-color': '#449bb3', 'height': '1300px'}
