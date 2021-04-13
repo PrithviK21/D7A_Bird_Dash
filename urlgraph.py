@@ -21,24 +21,24 @@ new_df = clustering.clusterset(df)
 new_df['Date'] = pd.to_datetime(df['Date'])
 
 
-def create_dict_list_of_product():
+def create_dict_list_of_common_names():
     dictlist = []
     unique_list = df.Common_Name.unique()
-    for product_title in unique_list:
-        dictlist.append({'value': product_title, 'label': product_title})
+    for c_name in unique_list:
+        dictlist.append({'value': c_name, 'label': c_name})
     return dictlist
 
 
-def create_new_dict_list_of_products():
+def create_new_dict_list_of_clusters():
     dictlist = []
     unique_list = new_df.Cluster.unique()
-    for product_title in unique_list:
-        dictlist.append({'value': product_title, 'label': product_title})
+    for c_name in unique_list:
+        dictlist.append({'value': c_name, 'label': c_name})
     return dictlist
 
 
-dict_names = create_dict_list_of_product()
-new_dict_names = create_new_dict_list_of_products()
+dict_names = create_dict_list_of_common_names()
+new_dict_names = create_new_dict_list_of_clusters()
 
 plt_io.templates['custom'] = plt_io.templates['plotly_dark']
 plt_io.templates['custom']['layout']['paper_bgcolor'] = '#96dcd4'
@@ -269,9 +269,9 @@ def generate_graph(start_date, end_date, graph_type):
         # )
     datedf = df[(df['Date'] < end_date) & (df['Date'] > start_date)].copy()
     if graph_type == 'BAR':
-        bruh = datedf['Common_Name'].value_counts()
+        species_count = datedf['Common_Name'].value_counts()
         cdf = dict()
-        for name, value in bruh.items():
+        for name, value in species_count.items():
             cdf[name] = value
         cdf = pd.DataFrame({
             'Bird': cdf.keys(),
@@ -319,9 +319,9 @@ def generate_graph(start_date, end_date, graph_type):
         # )
     datedf = new_df[(new_df['Date'] < end_date) & (new_df['Date'] > start_date)].copy()
     if graph_type == 'BAR':
-        bruh = datedf['Cluster'].value_counts()
+        cluster_count = datedf['Cluster'].value_counts()
         cdf = dict()
-        for name, value in bruh.items():
+        for name, value in cluster_count.items():
             cdf[name] = value
         cdf = pd.DataFrame({
             'Cluster': cdf.keys(),

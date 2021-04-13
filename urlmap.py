@@ -16,12 +16,21 @@ global new_df
 global dict_names
 global new_dict_names
 
+
+def create_dict_list_of_common_names():
+    dictlist = []
+    unique_list = df.Common_Name.unique()
+    for c_name in unique_list:
+        dictlist.append({'value': c_name, 'label': c_name})
+    return dictlist
+
+
 df = pd.read_csv("finalMergedBirds/birdsNewLinks.csv")
 df['Date'] = pd.to_datetime(df['Date'])
 
 new_df = clustering.clusterset(df)
 new_df['Date'] = pd.to_datetime(df['Date'])
-
+dict_names = create_dict_list_of_common_names()
 # picdf = df[['Common_Name', 'mediaDownloadUrl']].copy()
 # picdf = picdf[picdf['mediaDownloadUrl'] != 'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/']
 # df = df[df['mediaDownloadUrl'] != 'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/']
@@ -55,7 +64,7 @@ fig = px.scatter_mapbox(
     opacity=0.7,
     zoom=4.5
 )
-fig.update_layout(mapbox_style='dark', paper_bgcolor='#96dcd4', title='bruh')
+fig.update_layout(mapbox_style='dark', paper_bgcolor='#96dcd4', title='mapboi')
 fig.update_layout(margin=dict(t=0, b=0, l=0, r=0), legend_title_text='Birds')
 
 clusterfig = px.scatter_mapbox(
@@ -70,7 +79,7 @@ clusterfig = px.scatter_mapbox(
     opacity=0.7,
     zoom=4.5
 )
-clusterfig.update_layout(mapbox_style='dark', paper_bgcolor='#96dcd4', title='bruh')
+clusterfig.update_layout(mapbox_style='dark', paper_bgcolor='#96dcd4', title='mapboi')
 clusterfig.update_layout(margin=dict(t=0, b=0, l=0, r=0), legend_title_text='Regions')
 
 layout = html.Div(
@@ -123,8 +132,16 @@ layout = html.Div(
                                                 start_date=date(2015, 1, 1),
                                                 end_date=date(2020, 10, 25),
                                                 display_format='Do/MMM/YYYY',
-                                                id="clusterDate_Range")
-                        ], style={'top': '120%', 'left': '3%', 'position': 'absolute'}),
+                                                id="clusterDate_Range"),
+                        ], style={'top': '120%', 'left': '3%', 'position': 'absolute', 'background-color': 'green'}),
+                        html.Div([dcc.Dropdown(
+                            id='cluster_species_picker',
+                            options=dict_names,
+                            multi=True,
+                            placeholder='Select Species',
+                        )], className='dropdownFrame',
+                            style={'width': '65%', 'top': '150%', 'left': '34%', 'position': 'absolute',
+                                   'display': 'block'}),
                         html.Div([html.H2(id='clusterbirdtitle'),
                                   html.Img(src='/assets/flam2.jpg', className='clusterbirdimg', id='clusterbirdimg')],
                                  className='frame'),
@@ -158,30 +175,6 @@ def return_birdimg(hover_data):
         return ['assets/flam2.jpg', 'Common Name']
 
 
-"""html.Div([
-    dcc.Tabs([
-        dcc.Tab(label='Tab One', children=[
-            dcc.Graph(id='clustermapboi', figure=clusterfig, responsive=True)
-            ]),
-        dcc.Tab(label='Tab Two', children=[
-            dcc.Graph(id='mapboi', figure=fig, responsive=True)
-            ]),
-
-    ]),
-], className='graphwindow' ),
-html.Div([
-    dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
-                        max_date_allowed=date(2020, 10, 25),
-                        initial_visible_month=date(2020, 10, 25),
-                        start_date=date(2015, 1, 1),
-                        end_date=date(2020, 10, 25),
-                        display_format='Do/MMM/YYYY',
-                        id="Date_Range")
-], style={'top': '18%', 'left': '3%', 'position': 'absolute'}),
-html.Div([html.H2(id='birdtitle'), html.Img(src='/assets/flam2.jpg', className='birdimg', id='birdimg')],
-         className='frame'),"""
-
-
 @app.callback(Output('clusterbirdimg', 'src'), Output('clusterbirdtitle', 'children'),
               [Input('clustermapboi', 'hoverData')])
 def return_birdimg(hover_data):
@@ -209,7 +202,7 @@ def update_graph_date(start_date, end_date):
         width=800,
         height=600,
         opacity=0.7,
-        zoom = 4.5
+        zoom=4.5
     )
     fig.update_layout(mapbox_style='dark', paper_bgcolor='#96dcd4')
     fig.update_layout(margin=dict(t=0, b=0, l=0, r=0), legend_title_text='Birds')
@@ -217,9 +210,14 @@ def update_graph_date(start_date, end_date):
 
 
 @app.callback(Output('clustermapboi', 'figure'),
-              [Input('clusterDate_Range', 'start_date'), Input('clusterDate_Range', 'end_date')])
-def update_graph_date(start_date, end_date):
-    datedf = new_df[(new_df['Date'] < end_date) & (new_df['Date'] > start_date)]
+              [Input('clusterDate_Range', 'start_date'), Input('clusterDate_Range', 'end_date'),
+               Input('cluster_species_picker', 'value')])
+def update_cluster_graph(start_date, end_date, species):
+    if species is None or species == []:
+        speciesdf = new_df
+    else:
+        speciesdf = new_df[new_df['Common_Name'].isin(species)]
+    datedf = speciesdf[(speciesdf['Date'] < end_date) & (speciesdf['Date'] > start_date)]
     clusterfig = px.scatter_mapbox(
         datedf,
         lat=datedf['Latitude'],

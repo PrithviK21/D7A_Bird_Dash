@@ -70,8 +70,8 @@ app.layout = html.Div([
 def display_page(pathname):
     if pathname == '/Welcome' or pathname == '/':
         return layout
-    if pathname == '/Graph':
-        return urlgraph.layout
+    # if pathname == '/Graph':
+    #     return urlgraph.layout
     elif pathname == '/Data':
         return urldata.layout
     elif pathname == '/Map':
