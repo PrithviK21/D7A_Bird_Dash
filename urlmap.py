@@ -95,10 +95,10 @@ migfig = px.scatter_mapbox(
     lon=tdf['Longitude'],
     hover_name='Common_Name',
     hover_data={'Common_Name': False,'YYYY_MM': False, 'Date': True, 'mediaDownloadUrl': ':[0:0]'},
-    width=800,
+    width=600,
     height=600,
     opacity=0.7,
-    zoom=4.5,
+    zoom=5,
     animation_frame='YYYY_MM'
 )
 migfig.update_layout(mapbox_style='dark', paper_bgcolor='#96dcd4', title='mapboi')
@@ -175,7 +175,7 @@ layout = html.Div(
                 ]),
                 dcc.Tab(label='Migration', style=tab_style, selected_style=tab_selected_style, children=[
                     html.Div([
-                        html.Div(children=[dcc.Graph(id='migmapboi', figure=migfig, responsive=True)],
+                        html.Div(children=[dcc.Graph(id='migmapboi', figure=migfig, responsive=True, style={'height': 600})],
                                  style={'top': '330%', 'left': '10%', 'width': '80%', 'display': 'block',
                                         'position': 'absolute'}),
                         html.Div([
@@ -312,10 +312,10 @@ def update_mig_graph(start_date, end_date, species):
         lon=datedf['Longitude'],
         hover_name='Common_Name',
         hover_data={'Common_Name': False,'YYYY_MM': False, 'Date': True, 'mediaDownloadUrl': ':[0:0]'},
-        width=800,
+        width=600,
         height=600,
         opacity=0.7,
-        zoom=4.5,
+        zoom=5,
         animation_frame='YYYY_MM'
     )
     migfig.update_layout(mapbox_style='dark', paper_bgcolor='#96dcd4', title='mapboi')
