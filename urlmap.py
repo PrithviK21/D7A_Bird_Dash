@@ -82,6 +82,31 @@ clusterfig = px.scatter_mapbox(
 clusterfig.update_layout(mapbox_style='dark', paper_bgcolor='#96dcd4', title='mapboi')
 clusterfig.update_layout(margin=dict(t=0, b=0, l=0, r=0), legend_title_text='Regions')
 
+# color_dict={'Common Myna':'brown','Indian Spot-billed Duck':'green',
+            # 'White-throated Kingfisher':'yellow','Black-backed Dwarf-Kingfisher':'purple',
+            # 'Long-tailed Shrike':'blue','House Sparrow':'orange','Greater Flamingo':'pink'}
+migdf = df.copy()
+migdf['YYYY_MM'] = pd.to_datetime(migdf['Date']).dt.strftime('%Y-%m')
+tdf = migdf[migdf['Common_Name']==dict_names[0]['value']]
+tdf = tdf.sort_values(by=['Date'])
+migfig = px.scatter_mapbox(
+    tdf,
+    lat=tdf['Latitude'],
+    lon=tdf['Longitude'],
+    hover_name='Common_Name',
+    hover_data={'Common_Name': False,'YYYY_MM': False, 'Date': True, 'mediaDownloadUrl': ':[0:0]'},
+    width=800,
+    height=600,
+    opacity=0.7,
+    zoom=4.5,
+    animation_frame='YYYY_MM'
+)
+migfig.update_layout(mapbox_style='dark', paper_bgcolor='#96dcd4', title='mapboi')
+migfig.update_layout(margin=dict(t=0, b=0, l=0, r=0))
+migfig.update_traces(showlegend=False
+# , marker=dict(color=color_dict[dict_names[0]['value']])
+)
+
 layout = html.Div(
     [
         html.Header([
@@ -98,28 +123,27 @@ layout = html.Div(
 
         html.Div([
             dcc.Tabs([
-                dcc.Tab(label='Species',
-                        style=tab_style, selected_style=tab_selected_style, children=[
-                        html.Div([
-                            html.Div([dcc.Graph(id='mapboi', figure=fig, responsive=True)],
-                                     style={'top': '330%', 'left': '2.5%', 'width': '55%', 'display': 'block',
+                dcc.Tab(label='Species', style=tab_style, selected_style=tab_selected_style, children=[
+                    html.Div([
+                        html.Div([dcc.Graph(id='mapboi', figure=fig, responsive=True)],
+                                style={'top': '330%', 'left': '2.5%', 'width': '55%', 'display': 'block',
                                             'position': 'absolute'}),
-                            html.Div([
-                                dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
-                                                    max_date_allowed=date(2020, 10, 25),
-                                                    initial_visible_month=date(2020, 10, 25),
-                                                    start_date=date(2015, 1, 1),
-                                                    end_date=date(2020, 10, 25),
-                                                    display_format='Do/MMM/YYYY',
-                                                    id="Date_Range")
-                            ], style={'top': '120%', 'left': '3%', 'position': 'absolute'}),
-                            html.Div([html.H2(id='birdtitle'),
-                                      html.Img(src='/assets/flam2.jpg', className='birdimg', id='birdimg')],
-                                     className='frame'),
+                        html.Div([
+                            dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
+                                                max_date_allowed=date(2020, 10, 25),
+                                                initial_visible_month=date(2020, 10, 25),
+                                                start_date=date(2015, 1, 1),
+                                                end_date=date(2020, 10, 25),
+                                                display_format='Do/MMM/YYYY',
+                                                id="Date_Range")
+                        ], style={'top': '120%', 'left': '3%', 'position': 'absolute'}),
+                        html.Div([html.H2(id='birdtitle'),
+                                  html.Img(src='/assets/flam2.jpg', className='birdimg', id='birdimg')],
+                                  className='frame'),
 
-                        ])
+                    ])
 
-                    ]),
+                ]),
                 dcc.Tab(label='Clusters', style=tab_style, selected_style=tab_selected_style, children=[
                     html.Div([
                         html.Div(children=[dcc.Graph(id='clustermapboi', figure=clusterfig, responsive=True)],
@@ -148,8 +172,35 @@ layout = html.Div(
 
                     ]),
 
-                ])
+                ]),
+                dcc.Tab(label='Migration', style=tab_style, selected_style=tab_selected_style, children=[
+                    html.Div([
+                        html.Div(children=[dcc.Graph(id='migmapboi', figure=migfig, responsive=True)],
+                                 style={'top': '330%', 'left': '10%', 'width': '80%', 'display': 'block',
+                                        'position': 'absolute'}),
+                        html.Div([
+                            dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
+                                                max_date_allowed=date(2020, 10, 25),
+                                                initial_visible_month=date(2020, 10, 25),
+                                                start_date=date(2015, 1, 1),
+                                                end_date=date(2020, 10, 25),
+                                                display_format='Do/MMM/YYYY',
+                                                id="migDate_Range"),
+                        ], style={'top': '120%', 'left': '3%', 'position': 'absolute', 'background-color': 'green'}),
+                        html.Div([dcc.Dropdown(
+                            id='mig_species_picker',
+                            options=dict_names,
+                            value=dict_names[0]['value'],
+                        )], className='dropdownFrame',
+                            style={'width': '65%', 'top': '150%', 'left': '34%', 'position': 'absolute',
+                                   'display': 'block'}),
+                        # html.Div([html.H2(id='migbirdtitle'),
+                                  # html.Img(src='/assets/flam2.jpg', className='migbirdimg', id='migbirdimg')],
+                                 # className='frame'),
 
+                    ]),
+
+                ])
             ])
 
         ], style={'top': '17%', 'left': '2.5%', 'width': '95%', 'display': 'block', 'position': 'absolute'}),
@@ -187,6 +238,19 @@ def return_birdimg(hover_data):
         return [m, name]
     else:
         return ['assets/flam2.jpg', 'Cluster']
+
+#callback for migration image   
+# @app.callback(Output('migbirdimg', 'src'), Output('migbirdtitle', 'children'), [Input('migmapboi', 'hoverData')])
+# def return_birdimg(hover_data):
+    # if hover_data is not None:
+        # m = hover_data['points'][0]['customdata'][2]
+        # name = hover_data['points'][0]['customdata'][0]
+        # # bruh = picdf[picdf['Common_Name'] == name].sample().iloc[0]['mediaDownloadUrl']
+        # # if m == 'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/':
+        # #     return [bruh, name]
+        # return [m, name]
+    # else:
+        # return ['assets/flam2.jpg', 'Common Name']
 
 
 @app.callback(Output('mapboi', 'figure'), [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date')])
@@ -233,3 +297,30 @@ def update_cluster_graph(start_date, end_date, species):
     clusterfig.update_layout(mapbox_style='dark', paper_bgcolor='#96dcd4')
     clusterfig.update_layout(margin=dict(t=0, b=0, l=0, r=0), legend_title_text='Regions')
     return clusterfig
+    
+#callback for migration map
+@app.callback(Output('migmapboi', 'figure'),
+              [Input('migDate_Range', 'start_date'), Input('migDate_Range', 'end_date'),
+               Input('mig_species_picker', 'value')])
+def update_mig_graph(start_date, end_date, species):
+    speciesdf = migdf[migdf['Common_Name'] == species]
+    datedf = speciesdf[(speciesdf['Date'] < end_date) & (speciesdf['Date'] > start_date)]
+    datedf = datedf.sort_values(by=['Date'])
+    migfig = px.scatter_mapbox(
+        datedf,
+        lat=datedf['Latitude'],
+        lon=datedf['Longitude'],
+        hover_name='Common_Name',
+        hover_data={'Common_Name': False,'YYYY_MM': False, 'Date': True, 'mediaDownloadUrl': ':[0:0]'},
+        width=800,
+        height=600,
+        opacity=0.7,
+        zoom=4.5,
+        animation_frame='YYYY_MM'
+    )
+    migfig.update_layout(mapbox_style='dark', paper_bgcolor='#96dcd4', title='mapboi')
+    migfig.update_layout(margin=dict(t=0, b=0, l=0, r=0))
+    migfig.update_traces(showlegend=False
+    # , marker=dict(color=color_dict[species])
+    )
+    return migfig
