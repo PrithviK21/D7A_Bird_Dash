@@ -11,7 +11,7 @@ global dict_names
 
 df = pd.read_csv("finalMergedBirds/finalbirdsSEM4.csv")
 df = df.drop(columns='mediaDownloadUrl')
-df['Date'] = pd.to_datetime(df['Date'])
+df['Date'] = pd.to_datetime(df['Date'], format='%d/%m/%Y')
 
 
 def create_dict_list_of_product():

@@ -13,12 +13,12 @@ global new_df
 global dict_names
 global new_dict_names
 
-df = pd.read_csv("finalMergedBirds/finalbirdsSEM4.csv")
-df['Date'] = pd.to_datetime(df['Date'])
+df = pd.read_csv("finalMergedBirds/birdsNewLinks.csv")
+df['Date'] = pd.to_datetime(df['Date'], format='%d/%m/%Y')
 # basebardf = df['Common_Name'].value_counts()
 
 new_df = clustering.clusterset(df)
-new_df['Date'] = pd.to_datetime(df['Date'])
+new_df['Date'] = pd.to_datetime(df['Date'], format='%d/%m/%Y')
 
 
 def create_dict_list_of_common_names():

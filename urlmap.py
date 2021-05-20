@@ -26,10 +26,10 @@ def create_dict_list_of_common_names():
 
 
 df = pd.read_csv("finalMergedBirds/birdsNewLinks.csv")
-df['Date'] = pd.to_datetime(df['Date'])
+df['Date'] = pd.to_datetime(df['Date'], format='%d/%m/%Y')
 
 new_df = clustering.clusterset(df)
-new_df['Date'] = pd.to_datetime(df['Date'])
+new_df['Date'] = pd.to_datetime(df['Date'], format='%d/%m/%Y')
 dict_names = create_dict_list_of_common_names()
 # picdf = df[['Common_Name', 'mediaDownloadUrl']].copy()
 # picdf = picdf[picdf['mediaDownloadUrl'] != 'https://cdn.download.ams.birds.cornell.edu/api/v1/asset/']
@@ -255,7 +255,7 @@ def return_birdimg(hover_data):
 
 @app.callback(Output('mapboi', 'figure'), [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date')])
 def update_graph_date(start_date, end_date):
-    datedf = df[(df['Date'] < end_date) & (df['Date'] > start_date)]
+    datedf = df[(df['Date'] <= end_date) & (df['Date'] >= start_date)]
     fig = px.scatter_mapbox(
         datedf,
         lat=datedf['Latitude'],
@@ -281,7 +281,7 @@ def update_cluster_graph(start_date, end_date, species):
         speciesdf = new_df
     else:
         speciesdf = new_df[new_df['Common_Name'].isin(species)]
-    datedf = speciesdf[(speciesdf['Date'] < end_date) & (speciesdf['Date'] > start_date)]
+    datedf = speciesdf[(speciesdf['Date'] <= end_date) & (speciesdf['Date'] >= start_date)]
     clusterfig = px.scatter_mapbox(
         datedf,
         lat=datedf['Latitude'],
@@ -304,7 +304,7 @@ def update_cluster_graph(start_date, end_date, species):
                Input('mig_species_picker', 'value')])
 def update_mig_graph(start_date, end_date, species):
     speciesdf = migdf[migdf['Common_Name'] == species]
-    datedf = speciesdf[(speciesdf['Date'] < end_date) & (speciesdf['Date'] > start_date)]
+    datedf = speciesdf[(speciesdf['Date'] <= end_date) & (speciesdf['Date'] >= start_date)]
     datedf = datedf.sort_values(by=['Date'])
     migfig = px.scatter_mapbox(
         datedf,
