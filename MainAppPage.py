@@ -1,8 +1,7 @@
-import pandas as pd
 import dash
 from dash import dcc
 from dash import html
-import plotly.express as px
+import os
 # from app import app
 
 app = dash.Dash(__name__, suppress_callback_exceptions=True, update_title="Loading...", title="Pakshirashtra")
