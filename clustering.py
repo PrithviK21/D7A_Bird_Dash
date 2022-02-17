@@ -1,6 +1,6 @@
 # HOW TO USE: import clustering -> new_df = clustering.clusterset(df) -> use new_df for map/graph
 # where clustering is needed, and df for other
-from geopy.geocoders import Nominatim
+from geopy.geocoders import Photon
 from matplotlib import style
 from sklearn.cluster import KMeans
 import pandas as pd
@@ -9,7 +9,7 @@ style.use('ggplot')
 
 def clusterset(df):
     data = df[['Latitude', 'Longitude']]
-    geolocator = Nominatim(user_agent="myGeocoder")  # geopy module used to retrieve address based on lat/long
+    geolocator = Photon(user_agent="myGeocoder")  # geopy module used to retrieve address based on lat/long
     k_means = KMeans(n_clusters=5)
     labels = k_means.fit_predict(data)               # this function fits data to model, and returns labels of centroids for each element
     df["Cluster"] = labels                      # adding each entry's label to the dataset
