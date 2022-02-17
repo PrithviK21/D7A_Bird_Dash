@@ -1,8 +1,6 @@
 # D7A_Bird_Dash
-Repository with all the random bird files, python and all
-
 you need to install a few libraries, dash, numpy, sklearn and pandas.
-Not sure if there are more, but youll find out when you run it lol.
+Not sure if there are more, but youll find out when you run it.
 basic syntax to install is: `pip install dash`
 
 Ive included the datasets, only `finalbirdsSEM4` and `birdsNewLinks` are used.
