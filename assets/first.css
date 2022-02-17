@@ -175,9 +175,6 @@ nav a {
   color: #d4fffa;
   -webkit-text-stroke: 0.5px black;
 }
-#mapboi {
-  /* max-width: 50vw; */
-}
 .map-container {
   display: flex;
   align-items: center;

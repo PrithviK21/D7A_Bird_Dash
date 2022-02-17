@@ -14,3 +14,7 @@ oggraph.py
 /bs4
 trial.py
 randcss.txt
+venv
+*.pyc
+.DS_Store
+.env
