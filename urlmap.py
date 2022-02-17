@@ -1,11 +1,12 @@
 import pandas as pd
 import dash
+from dash import callback
 from dash.dependencies import Input, Output
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc
+from dash import html
 import plotly.express as px
 from datetime import date
-from app import app
+# from mainAppPage import app
 import clustering
 
 # setting access token
@@ -213,7 +214,7 @@ layout = html.Div(
 )
 
 
-@app.callback(Output('birdimg', 'src'), Output('birdtitle', 'children'), [Input('mapboi', 'hoverData')])
+@callback(Output('birdimg', 'src'), Output('birdtitle', 'children'), [Input('mapboi', 'hoverData')])
 def return_birdimg(hover_data):
     if hover_data is not None:
         m = hover_data['points'][0]['customdata'][2]
@@ -226,7 +227,7 @@ def return_birdimg(hover_data):
         return ['assets/flam2.jpg', 'Common Name']
 
 
-@app.callback(Output('clusterbirdimg', 'src'), Output('clusterbirdtitle', 'children'),
+@callback(Output('clusterbirdimg', 'src'), Output('clusterbirdtitle', 'children'),
               [Input('clustermapboi', 'hoverData')])
 def return_birdimg(hover_data):
     if hover_data is not None:
@@ -240,7 +241,7 @@ def return_birdimg(hover_data):
         return ['assets/flam2.jpg', 'Cluster']
 
 #callback for migration image   
-# @app.callback(Output('migbirdimg', 'src'), Output('migbirdtitle', 'children'), [Input('migmapboi', 'hoverData')])
+# @callback(Output('migbirdimg', 'src'), Output('migbirdtitle', 'children'), [Input('migmapboi', 'hoverData')])
 # def return_birdimg(hover_data):
     # if hover_data is not None:
         # m = hover_data['points'][0]['customdata'][2]
@@ -253,7 +254,7 @@ def return_birdimg(hover_data):
         # return ['assets/flam2.jpg', 'Common Name']
 
 
-@app.callback(Output('mapboi', 'figure'), [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date')])
+@callback(Output('mapboi', 'figure'), [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date')])
 def update_graph_date(start_date, end_date):
     datedf = df[(df['Date'] <= end_date) & (df['Date'] >= start_date)]
     fig = px.scatter_mapbox(
@@ -273,7 +274,7 @@ def update_graph_date(start_date, end_date):
     return fig
 
 
-@app.callback(Output('clustermapboi', 'figure'),
+@callback(Output('clustermapboi', 'figure'),
               [Input('clusterDate_Range', 'start_date'), Input('clusterDate_Range', 'end_date'),
                Input('cluster_species_picker', 'value')])
 def update_cluster_graph(start_date, end_date, species):
@@ -299,7 +300,7 @@ def update_cluster_graph(start_date, end_date, species):
     return clusterfig
     
 #callback for migration map
-@app.callback(Output('migmapboi', 'figure'),
+@callback(Output('migmapboi', 'figure'),
               [Input('migDate_Range', 'start_date'), Input('migDate_Range', 'end_date'),
                Input('mig_species_picker', 'value')])
 def update_mig_graph(start_date, end_date, species):

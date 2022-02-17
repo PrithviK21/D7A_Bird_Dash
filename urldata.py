@@ -1,10 +1,11 @@
 import pandas as pd
 from dash.dependencies import Input, Output
-import dash_core_components as dcc
-import dash_html_components as html
-import dash_table
+from dash import dcc
+from dash import html
+from dash import dash_table
+from dash import callback
 from datetime import date
-from app import app
+# from mainAppPage import app
 
 global df
 global dict_names
@@ -92,7 +93,7 @@ layout = html.Div([
 ])
 
 
-@app.callback(Output('my-table', 'data'),
+@callback(Output('my-table', 'data'),
               [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date'), Input('product-dropdown', 'value')])
 def generate_table(start_date, end_date, selected_dropdown_value=None, max_rows=20):
     if (selected_dropdown_value is None) or (len(selected_dropdown_value) == 0):

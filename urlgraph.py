@@ -1,11 +1,12 @@
 import pandas as pd
 from dash.dependencies import Input, Output
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import callback
+from dash import dcc
+from dash import html
 import plotly.express as px
 from datetime import date
 import plotly.io as plt_io
-from app import app
+# from mainAppPage import app
 import clustering
 
 global df
@@ -216,7 +217,7 @@ layout = html.Div([
 
 
 # callback for bird graph
-@app.callback(Output('graphs', 'figure'),
+@callback(Output('graphs', 'figure'),
               [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date'), Input('graph-type', 'value')])
 def generate_graph(start_date, end_date, graph_type):
     
@@ -243,7 +244,7 @@ def generate_graph(start_date, end_date, graph_type):
 
 
 # call back for cluster graph
-@app.callback(Output('new_graph', 'figure'),
+@callback(Output('new_graph', 'figure'),
               [Input('new_Date_Range', 'start_date'), Input('new_Date_Range', 'end_date'), Input('new-graph-type', 'value')])
 def generate_graph(start_date, end_date, graph_type):
     # if (selected_dropdown_value is None) or (len(selected_dropdown_value) == 0):
@@ -292,7 +293,7 @@ def generate_graph(start_date, end_date, graph_type):
     return fig
     
 #callback for species_cluster graph
-@app.callback(Output('c_s_graph','figure'),
+@callback(Output('c_s_graph','figure'),
               [Input('c_s_Date_Range','start_date'), Input('c_s_Date_Range','end_date'),
                Input('c_s_product-dropdown','value')])
 def generate_graph(start_date, end_date,selected_dropdown_value=None):
@@ -312,7 +313,7 @@ def generate_graph(start_date, end_date,selected_dropdown_value=None):
     return fig
 
 #callback for species_cluster pie
-@app.callback(Output('c_s_pie','figure'),Input('pie_product-dropdown','value'))
+@callback(Output('c_s_pie','figure'),Input('pie_product-dropdown','value'))
 def generate_graph(selected_dropdown_value):
     xdf = new_df[new_df['Cluster'] == selected_dropdown_value]
     xstuff = dict()
