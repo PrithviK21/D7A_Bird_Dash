@@ -1,199 +1,189 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Comfortaa&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    text-align: center;
+body {
+  text-align: center;
+  background-color: #449bb3;
 }
 
-@font-face {
-    font-family: 'code';
-    src: url('/assets/fonts/code_bold-webfont.woff2') format(woff2),
-         url('/assets/fonts/code_bold-webfont.woff') format(woff);
-    font-weight: bold;
-    font-style: normal;
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content {
+  max-width: 90vw;
+  margin: auto;
+}
+.normal-header,
+.home-header {
+  height: 100px;
+  background: #262626;
+  width: 100%;
+  z-index: 12;
+  top: 0;
+}
+.home-header {
+  position: fixed;
+}
+.logo {
+  width: 30%;
+  float: left;
+  line-height: 100px;
 }
 
-#newfont{
-    font-family:'code';
+.logo a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Cinzel Decorative", cursive;
+  color: #fff;
+  letter-spacing: 5px;
+}
+nav {
+  margin: 1em;
+}
+nav a {
+  text-decoration: none;
+  font-family: "Comfortaa";
+  font-weight: bold;
+  letter-spacing: 4px;
+  font-size: 20px;
+  margin: 0 10px;
+  color: #fff;
 }
 
-@font-face
-{
-    font-family: 'liberator';
-    src: url('/assets/fonts/liberator-medium-webfont.woff2') format(woff2),
-         url('/assets/fonts/liberator-medium-webfont.woff') format(woff);
-    font-weight: normal;
-    font-style: normal;
+.homepage {
+  min-height: 150vh;
+  background-color: #449bb3;
+}
+.about-page {
+  min-height: 170vh;
+  background-color: #449bb3;
+}
+.banner {
+  width: 100%;
+  height: 500px;
+  position: fixed;
+  top: 100px;
+  background-image: url(flam2.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center;
 }
 
-#newfont
-{
-    font-family:'liberator';
+.banner h2 {
+  padding-top: 8%;
+  font-size: 70px;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #e5ffd9;
+  -webkit-text-stroke: 2px black;
 }
 
-.wrapper{
-    max-width: 1170px;
-    width: auto;
-    margin: 0 auto;
-
+.content {
+  width: 100%;
+  position: relative;
+  top: 450px;
+  background: #ddd;
 }
 
-header{
-    height: 100px;
-    background: #262626;
-    width: 100%;
-    z-index: 12;
-    position: fixed;
+.content h2 {
+  font-family: "Comfortaa", cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 4px;
+  padding-top: 30px;
+  font-size: 40px;
+  margin: 0;
 }
 
-.logo{
-    width: 30%;
-    float: left;
-    line-height: 100px;
+.content p {
+  padding: 2% 5px;
+  font-family: arial;
+  line-height: 30px;
 }
 
-.logo a{
-    text-decoration: none;
-    font-size: 30px;
-    font-family: liberator;
-    color: #fff;
-    letter-spacing: 5px;
-
+.content2 {
+  width: 100%;
+  position: relative;
+  top: 450px;
+  background: #ddd;
 }
 
-nav{
-    float: right;
-    line-height: 100px;
+.content2 h2 {
+  font-family: "Comfortaa";
+  font-weight: bold;
+  letter-spacing: 4px;
+  padding-top: 30px;
+  font-size: 40px;
+  margin: 0;
 }
 
-nav a{
-    text-decoration: none;
-    font-family: code;
-	font-weight: bold;
-    letter-spacing: 4px;
-    font-size: 20px;
-    margin: 0 10px;
-    color: #fff;
+.content2 p {
+  padding: 2% 5px;
+  font-family: arial;
+  line-height: 30px;
 }
 
-.banner{
-    width: 100%;
-    height: 500px;
-    position: fixed;
-    top: 100px;
-    background-image: url(flam2.jpg);
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: top center;
-
+.custom-tab {
+  background-color: #933131;
 }
 
-.banner h2{
-    padding-top: 8%;
-    font-size: 70px;
-    font-family: liberator;
-    letter-spacing: 5px
-    text-transform: uppercase;
-    color: #e5ffd9;
-    -webkit-text-stroke: 2px black;
+.dropdownFrame {
+  width: 33vw;
+}
+.filter-container {
+  margin: 1em 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.graph-container {
+  display: flex;
+  justify-content: space-around;
+}
+.graph-container > div > div > div > div > div {
+  width: 100%;
+}
+.graphwindow {
+  display: inline-block;
+  top: 28%;
+  left: 3%;
+  margin: auto;
+  width: 50%;
+  position: absolute;
 }
 
-.content{
-    width: 100%;
-    position: relative;
-    top: 450px;
-    background: #ddd;
-    height: 600px;
+.frame {
+  height: 380px;
+  position: absolute;
+  width: 42%;
+  top: 150px;
+  right: 0;
+  padding: 5px;
+  overflow: auto;
 }
 
-.content h2{
-    font-family: code;
-    font-weight: bold;
-    letter-spacing: 4px;
-    padding-top: 30px;
-    font-size: 40px;
-    margin: 0;
+.frame h2 {
+  font-family: "Comfortaa";
+  font-weight: bold;
+  font-size: 30px;
+  color: #d4fffa;
+  -webkit-text-stroke: 0.5px black;
 }
-
-.content p{
-    padding: 2% 5px;
-    font-family: arial;
-    line-height: 30px;
+#mapboi {
+  /* max-width: 50vw; */
 }
-
-.content2{
-    width: 100%;
-    position: relative;
-    top: 450px;
-    background: #ddd;
-    height: 850px;
+.map-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-
-.content2 h2{
-    font-family: code;
-    font-weight: bold;
-    letter-spacing: 4px;
-    padding-top: 30px;
-    font-size: 40px;
-    margin: 0;
-}
-
-.content2 p{
-    padding: 2% 5px;
-    font-family: arial;
-    line-height: 30px;
-}
-
-.custom-tab
-{
-    backgroundColor: #933131;
-}
-
-.graphwindow
-{
-    display: inline-block;
-    top: 28%;
-    left: 3%;
-    margin: auto;
-    width: 50%;
-    position: absolute;
-}
-
-.frame
-{
-    height: 380px;
-    position: absolute;
-    width: 42%;
-    top: 150px;
-    right: 0;
-    padding: 5px;
-	overflow: auto;
-}
-
-.frame h2
-{
-	font-family: code;
-	font-weight: bold;
-	font-size: 30px;
-	color: #d4fffa;
-	-webkit-text-stroke: 0.5px black;
-}
-
-
-.birdimg
-{
-    max-width: 600px;
-    max-height: 600px;
-    height: auto;
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.clusterbirdimg
-{
+.birdimg {
   max-width: 600px;
   max-height: 600px;
   height: auto;
@@ -202,57 +192,62 @@ nav a{
   vertical-align: middle;
 }
 
-.DatasetFrame{
-
-	width: 90%;
-	left:5%;
-	bottom: 5%;
-	position: relative;
-	box-shadow: 3px 3px #363636;
-}
-.containerdiv h1
-{
-	font-family: liberator;
-	font-size: 40px;
-	color: #fff;
-	-webkit-text-stroke: 0.5px black;
-	letter-spacing: 3px;
-	text-decoration: underline;
+.clusterbirdimg {
+  max-width: 600px;
+  max-height: 600px;
+  height: auto;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.DateInput
-{
-    width: 170px;
-	border: 3px solid black;
+.DatasetFrame {
+  width: 90%;
+  margin: auto;
+  box-shadow: 3px 3px #363636;
+}
+.containerdiv {
+  /* position: relative;
+  top: 100px; */
+  margin: 1em;
+}
+.containerdiv h1 {
+  font-family: liberator;
+  font-size: 40px;
+  color: #fff;
+  -webkit-text-stroke: 0.5px black;
+  letter-spacing: 3px;
+  text-decoration: underline;
 }
 
-.DateInput_input
-{
-	background-color: #b5fff6;
-	font-family: code;
-	font-weight: bold;
+.DateInput {
+  width: 170px;
+  border: 3px solid black;
+}
+
+.DateInput_input {
+  background-color: #b5fff6;
+  font-family: "Comfortaa";
+  font-weight: bold;
 }
 .DateRangePickerInput {
-    background-color: #000;
-    display: inline-block;
-	border: 1px solid black;
-	box-shadow: 3px 3px #363636;
+  background-color: #000;
+  display: inline-block;
+  border: 1px solid black;
+  box-shadow: 3px 3px #363636;
 }
 
-.DateRangePickerInput_arrow
-{
-    color: #fff;
+.DateRangePickerInput_arrow {
+  color: #fff;
 }
-.DateRangePickerInput_arrow_svg
-{
-    fill: #fff;
- }
-.footer
-{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 3%;
-    background-color: black;
-    color: white
+.DateRangePickerInput_arrow_svg {
+  fill: #fff;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3%;
+  background-color: black;
+  color: white;
 }

@@ -41,14 +41,14 @@ tab_style = {
     'backgroundColor': '#96dcd4',
     'padding': '6px',
     'fontWeight': 'bold',
-    'fontFamily': 'code',
+    'fontFamily': 'Comfortaa',
 }
 
 tab_selected_style = {
 
     'backgroundColor': '#ffff',
     'fontWeight': 'bold',
-    'fontFamily': 'code',
+    'fontFamily': 'Comfortaa',
     'color': 'black',
     'padding': '6px'
 }
@@ -119,7 +119,7 @@ layout = html.Div(
                     html.A('About', href='/About')
                 ])
             ], className='wrapper')
-        ]),
+        ], className='home-header'),
 
         html.Div([
             dcc.Tabs([

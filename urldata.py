@@ -25,7 +25,7 @@ def create_dict_list_of_product():
 dict_names = create_dict_list_of_product()
 
 layout = html.Div([
-    html.Header([
+    html.Div([html.Header([
         html.Div([
             html.Div([html.A('Pakshirashtra', href='/Welcome')], className='logo'),
             html.Nav([
@@ -35,16 +35,25 @@ layout = html.Div([
                 html.A('About', href='/About')
             ])
         ], className='wrapper')
-    ]),
+    ], className='normal-header')]),
     html.Div([
         html.H1("Dataset"),
-        html.Div([
+        html.Div([html.Div([
             dcc.Dropdown(
                 id='product-dropdown',
                 options=dict_names,
                 multi=True
             ),
-        ], className='dropdownFrame', style={'width': '25%', 'left': '5%', 'position': 'relative', 'display': 'block'}),
+        ], className='dropdownFrame'),
+        html.Div([
+        dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
+                            max_date_allowed=date(2020, 10, 25),
+                            initial_visible_month=date(2020, 10, 25),
+                            start_date=date(2015, 1, 1),
+                            end_date=date(2020, 10, 25),
+                            display_format='Do/MMM/YYYY',
+                            id="Date_Range")
+    ])], className='filter-container'),
         html.Div([
             dash_table.DataTable(
                 id='my-table',
@@ -77,21 +86,10 @@ layout = html.Div([
                 },
             )
         ], className='DatasetFrame')
-    ], className='containerdiv', style={'top': '110px', 'position': 'relative'}),
-    html.Div([
-        dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
-                            max_date_allowed=date(2020, 10, 25),
-                            initial_visible_month=date(2020, 10, 25),
-                            start_date=date(2015, 1, 1),
-                            end_date=date(2020, 10, 25),
-                            display_format='Do/MMM/YYYY',
-                            id="Date_Range")
-    ], style={'top': '17%', 'right': '5%', 'position': 'absolute', 'display': 'inline-block'}),
-    html.Footer(
-            ['© CMPN SE Group 6 2020-2021'],
-            className='footer',
-        )
-], style={'background-color': '#449bb3', 'min-height': '790px'})
+    ], className='containerdiv'),
+    
+   
+])
 
 
 @app.callback(Output('my-table', 'data'),

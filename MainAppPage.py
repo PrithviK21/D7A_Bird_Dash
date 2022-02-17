@@ -40,7 +40,7 @@ layout = html.Div(
                     html.A('About', href='/About')
                 ])
             ], className='wrapper')
-        ]),
+        ], className='home-header'),
         html.Div([html.H2("Welcome to our app!")], className="banner"),
         html.Div([
             html.Div([
@@ -50,19 +50,19 @@ layout = html.Div(
                 html.H2("How to use:"),
                 html.P(howto)
             ], className="content"),
-        ], className='wrapper'),
+        ], className='banner-content'),
 
         html.Footer(
             ['© CMPN SE Group 6 2020-2021'],
             className='footer',
         )
-    ], style={'background-color': '#449bb3', 'height': '1300px'}
+    ], className='homepage'
 )
 
 app.layout = html.Div([
     dcc.Location(id='url', refresh=False),
     html.Div(id='page-content')
-], style={'background-color': '#449bb3', 'height': '1300px'})
+])
 
 
 @app.callback(dash.dependencies.Output('page-content', 'children'),
@@ -85,4 +85,4 @@ def display_page(pathname):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)

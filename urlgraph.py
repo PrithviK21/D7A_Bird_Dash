@@ -52,14 +52,14 @@ tab_style = {
     'backgroundColor': '#96dcd4',
     'padding': '6px',
     'fontWeight': 'bold',
-    'fontFamily': 'code',
+    'fontFamily': 'Comfortaa',
 }
 
 tab_selected_style = {
 
     'backgroundColor': '#ffff',
     'fontWeight': 'bold',
-    'fontFamily': 'code',
+    'fontFamily': 'Comfortaa',
     'color': 'black',
     'padding': '6px'
 }
@@ -94,44 +94,24 @@ layout = html.Div([
                 html.A('Graphs', href='/Graph'),
                 html.A('Dataset', href='/Data'),
                 html.A('About', href='/About')
-            ])
+            ] )
         ], className='wrapper')
-    ]),
+    ] , className='normal-header'),
     html.Div([
         dcc.Tabs([
             dcc.Tab(label='Species',style=tab_style, selected_style=tab_selected_style, children=[
                 html.Div([
                     html.Div([
+                        html.Div([
                         dcc.Dropdown(
                             id='graph-type',
                             options=[{'value': 'BAR', 'label': 'Bar'},
                                      {'value': 'LINE', 'label': 'Line'}],
                             value='BAR',
+                            
                         )
-                    ], className='dropdownFrame',
-                        style={'width': '11%', 'top': '80px', 'left': '34%', 'position': 'absolute',
-                               'display': 'block'}),
-                    # html.Div([
-                        # dcc.Dropdown(
-                            # id='product-dropdown',
-                            # options=dict_names,
-                            # multi=True,
-                            # placeholder='Select Birds',
-                        # )
-                    # ], className='dropdownFrame',
-                        # style={'width': '37%', 'top': '140px', 'left': '12%', 'position': 'absolute',
-                               # 'display': 'block'}),
-                    html.Div([
-                        dcc.Graph(id='graphs')
-                    ], style={'box-shadow': '2px 2px 2px black', 'top': '140px', 'left': '1%', 'width': '48%',
-                              'position': 'absolute', 'display': 'block'}),
-                    html.Div([
-                        dcc.Graph(
-                            id='pie',
-                            figure=piec
-                        )
-                    ], style={'box-shadow': '2px 2px 2px black', 'top': '140px', 'left': '51%', 'width': '48%',
-                              'position': 'absolute', 'display': 'block'}),
+                    ], className='dropdownFrame'), 
+                    
                     html.Div(className='CalendarFrame', children=[
                         dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
                                             max_date_allowed=date(2020, 10, 25),
@@ -140,43 +120,32 @@ layout = html.Div([
                                             end_date=date(2020, 10, 25),
                                             display_format='Do/MMM/YYYY',
                                             id="Date_Range")
-                    ], style={'left': '1%', 'top': '70px', 'position': 'absolute', 'display': 'block'})
+                    ])], className='filter-container'),
+                    html.Div([html.Div([
+                        dcc.Graph(id='graphs')
+                    ]),
+                    html.Div([
+                        dcc.Graph(
+                            id='pie',
+                            figure=piec
+                        )
+                    ])], className='graph-container'),
+                    
                 ])
             ]),
             # end of Tab 1
             dcc.Tab(label='Clusters',style=tab_style, selected_style=tab_selected_style, children=[
                 html.Div([
                     html.Div([
+                        html.Div([
                         dcc.Dropdown(
-                            id='new_graph-type',
+                            id='new-graph-type',
                             options=[{'value': 'BAR', 'label': 'Bar'},
                                      {'value': 'LINE', 'label': 'Line'}],
                             value='BAR',
                         )
-                    ], className='dropdownFrame',
-                        style={'width': '11%', 'top': '80px', 'left': '34%', 'position': 'absolute',
-                               'display': 'block'}),
-                    # html.Div([
-                        # dcc.Dropdown(
-                            # id='new_product-dropdown',
-                            # options=new_dict_names,
-                            # multi=True,
-                            # placeholder='Select Cluster',
-                        # )
-                    # ], className='dropdownFrame',
-                        # style={'width': '37%', 'top': '140px', 'left': '12%', 'position': 'absolute',
-                               # 'display': 'block'}),
-                    html.Div([
-                        dcc.Graph(id='new_graph')
-                    ], style={'box-shadow': '2px 2px 2px black', 'top': '140px', 'left': '1%', 'width': '48%',
-                              'position': 'absolute', 'display': 'block'}),
-                    html.Div([
-                        dcc.Graph(
-                            id='pie',
-                            figure=new_piec
-                        )
-                    ], style={'box-shadow': '2px 2px 2px black', 'top': '140px', 'left': '51%', 'width': '48%',
-                              'position': 'absolute', 'display': 'block'}),
+                    ], className='dropdownFrame'), 
+                    
                     html.Div(className='CalendarFrame', children=[
                         dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
                                             max_date_allowed=date(2020, 10, 25),
@@ -185,88 +154,72 @@ layout = html.Div([
                                             end_date=date(2020, 10, 25),
                                             display_format='Do/MMM/YYYY',
                                             id="new_Date_Range")
-                    ], style={'left': '1%', 'top': '70px', 'position': 'absolute', 'display': 'block'})
+                    ])], className='filter-container'),
+                    html.Div([html.Div([
+                        dcc.Graph(id='new_graph')
+                    ],  ),
+                    html.Div([
+                        dcc.Graph(
+                            id='pie',
+                            figure=new_piec
+                        )
+                    ], )], className='graph-container'),
+                    
                 ])
             ]),
             # end of tab 2
             dcc.Tab(label='Clusters and Species',style=tab_style, selected_style=tab_selected_style, children=[
                 html.Div([
                     html.Div([
-                        dcc.Dropdown(
-                            id='c_s_product-dropdown',
-                            options=new_dict_names,
-                            multi=True,
-                            placeholder='Select Cluster',
-                        )
-                    ], className='dropdownFrame',
-                        style={'width': '48%', 'top': '140px', 'left': '1%', 'position': 'absolute',
-                               'display': 'block'}),
-                    html.Div([
-                        dcc.Dropdown(
-                            id='pie_product-dropdown',
-                            options=new_dict_names,
-                            value=new_dict_names[0]['value'],
-                        )
-                    ], className='dropdownFrame',
-                        style={'width': '30%', 'top': '140px', 'left': '51%', 'position': 'absolute',
-                               'display': 'block'}),
-                    html.Div([
+                            html.Div([
+                            dcc.Dropdown(
+                                id='c_s_product-dropdown',
+                                options=new_dict_names,
+                                multi=True,
+                                placeholder='Select Cluster',
+                            )
+                        ], className='dropdownFrame'),
+                        
+                            html.Div(className='CalendarFrame', children=[
+                            dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
+                                                max_date_allowed=date(2020, 10, 25),
+                                                initial_visible_month=date(2020, 10, 25),
+                                                start_date=date(2015, 1, 1),
+                                                end_date=date(2020, 10, 25),
+                                                display_format='Do/MMM/YYYY',
+                                                id="c_s_Date_Range")]),
+                                                html.Div([
+                            dcc.Dropdown(
+                                id='pie_product-dropdown',
+                                options=new_dict_names,
+                                value=new_dict_names[0]['value'],
+                            )
+                        ], className='dropdownFrame',
+                            ),
+                            ], className='filter-container'),
+                    html.Div([html.Div([
                         dcc.Graph(id='c_s_graph')
-                    ], style={'box-shadow': '2px 2px 2px black', 'top': '230px', 'left': '1%', 'width': '48%',
-                              'position': 'absolute', 'display': 'block'}),
+                    ]),
                     html.Div([
                         dcc.Graph(id='c_s_pie')
-                    ], style={'box-shadow': '2px 2px 2px black', 'top': '230px', 'left': '51%', 'width': '48%',
-                              'position': 'absolute', 'display': 'block'}),
-                    html.Div(className='CalendarFrame', children=[
-                        dcc.DatePickerRange(min_date_allowed=date(2015, 1, 1),
-                                            max_date_allowed=date(2020, 10, 25),
-                                            initial_visible_month=date(2020, 10, 25),
-                                            start_date=date(2015, 1, 1),
-                                            end_date=date(2020, 10, 25),
-                                            display_format='Do/MMM/YYYY',
-                                            id="c_s_Date_Range")
-                    ], style={'left': '1%', 'top': '70px', 'position': 'absolute', 'display': 'block'})
+                    ], )], className='graph-container'),
                 ])
             ])
         ]),
         #end of tab3
-    ], style={'top': '17%', 'left': '2.5%', 'width': '95%', 'display': 'block', 'position': 'absolute'}),
+    ],className='container',),
     html.Footer(
         ['© CMPN SE Group 6 2020-2021'],
         className='footer',
     )
-], style={'background-color': '#449bb3', 'min-height': '1000px'})
+],)
 
 
 # callback for bird graph
 @app.callback(Output('graphs', 'figure'),
               [Input('Date_Range', 'start_date'), Input('Date_Range', 'end_date'), Input('graph-type', 'value')])
 def generate_graph(start_date, end_date, graph_type):
-    # if (selected_dropdown_value is None) or (len(selected_dropdown_value) == 0):
-        # datedf = df[(df['Date'] < end_date) & (df['Date'] > start_date)].copy()
-        # bruh = datedf['Common_Name'].value_counts()
-        # cdf = dict()
-        # for name, value in bruh.items():
-            # cdf[name] = value
-        # cdf = pd.DataFrame({
-            # 'Bird': cdf.keys(),
-            # 'Count': cdf.values()
-        # })
-    # else:
-        # if type(selected_dropdown_value) is str:
-            # xdf = df[df['Common_Name'] == selected_dropdown_value]
-        # else:
-            # xdf = df[(df['Common_Name'].isin(selected_dropdown_value))]
-        # datedf = xdf[(xdf['Date'] < end_date) & (xdf['Date'] > start_date)].copy()
-        # bruh = datedf['Common_Name'].value_counts()
-        # cdf = dict()
-        # for name, value in bruh.items():
-            # cdf[name] = value
-        # cdf = pd.DataFrame({
-            # 'Bird': cdf.keys(),
-            # 'Count': cdf.values()}
-        # )
+    
     datedf = df[(df['Date'] < end_date) & (df['Date'] > start_date)].copy()
     if graph_type == 'BAR':
         species_count = datedf['Common_Name'].value_counts()
@@ -291,7 +244,7 @@ def generate_graph(start_date, end_date, graph_type):
 
 # call back for cluster graph
 @app.callback(Output('new_graph', 'figure'),
-              [Input('new_Date_Range', 'start_date'), Input('new_Date_Range', 'end_date'), Input('new_graph-type', 'value')])
+              [Input('new_Date_Range', 'start_date'), Input('new_Date_Range', 'end_date'), Input('new-graph-type', 'value')])
 def generate_graph(start_date, end_date, graph_type):
     # if (selected_dropdown_value is None) or (len(selected_dropdown_value) == 0):
         # datedf = new_df[(new_df['Date'] < end_date) & (new_df['Date'] > start_date)].copy()

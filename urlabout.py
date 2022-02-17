@@ -12,7 +12,7 @@ layout = html.Div(
                     html.A('About', href='/About')
                 ])
             ], className='wrapper')
-        ]),
+        ] , className='home-header'),
         html.Div([html.H2("About Us")], className="banner"),
         html.Div([
             html.Div([
@@ -49,11 +49,11 @@ layout = html.Div(
                         html.Br(),
                         "Suresh Aydi D7A 05 "]),
             ], className="content2"),
-        ], className='wrapper'),
+        ], className='banner-content'),
 
         html.Footer(
             ['© CMPN SE Group 6 2020-2021'],
             className='footer',
         )
-    ], style={'background-color': '#449bb3', 'height': '1300px'}
+    ],className='about-page'
 )
